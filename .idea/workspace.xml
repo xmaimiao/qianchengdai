@@ -5,119 +5,68 @@
     <bookmark url="file://$PROJECT_DIR$/test1/test3.py" line="6" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd6cbd0a-e671-4bd0-9ec8-2c7f78a2733b" name="Default Changelist" comment="" />
+    <list default="true" id="cd6cbd0a-e671-4bd0-9ec8-2c7f78a2733b" name="Default Changelist" comment="update run_testcases.py">
+      <change afterPath="$PROJECT_DIR$/cookies0409/UseExcel/common/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookies0409/UseExcel/common/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookies0409/UseExcel/common/contants.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookies0409/UseExcel/common/context.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookies0409/UseExcel/common/do_Excel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookies0409/UseExcel/common/do_Mysql.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookies0409/UseExcel/common/get_log.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookies0409/UseExcel/common/requestHttp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookies0409/UseExcel/config/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookies0409/UseExcel/config/global.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookies0409/UseExcel/config/mysql.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookies0409/UseExcel/config/online.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookies0409/UseExcel/config/test.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookies0409/UseExcel/data/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookies0409/UseExcel/data/testcases.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookies0409/UseExcel/log/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookies0409/UseExcel/log/case.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookies0409/UseExcel/reports/2019-04-29 16_40_33report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookies0409/UseExcel/reports/2019-04-29 17_14_42report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookies0409/UseExcel/reports/2019-04-29 17_16_32report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookies0409/UseExcel/reports/2019-04-29 17_21_28report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookies0409/UseExcel/reports/2019-05-04 18_35_03report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookies0409/UseExcel/reports/2019-05-04 19_10_07report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookies0409/UseExcel/reports/2019-05-04 19_52_08report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookies0409/UseExcel/reports/2019-05-04 20_02_10report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookies0409/UseExcel/reports/2019-05-05 20_15_20report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookies0409/UseExcel/reports/2019-05-05 20_15_53report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookies0409/UseExcel/reports/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookies0409/UseExcel/testcases/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookies0409/UseExcel/testcases/test.invest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookies0409/UseExcel/testcases/test_add.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookies0409/UseExcel/testcases/test_audit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookies0409/UseExcel/testcases/test_login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookies0409/UseExcel/testcases/test_recharge.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookies0409/UseExcel/testcases/test_register.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unittest_0321/2019-05-05 20_11_27result.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unittest_0321/2019-05-05 20_15_01result.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unittest_0321/suite_runner.py" beforeDir="false" afterPath="$PROJECT_DIR$/unittest_0321/suite_runner.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CommittedChangesCache">
+    <option name="initialCount" value="10" />
+    <option name="refreshEnabled" value="true" />
+    <option name="refreshInterval" value="240" />
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="test2-24" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cookies0409/UseExcel/testcases/test_recharge.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cookies0409/UseExcel/testcases/test_add.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-122">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cookies0409/UseExcel/testcases/test_register.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cookies0409/UseExcel/testcases/test_audit.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cookies0409/UseExcel/testcases/test_login.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cookies0409/UseExcel/common/contants.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cookies0409/UseExcel/testcases/run_testcases.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="10" column="71" selection-start-line="10" selection-start-column="71" selection-end-line="10" selection-end-column="71" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/unittest_0321/suite_runner.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cookies0409/UseExcel/testcases/test.invest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="304">
+              <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -132,19 +81,15 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="PATH_TO_GIT" value="D:\Git\git-cmd.exe" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/cookies0409/UseExcel" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/sendemail0330/email_test.py" />
-        <option value="$PROJECT_DIR$/sendemail0330/copy_test1.py" />
-        <option value="$PROJECT_DIR$/sendemail0330/s_email_ssl02.py" />
-        <option value="$PROJECT_DIR$/sendemail0330/s_email_ssl.py" />
-        <option value="$PROJECT_DIR$/sendemail0330/s_email_tls.py" />
-        <option value="$PROJECT_DIR$/unittest_0321/suite_runner.py" />
         <option value="$PROJECT_DIR$/sendemail0330/email_test_bug.py" />
         <option value="$PROJECT_DIR$/cookies0409/cookies_test.py" />
         <option value="$PROJECT_DIR$/cookies0409/test_login.py" />
@@ -184,20 +129,26 @@
         <option value="$PROJECT_DIR$/cookies0409/UseExcel/testcases/invest_test.py" />
         <option value="$PROJECT_DIR$/cookies0409/UseExcel/common/contants.py" />
         <option value="$PROJECT_DIR$/cookies0409/UseExcel/testcases/test.invest.py" />
-        <option value="$PROJECT_DIR$/cookies0409/UseExcel/testcases/test_add.py" />
         <option value="$PROJECT_DIR$/cookies0409/UseExcel/testcases/test_audit.py" />
         <option value="$PROJECT_DIR$/cookies0409/UseExcel/testcases/test_login.py" />
         <option value="$PROJECT_DIR$/cookies0409/UseExcel/testcases/test_recharge.py" />
         <option value="$PROJECT_DIR$/cookies0409/UseExcel/testcases/test_register.py" />
+        <option value="$PROJECT_DIR$/cookies0409/UseExcel/testcases/test_add.py" />
+        <option value="$PROJECT_DIR$/cookies0409/UseExcel/main.py" />
+        <option value="$PROJECT_DIR$/cookies0409/UseExcel/testcases/main.py" />
+        <option value="$PROJECT_DIR$/cookies0409/main.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/Src/main.py" />
+        <option value="$PROJECT_DIR$/unittest_0321/suite_runner.py" />
         <option value="$PROJECT_DIR$/cookies0409/UseExcel/testcases/run_testcases.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-23" />
-    <option name="y" value="5" />
-    <option name="width" value="1550" />
-    <option name="height" value="1212" />
+    <option name="x" value="389" />
+    <option name="y" value="37" />
+    <option name="width" value="1285" />
+    <option name="height" value="1103" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -226,6 +177,25 @@
             </path>
             <path>
               <item name="test2-24" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test2-24" type="462c0819:PsiDirectoryNode" />
+              <item name="cookies0409" type="462c0819:PsiDirectoryNode" />
+              <item name="UseExcel" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test2-24" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test2-24" type="462c0819:PsiDirectoryNode" />
+              <item name="cookies0409" type="462c0819:PsiDirectoryNode" />
+              <item name="UseExcel" type="462c0819:PsiDirectoryNode" />
+              <item name="testcases" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test2-24" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test2-24" type="462c0819:PsiDirectoryNode" />
+              <item name="unittest_0321" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test2-24" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -235,8 +205,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="D:/Git/git-cmd.exe" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="last_opened_file_path" value="D:/Git/bin/git.exe" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -263,7 +233,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_add.TestAdd">
+  <component name="RunManager" selected="Python.run_testcases">
     <configuration name="run_testcases" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="2-24test" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -277,6 +247,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cookies0409/UseExcel/testcases/run_testcases.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="suite_runner" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="2-24test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unittest_0321" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/unittest_0321/suite_runner.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -327,20 +318,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for testcases.test_recharge.TestRecharge" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="2-24test" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cookies0409/UseExcel/testcases" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;testcases.test_recharge.TestRecharge&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Unittests in test_add.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="2-24test" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -357,11 +334,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for test_add.TestAdd" />
         <item itemvalue="Python.run_testcases" />
+        <item itemvalue="Python.suite_runner" />
+        <item itemvalue="Python tests.Unittests for test_add.TestAdd" />
         <item itemvalue="Python tests.Unittests for testcases.test_add.TestAdd" />
         <item itemvalue="Python tests.Unittests in test_add.py" />
-        <item itemvalue="Python tests.Unittests for testcases.test_recharge.TestRecharge" />
       </list>
     </recent_temporary>
   </component>
@@ -380,6 +357,42 @@
       <option name="presentableId" value="Default" />
       <updated>1550984058878</updated>
     </task>
+    <task id="LOCAL-00001" summary="update run_testcases.py">
+      <created>1557059368576</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1557059368577</updated>
+    </task>
+    <task id="LOCAL-00002" summary="update run_testcases.py">
+      <created>1557059401440</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1557059401440</updated>
+    </task>
+    <task id="LOCAL-00003" summary="update run_testcases.py">
+      <created>1557139512227</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1557139512227</updated>
+    </task>
+    <task id="LOCAL-00004" summary="update run_testcases.py">
+      <created>1557140531024</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1557140531024</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update run_testcases.py">
+      <created>1557140703749</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1557140703749</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -415,19 +428,19 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-23" y="5" width="1550" height="1212" extended-state="0" />
+    <frame x="389" y="37" width="1285" height="1103" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49608764" visible="true" weight="0.16468254" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49608764" visible="true" weight="0.19967923" />
       <window_info id="Structure" order="1" sideWeight="0.5039124" side_tool="true" weight="0.14699684" />
       <window_info id="Favorites" order="2" sideWeight="0.5039124" side_tool="true" weight="0.14699684" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3253012" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.22722915" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2260062" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38638544" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.34036434" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.26934984" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32931355" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32885906" />
@@ -455,69 +468,11 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout-to-restore>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update run_testcases.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="update run_testcases.py" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/Python37/Lib/site-packages/pymysql/cursors.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="279" column="8" selection-start-line="279" selection-start-column="8" selection-end-line="279" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cookies0409/UseExcel/config/global.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="11" lean-forward="true" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python37/Lib/re.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="184" column="29" lean-forward="true" selection-start-line="184" selection-start-column="23" selection-end-line="184" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python37/Lib/site-packages/pymysql/connections.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="324" selection-start-line="324" selection-end-line="324" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cookies0409/UseExcel/config/test.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requests_0312/test13.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unittest_0321/requests_case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="33" lean-forward="true" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cookies0409/UnuseExcel/test_Recharge.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="3" column="31" lean-forward="true" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cookies0409/UnuseExcel/testsuit_0409.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -736,6 +691,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cookies0409/UseExcel/testcases/test_recharge.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -745,6 +707,19 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookies0409/UseExcel/testcases/test_add.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="783">
+          <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test1/test1.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/cookies0409/UseExcel/testcases/test_register.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -756,6 +731,11 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cookies0409/UseExcel/main.py" />
+    <entry file="file://$PROJECT_DIR$/cookies0409/UseExcel/testcases/main.py" />
+    <entry file="file://$PROJECT_DIR$/main.py" />
+    <entry file="file://$PROJECT_DIR$/cookies0409/main.py" />
+    <entry file="file://$PROJECT_DIR$/Src/main.py" />
     <entry file="file://$PROJECT_DIR$/cookies0409/UseExcel/testcases/test_audit.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -776,29 +756,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cookies0409/UseExcel/common/contants.py">
+    <entry file="file://$PROJECT_DIR$/sendemail0330/s_email_ssl.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cookies0409/UseExcel/testcases/run_testcases.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="10" column="71" selection-start-line="10" selection-start-column="71" selection-end-line="10" selection-end-column="71" />
+        <state>
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unittest_0321/suite_runner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#14#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -813,20 +775,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
+    <entry file="file://$PROJECT_DIR$/test1/test2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        <state relative-caret-position="54">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cookies0409/UseExcel/testcases/test_add.py">
+    <entry file="file://$PROJECT_DIR$/unittest_0321/suite_runner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-122">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="108">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookies0409/UseExcel/common/contants.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="51" lean-forward="true" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookies0409/UseExcel/testcases/run_testcases.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
         </state>
       </provider>
     </entry>
