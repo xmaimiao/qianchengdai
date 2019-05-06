@@ -35,7 +35,7 @@ class TestAdd(unittest.TestCase):
         case.data = replace(case.data)  # 若存在寫在配置文件中的賬號和密碼、項目名，就必須通過replace函數去拿到正則表達式匹配的值
         logger.debug('測試數據：{}'.format(case.data))
         resp =self.r.request(case.method,case.url,case.data)
-        code = resp.json()['code']                        #響應信息太多了，這裡需要取到其狀態碼進行斷言即可，.json()轉化為python語言下的str數據
+        code = resp.json()['code']
         logger.debug('測試結果：{}'.format(resp.json()['msg']))
 
         try:

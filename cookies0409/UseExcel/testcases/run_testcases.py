@@ -1,3 +1,6 @@
+import sys             #必須要在第一行!!
+sys.path.append('./')
+print(sys.path)
 import unittest
 from UseExcel.common import contants
 import time
