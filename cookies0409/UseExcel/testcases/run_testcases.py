@@ -1,7 +1,7 @@
 import unittest
-import sys
-sys.path.append("../")  #project根目錄地址
-print(sys.path)
+# import sys
+# sys.path.append("../")  #project根目錄地址
+# print(sys.path)
 
 from UseExcel.common import contants
 import time
