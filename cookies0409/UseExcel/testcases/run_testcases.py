@@ -1,7 +1,8 @@
-import sys             #必須要在第一行!!
-sys.path.append('./')
-print(sys.path)
 import unittest
+import sys
+sys.path.append("../")  #project根目錄地址
+print(sys.path)
+
 from UseExcel.common import contants
 import time
 import HTMLTestRunnerNew
@@ -18,3 +19,4 @@ with open(result1,'wb') as file:
                                               description="前程貸",
                                               tester="mai")
     runner.run(discover)
+
