@@ -12,7 +12,7 @@ discover = unittest.defaultTestLoader.discover(contants.cases_dir,'test_*.py')
 
 # result = time.strftime('%Y-%m-%d %H_%M_%S')
 # result1 = contants.report_dir + '/' + result + 'report.html'    #別忘了“/”
-with open('/report.html','wb') as file:
+with open(contants.report_dir +'/report.html','wb') as file:
     runner = HTMLTestRunnerNew.HTMLTestRunner(stream=file,
                                               title="PYTHON API TEST RESULT",
                                               description="前程貸",

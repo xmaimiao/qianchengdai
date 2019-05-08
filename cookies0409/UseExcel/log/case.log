@@ -13375,3 +13375,2813 @@ INFO
 2019-05-08 15:48:37,006-INFO-test_register-日誌信息:開始測試：None-[test_register.py:26]
 2019-05-08 15:48:37,007-INFO-test_register-日誌信息:開始測試：None-[test_register.py:26]
 2019-05-08 15:48:37,007-INFO-test_register-日誌信息:測試後置處理-[test_register.py:49]
+2019-05-08 17:59:50,222-INFO-test_add-日誌信息:準備測試前置-[test_add.py:22]
+2019-05-08 17:59:54,017-INFO-test_add-日誌信息:開始測試：登錄成功-[test_add.py:28]
+2019-05-08 17:59:54,216-INFO-test_add-日誌信息:結束測試：登錄成功-[test_add.py:48]
+2019-05-08 17:59:54,216-INFO-test_add-日誌信息:開始測試：用戶id不存在-[test_add.py:28]
+2019-05-08 17:59:54,296-INFO-test_add-日誌信息:結束測試：用戶id不存在-[test_add.py:48]
+2019-05-08 17:59:54,296-INFO-test_add-日誌信息:開始測試：用戶id為空-[test_add.py:28]
+2019-05-08 17:59:54,377-INFO-test_add-日誌信息:結束測試：用戶id為空-[test_add.py:48]
+2019-05-08 17:59:54,378-INFO-test_add-日誌信息:開始測試：用戶id位數有誤-[test_add.py:28]
+2019-05-08 17:59:54,464-INFO-test_add-日誌信息:結束測試：用戶id位數有誤-[test_add.py:48]
+2019-05-08 17:59:54,465-INFO-test_add-日誌信息:開始測試：用戶id格式有誤-[test_add.py:28]
+2019-05-08 17:59:54,563-INFO-test_add-日誌信息:結束測試：用戶id格式有誤-[test_add.py:48]
+2019-05-08 17:59:54,563-INFO-test_add-日誌信息:開始測試：用戶id合理，標題為空-[test_add.py:28]
+2019-05-08 17:59:54,734-INFO-test_add-日誌信息:開始測試：標題合理，借款金額為0-[test_add.py:28]
+2019-05-08 17:59:54,781-INFO-test_add-日誌信息:開始測試：標題合理，借款金額為空-[test_add.py:28]
+2019-05-08 17:59:54,828-INFO-test_add-日誌信息:開始測試：標題合理，借款金額<1000-[test_add.py:28]
+2019-05-08 17:59:54,881-INFO-test_add-日誌信息:開始測試：標題合理，借款金額為正整數，但不能被100整除-[test_add.py:28]
+2019-05-08 17:59:54,956-INFO-test_add-日誌信息:開始測試：標題合理，借款金額為負整數，但能被100整除-[test_add.py:28]
+2019-05-08 17:59:55,016-INFO-test_add-日誌信息:開始測試：標題合理，借款金額為非整數-[test_add.py:28]
+2019-05-08 17:59:55,080-INFO-test_add-日誌信息:開始測試：標題合理，借款金額非數字-[test_add.py:28]
+2019-05-08 17:59:55,137-INFO-test_add-日誌信息:開始測試：借款金額合理，年利率為0-[test_add.py:28]
+2019-05-08 17:59:55,201-INFO-test_add-日誌信息:開始測試：借款金額合理，年利率為空-[test_add.py:28]
+2019-05-08 17:59:55,258-INFO-test_add-日誌信息:開始測試：借款金額合理，年利率>24-[test_add.py:28]
+2019-05-08 17:59:55,318-INFO-test_add-日誌信息:開始測試：借款金額合理，年利率為非整數-[test_add.py:28]
+2019-05-08 17:59:55,365-INFO-test_add-日誌信息:開始測試：借款金額合理，年利率為負數-[test_add.py:28]
+2019-05-08 17:59:55,421-INFO-test_add-日誌信息:開始測試：借款金額合理，年利率為非數字-[test_add.py:28]
+2019-05-08 17:59:55,474-INFO-test_add-日誌信息:開始測試：年利率合理，借款期限為0-[test_add.py:28]
+2019-05-08 17:59:55,528-INFO-test_add-日誌信息:開始測試：年利率合理，借款期限為空-[test_add.py:28]
+2019-05-08 17:59:55,573-INFO-test_add-日誌信息:開始測試：年利率合理，借款期限為非整數-[test_add.py:28]
+2019-05-08 17:59:55,624-INFO-test_add-日誌信息:開始測試：年利率合理，借款期限為負數-[test_add.py:28]
+2019-05-08 17:59:55,683-INFO-test_add-日誌信息:開始測試：年利率合理，借款期限非數字-[test_add.py:28]
+2019-05-08 17:59:55,736-INFO-test_add-日誌信息:開始測試：借款期限合理，借款期限類型為空-[test_add.py:28]
+2019-05-08 17:59:55,793-INFO-test_add-日誌信息:開始測試：借款期限合理，借款期限類型非整數-[test_add.py:28]
+2019-05-08 17:59:55,854-INFO-test_add-日誌信息:開始測試：借款期限合理，借款期限類型為負數-[test_add.py:28]
+2019-05-08 17:59:55,905-INFO-test_add-日誌信息:開始測試：借款期限合理，借款期限類型為負數-[test_add.py:28]
+2019-05-08 17:59:55,956-INFO-test_add-日誌信息:開始測試：借款期限合理，借款期限類型為非0,2,4-[test_add.py:28]
+2019-05-08 17:59:56,013-INFO-test_add-日誌信息:開始測試：借款期限合理，借款期限類型為非數字-[test_add.py:28]
+2019-05-08 17:59:56,066-INFO-test_add-日誌信息:開始測試：借款期限類型合理，還款方式為空-[test_add.py:28]
+2019-05-08 17:59:56,116-INFO-test_add-日誌信息:開始測試：借款期限類型合理，還款方式非整數-[test_add.py:28]
+2019-05-08 17:59:56,162-INFO-test_add-日誌信息:開始測試：借款期限類型合理，還款方式非整數-[test_add.py:28]
+2019-05-08 17:59:56,221-INFO-test_add-日誌信息:開始測試：借款期限類型合理，還款方式為負數-[test_add.py:28]
+2019-05-08 17:59:56,272-INFO-test_add-日誌信息:開始測試：借款期限類型合理，還款方式為非4,5,10,11-[test_add.py:28]
+2019-05-08 17:59:56,328-INFO-test_add-日誌信息:開始測試：借款期限類型合理，還款方式為非4,5,10,11-[test_add.py:28]
+2019-05-08 17:59:56,376-INFO-test_add-日誌信息:開始測試：借款期限類型合理，還款方式為非數字-[test_add.py:28]
+2019-05-08 17:59:56,422-INFO-test_add-日誌信息:開始測試：還款方式合理，校驗競標天數為空-[test_add.py:28]
+2019-05-08 17:59:56,485-INFO-test_add-日誌信息:開始測試：還款方式合理，校驗競標天數為非整數-[test_add.py:28]
+2019-05-08 17:59:56,535-INFO-test_add-日誌信息:開始測試：還款方式合理，校驗競標天數為負數-[test_add.py:28]
+2019-05-08 17:59:56,596-INFO-test_add-日誌信息:開始測試：還款方式合理，校驗競標天數為非1-10-[test_add.py:28]
+2019-05-08 17:59:56,659-INFO-test_add-日誌信息:開始測試：還款方式合理，校驗競標天數為非數字-[test_add.py:28]
+2019-05-08 17:59:56,720-INFO-test_add-日誌信息:開始測試：校驗競標天數合理，為1-10-[test_add.py:28]
+2019-05-08 17:59:56,780-INFO-test_add-日誌信息:測試後置處理-[test_add.py:52]
+2019-05-08 17:59:56,780-INFO-test_audit-日誌信息:準備測試前置-[test_audit.py:22]
+2019-05-08 17:59:56,816-INFO-test_audit-日誌信息:開始測試：登錄成功-[test_audit.py:28]
+2019-05-08 17:59:56,917-INFO-test_audit-日誌信息:結束測試：登錄成功-[test_audit.py:41]
+2019-05-08 17:59:56,918-INFO-test_audit-日誌信息:開始測試：項目id不存在-[test_audit.py:28]
+2019-05-08 17:59:57,019-INFO-test_audit-日誌信息:結束測試：項目id不存在-[test_audit.py:41]
+2019-05-08 17:59:57,020-INFO-test_audit-日誌信息:開始測試：項目id為空-[test_audit.py:28]
+2019-05-08 17:59:57,102-INFO-test_audit-日誌信息:結束測試：項目id為空-[test_audit.py:41]
+2019-05-08 17:59:57,102-INFO-test_audit-日誌信息:開始測試：項目id位數有誤-[test_audit.py:28]
+2019-05-08 17:59:57,179-INFO-test_audit-日誌信息:結束測試：項目id位數有誤-[test_audit.py:41]
+2019-05-08 17:59:57,180-INFO-test_audit-日誌信息:開始測試：項目id格式有誤-[test_audit.py:28]
+2019-05-08 17:59:57,255-INFO-test_audit-日誌信息:結束測試：項目id格式有誤-[test_audit.py:41]
+2019-05-08 17:59:57,255-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態為空-[test_audit.py:28]
+2019-05-08 17:59:57,330-INFO-test_audit-日誌信息:結束測試：項目id合理，項目狀態為空-[test_audit.py:41]
+2019-05-08 17:59:57,330-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態非整數-[test_audit.py:28]
+2019-05-08 17:59:57,412-INFO-test_audit-日誌信息:結束測試：項目id合理，項目狀態非整數-[test_audit.py:41]
+2019-05-08 17:59:57,412-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態負數-[test_audit.py:28]
+2019-05-08 17:59:57,485-INFO-test_audit-日誌信息:結束測試：項目id合理，項目狀態負數-[test_audit.py:41]
+2019-05-08 17:59:57,485-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態非1-11-[test_audit.py:28]
+2019-05-08 17:59:57,561-INFO-test_audit-日誌信息:結束測試：項目id合理，項目狀態非1-11-[test_audit.py:41]
+2019-05-08 17:59:57,561-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態非數字-[test_audit.py:28]
+2019-05-08 17:59:57,640-INFO-test_audit-日誌信息:結束測試：項目id合理，項目狀態非數字-[test_audit.py:41]
+2019-05-08 17:59:57,641-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態為1-[test_audit.py:28]
+2019-05-08 17:59:57,717-ERROR-test_audit-日誌信息:報錯了,'20207' != '20206'
+- 20207
+?     ^
++ 20206
+?     ^
+-[test_audit.py:39]
+2019-05-08 17:59:57,745-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態為1——>1-[test_audit.py:28]
+2019-05-08 17:59:57,824-ERROR-test_audit-日誌信息:報錯了,'20207' != '20206'
+- 20207
+?     ^
++ 20206
+?     ^
+-[test_audit.py:39]
+2019-05-08 17:59:57,825-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態1——>2-[test_audit.py:28]
+2019-05-08 17:59:57,900-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 17:59:57,902-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態2——>3-[test_audit.py:28]
+2019-05-08 17:59:57,983-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 17:59:57,984-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態3——>4-[test_audit.py:28]
+2019-05-08 17:59:58,061-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 17:59:58,062-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態4——>5-[test_audit.py:28]
+2019-05-08 17:59:58,140-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 17:59:58,141-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態5——>6-[test_audit.py:28]
+2019-05-08 17:59:58,217-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 17:59:58,218-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態6——>7-[test_audit.py:28]
+2019-05-08 17:59:58,295-ERROR-test_audit-日誌信息:報錯了,'20210' != '20206'
+- 20210
+?    -
++ 20206
+?     +
+-[test_audit.py:39]
+2019-05-08 17:59:58,295-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態7——>8-[test_audit.py:28]
+2019-05-08 17:59:58,374-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 17:59:58,375-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態8——>9-[test_audit.py:28]
+2019-05-08 17:59:58,462-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 17:59:58,462-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態9——>10-[test_audit.py:28]
+2019-05-08 17:59:58,558-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 17:59:58,558-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態10——>11-[test_audit.py:28]
+2019-05-08 17:59:58,636-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 17:59:58,637-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態1——>3-[test_audit.py:28]
+2019-05-08 17:59:58,710-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 17:59:58,711-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態3——>5-[test_audit.py:28]
+2019-05-08 17:59:58,785-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 17:59:58,785-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態5——>7-[test_audit.py:28]
+2019-05-08 17:59:58,864-ERROR-test_audit-日誌信息:報錯了,'20210' != '20206'
+- 20210
+?    -
++ 20206
+?     +
+-[test_audit.py:39]
+2019-05-08 17:59:58,865-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態7——>9-[test_audit.py:28]
+2019-05-08 17:59:58,941-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 17:59:58,941-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態9——>11-[test_audit.py:28]
+2019-05-08 17:59:59,018-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 17:59:59,019-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態1——>5-[test_audit.py:28]
+2019-05-08 17:59:59,094-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 17:59:59,095-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態5——>8-[test_audit.py:28]
+2019-05-08 17:59:59,170-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 17:59:59,170-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態8——>11-[test_audit.py:28]
+2019-05-08 17:59:59,247-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 17:59:59,248-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態5——>9-[test_audit.py:28]
+2019-05-08 17:59:59,328-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 17:59:59,328-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態5——>10-[test_audit.py:28]
+2019-05-08 17:59:59,403-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 17:59:59,404-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態5——>11-[test_audit.py:28]
+2019-05-08 17:59:59,479-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 17:59:59,480-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態5——>6-[test_audit.py:28]
+2019-05-08 17:59:59,563-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 17:59:59,564-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態6——>8-[test_audit.py:28]
+2019-05-08 17:59:59,648-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 17:59:59,649-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態6——>9-[test_audit.py:28]
+2019-05-08 17:59:59,735-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 17:59:59,736-INFO-test_audit-日誌信息:測試後置處理-[test_audit.py:45]
+2019-05-08 17:59:59,736-INFO-test_invest-日誌信息:準備測試前置-[test_invest.py:27]
+2019-05-08 17:59:59,769-INFO-test_invest-日誌信息:開始測試：管理員登錄-[test_invest.py:33]
+2019-05-08 17:59:59,860-INFO-test_invest-日誌信息:結束測試：管理員登錄-[test_invest.py:89]
+2019-05-08 17:59:59,860-INFO-test_invest-日誌信息:開始測試：管理員加標-[test_invest.py:33]
+2019-05-08 17:59:59,907-INFO-test_invest-日誌信息:開始測試：項目狀態1——>4-[test_invest.py:33]
+2019-05-08 17:59:59,992-ERROR-test_invest-日誌信息:報錯了,'10001' != '20212'
+- 10001
++ 20212
+-[test_invest.py:87]
+2019-05-08 17:59:59,993-INFO-test_invest-日誌信息:開始測試：投資人登錄-[test_invest.py:33]
+2019-05-08 18:00:00,082-ERROR-test_invest-日誌信息:報錯了,'10001' != '20111'
+- 10001
++ 20111
+-[test_invest.py:87]
+2019-05-08 18:00:00,083-INFO-test_invest-日誌信息:開始測試：投資金額合理-[test_invest.py:33]
+2019-05-08 18:00:00,098-INFO-test_invest-日誌信息:測試後置處理-[test_invest.py:93]
+2019-05-08 18:00:00,099-INFO-test_login-日誌信息:準備測試前置-[test_login.py:20]
+2019-05-08 18:00:00,099-INFO-test_login-日誌信息:開始測試：正常登錄-[test_login.py:25]
+2019-05-08 18:00:00,202-INFO-test_login-日誌信息:結束測試：正常登錄-[test_login.py:37]
+2019-05-08 18:00:00,202-INFO-test_login-日誌信息:開始測試：輸入錯誤的賬號-[test_login.py:25]
+2019-05-08 18:00:00,286-INFO-test_login-日誌信息:結束測試：輸入錯誤的賬號-[test_login.py:37]
+2019-05-08 18:00:00,286-INFO-test_login-日誌信息:開始測試：輸入錯誤的密碼-[test_login.py:25]
+2019-05-08 18:00:00,374-INFO-test_login-日誌信息:結束測試：輸入錯誤的密碼-[test_login.py:37]
+2019-05-08 18:00:00,374-INFO-test_login-日誌信息:開始測試：賬號為空-[test_login.py:25]
+2019-05-08 18:00:00,455-INFO-test_login-日誌信息:結束測試：賬號為空-[test_login.py:37]
+2019-05-08 18:00:00,455-INFO-test_login-日誌信息:開始測試：密碼為空-[test_login.py:25]
+2019-05-08 18:00:00,536-INFO-test_login-日誌信息:結束測試：密碼為空-[test_login.py:37]
+2019-05-08 18:00:00,536-INFO-test_login-日誌信息:測試後置處理-[test_login.py:41]
+2019-05-08 18:00:00,537-INFO-test_recharge-日誌信息:準備測試前置-[test_recharge.py:22]
+2019-05-08 18:00:00,758-INFO-test_recharge-日誌信息:開始測試：登錄成功-[test_recharge.py:28]
+2019-05-08 18:00:00,829-INFO-test_recharge-日誌信息:開始測試：充值-[test_recharge.py:28]
+2019-05-08 18:00:00,846-INFO-test_recharge-日誌信息:測試後置處理-[test_recharge.py:57]
+2019-05-08 18:00:00,846-INFO-test_register-日誌信息:準備測試前置-[test_register.py:20]
+2019-05-08 18:00:00,881-INFO-test_register-日誌信息:開始測試：正常註冊-[test_register.py:26]
+2019-05-08 18:00:00,990-ERROR-test_register-日誌信息:報錯了,'{"status":1,"code":"10001","data":null,"msg":"注册成功"}' != '{"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}'
+- {"status":1,"code":"10001","data":null,"msg":"注册成功"}
+?           ^           ---                       --
++ {"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}
+?           ^         +++                       ++++++
+-[test_register.py:43]
+2019-05-08 18:00:00,991-INFO-test_register-日誌信息:開始測試：輸入錯誤的賬號-[test_register.py:26]
+2019-05-08 18:00:01,070-ERROR-test_register-日誌信息:報錯了,'{"status":1,"code":"20111","data":null,"msg":"账号错误"}' != '{"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}'
+- {"status":1,"code":"20111","data":null,"msg":"账号错误"}
+?           ^            ^^                     ^ ^^
++ {"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}
+?           ^            ^^                     ^^ ^^^^^^
+-[test_register.py:43]
+2019-05-08 18:00:01,071-INFO-test_register-日誌信息:開始測試：輸入錯誤的密碼-[test_register.py:26]
+2019-05-08 18:00:01,163-ERROR-test_register-日誌信息:報錯了,'{"status":1,"code":"20111","data":null,"msg":"密码错误"}' != '{"status":0,"code":"20108","data":null,"msg":"密码长度必须为6~18"}'
+- {"status":1,"code":"20111","data":null,"msg":"密码错误"}
+?           ^            ^^                       ^^
++ {"status":0,"code":"20108","data":null,"msg":"密码长度必须为6~18"}
+?           ^            ^^                       ^^^^^^^^^
+-[test_register.py:43]
+2019-05-08 18:00:01,163-INFO-test_register-日誌信息:開始測試：賬號為空-[test_register.py:26]
+2019-05-08 18:00:01,257-ERROR-test_register-日誌信息:報錯了,'{"status":1,"code":"20103","data":null,"msg":"账号或密码不能为空"}' != '{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}'
+- {"status":1,"code":"20103","data":null,"msg":"账号或密码不能为空"}
+?           ^                                   ^ ---
++ {"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
+?           ^                                   ^^
+-[test_register.py:43]
+2019-05-08 18:00:01,258-INFO-test_register-日誌信息:開始測試：密碼為空-[test_register.py:26]
+2019-05-08 18:00:01,354-ERROR-test_register-日誌信息:報錯了,'{"status":1,"code":"20103","data":null,"msg":"账号或密码不能为空"}' != '{"status":0,"code":"20103","data":null,"msg":"密码不能为空"}'
+- {"status":1,"code":"20103","data":null,"msg":"账号或密码不能为空"}
+?           ^                                   ---
++ {"status":0,"code":"20103","data":null,"msg":"密码不能为空"}
+?           ^
+-[test_register.py:43]
+2019-05-08 18:00:01,355-INFO-test_register-日誌信息:開始測試：None-[test_register.py:26]
+2019-05-08 18:00:01,356-INFO-test_register-日誌信息:開始測試：None-[test_register.py:26]
+2019-05-08 18:00:01,356-INFO-test_register-日誌信息:測試後置處理-[test_register.py:49]
+2019-05-08 18:02:22,909-INFO-test_add-日誌信息:準備測試前置-[test_add.py:22]
+2019-05-08 18:02:22,956-INFO-test_add-日誌信息:開始測試：登錄成功-[test_add.py:28]
+2019-05-08 18:02:23,044-INFO-test_add-日誌信息:結束測試：登錄成功-[test_add.py:48]
+2019-05-08 18:02:23,044-INFO-test_add-日誌信息:開始測試：用戶id不存在-[test_add.py:28]
+2019-05-08 18:02:23,118-INFO-test_add-日誌信息:結束測試：用戶id不存在-[test_add.py:48]
+2019-05-08 18:02:23,119-INFO-test_add-日誌信息:開始測試：用戶id為空-[test_add.py:28]
+2019-05-08 18:02:23,201-INFO-test_add-日誌信息:結束測試：用戶id為空-[test_add.py:48]
+2019-05-08 18:02:23,201-INFO-test_add-日誌信息:開始測試：用戶id位數有誤-[test_add.py:28]
+2019-05-08 18:02:23,292-INFO-test_add-日誌信息:結束測試：用戶id位數有誤-[test_add.py:48]
+2019-05-08 18:02:23,293-INFO-test_add-日誌信息:開始測試：用戶id格式有誤-[test_add.py:28]
+2019-05-08 18:02:23,386-INFO-test_add-日誌信息:結束測試：用戶id格式有誤-[test_add.py:48]
+2019-05-08 18:02:23,387-INFO-test_add-日誌信息:開始測試：用戶id合理，標題為空-[test_add.py:28]
+2019-05-08 18:02:23,437-INFO-test_add-日誌信息:開始測試：標題合理，借款金額為0-[test_add.py:28]
+2019-05-08 18:02:23,486-INFO-test_add-日誌信息:開始測試：標題合理，借款金額為空-[test_add.py:28]
+2019-05-08 18:02:23,537-INFO-test_add-日誌信息:開始測試：標題合理，借款金額<1000-[test_add.py:28]
+2019-05-08 18:02:23,588-INFO-test_add-日誌信息:開始測試：標題合理，借款金額為正整數，但不能被100整除-[test_add.py:28]
+2019-05-08 18:02:23,644-INFO-test_add-日誌信息:開始測試：標題合理，借款金額為負整數，但能被100整除-[test_add.py:28]
+2019-05-08 18:02:23,703-INFO-test_add-日誌信息:開始測試：標題合理，借款金額為非整數-[test_add.py:28]
+2019-05-08 18:02:23,756-INFO-test_add-日誌信息:開始測試：標題合理，借款金額非數字-[test_add.py:28]
+2019-05-08 18:02:23,816-INFO-test_add-日誌信息:開始測試：借款金額合理，年利率為0-[test_add.py:28]
+2019-05-08 18:02:23,882-INFO-test_add-日誌信息:開始測試：借款金額合理，年利率為空-[test_add.py:28]
+2019-05-08 18:02:23,943-INFO-test_add-日誌信息:開始測試：借款金額合理，年利率>24-[test_add.py:28]
+2019-05-08 18:02:23,988-INFO-test_add-日誌信息:開始測試：借款金額合理，年利率為非整數-[test_add.py:28]
+2019-05-08 18:02:24,048-INFO-test_add-日誌信息:開始測試：借款金額合理，年利率為負數-[test_add.py:28]
+2019-05-08 18:02:24,100-INFO-test_add-日誌信息:開始測試：借款金額合理，年利率為非數字-[test_add.py:28]
+2019-05-08 18:02:24,148-INFO-test_add-日誌信息:開始測試：年利率合理，借款期限為0-[test_add.py:28]
+2019-05-08 18:02:24,196-INFO-test_add-日誌信息:開始測試：年利率合理，借款期限為空-[test_add.py:28]
+2019-05-08 18:02:24,259-INFO-test_add-日誌信息:開始測試：年利率合理，借款期限為非整數-[test_add.py:28]
+2019-05-08 18:02:24,308-INFO-test_add-日誌信息:開始測試：年利率合理，借款期限為負數-[test_add.py:28]
+2019-05-08 18:02:24,369-INFO-test_add-日誌信息:開始測試：年利率合理，借款期限非數字-[test_add.py:28]
+2019-05-08 18:02:24,426-INFO-test_add-日誌信息:開始測試：借款期限合理，借款期限類型為空-[test_add.py:28]
+2019-05-08 18:02:24,482-INFO-test_add-日誌信息:開始測試：借款期限合理，借款期限類型非整數-[test_add.py:28]
+2019-05-08 18:02:24,539-INFO-test_add-日誌信息:開始測試：借款期限合理，借款期限類型為負數-[test_add.py:28]
+2019-05-08 18:02:24,597-INFO-test_add-日誌信息:開始測試：借款期限合理，借款期限類型為負數-[test_add.py:28]
+2019-05-08 18:02:24,661-INFO-test_add-日誌信息:開始測試：借款期限合理，借款期限類型為非0,2,4-[test_add.py:28]
+2019-05-08 18:02:24,713-INFO-test_add-日誌信息:開始測試：借款期限合理，借款期限類型為非數字-[test_add.py:28]
+2019-05-08 18:02:24,761-INFO-test_add-日誌信息:開始測試：借款期限類型合理，還款方式為空-[test_add.py:28]
+2019-05-08 18:02:24,820-INFO-test_add-日誌信息:開始測試：借款期限類型合理，還款方式非整數-[test_add.py:28]
+2019-05-08 18:02:24,875-INFO-test_add-日誌信息:開始測試：借款期限類型合理，還款方式非整數-[test_add.py:28]
+2019-05-08 18:02:24,934-INFO-test_add-日誌信息:開始測試：借款期限類型合理，還款方式為負數-[test_add.py:28]
+2019-05-08 18:02:24,992-INFO-test_add-日誌信息:開始測試：借款期限類型合理，還款方式為非4,5,10,11-[test_add.py:28]
+2019-05-08 18:02:25,049-INFO-test_add-日誌信息:開始測試：借款期限類型合理，還款方式為非4,5,10,11-[test_add.py:28]
+2019-05-08 18:02:25,111-INFO-test_add-日誌信息:開始測試：借款期限類型合理，還款方式為非數字-[test_add.py:28]
+2019-05-08 18:02:25,160-INFO-test_add-日誌信息:開始測試：還款方式合理，校驗競標天數為空-[test_add.py:28]
+2019-05-08 18:02:25,210-INFO-test_add-日誌信息:開始測試：還款方式合理，校驗競標天數為非整數-[test_add.py:28]
+2019-05-08 18:02:25,255-INFO-test_add-日誌信息:開始測試：還款方式合理，校驗競標天數為負數-[test_add.py:28]
+2019-05-08 18:02:25,303-INFO-test_add-日誌信息:開始測試：還款方式合理，校驗競標天數為非1-10-[test_add.py:28]
+2019-05-08 18:02:25,365-INFO-test_add-日誌信息:開始測試：還款方式合理，校驗競標天數為非數字-[test_add.py:28]
+2019-05-08 18:02:25,428-INFO-test_add-日誌信息:開始測試：校驗競標天數合理，為1-10-[test_add.py:28]
+2019-05-08 18:02:25,472-INFO-test_add-日誌信息:測試後置處理-[test_add.py:52]
+2019-05-08 18:02:25,473-INFO-test_audit-日誌信息:準備測試前置-[test_audit.py:22]
+2019-05-08 18:02:25,509-INFO-test_audit-日誌信息:開始測試：登錄成功-[test_audit.py:28]
+2019-05-08 18:02:25,598-INFO-test_audit-日誌信息:結束測試：登錄成功-[test_audit.py:41]
+2019-05-08 18:02:25,599-INFO-test_audit-日誌信息:開始測試：項目id不存在-[test_audit.py:28]
+2019-05-08 18:02:25,688-INFO-test_audit-日誌信息:結束測試：項目id不存在-[test_audit.py:41]
+2019-05-08 18:02:25,689-INFO-test_audit-日誌信息:開始測試：項目id為空-[test_audit.py:28]
+2019-05-08 18:02:25,776-INFO-test_audit-日誌信息:結束測試：項目id為空-[test_audit.py:41]
+2019-05-08 18:02:25,777-INFO-test_audit-日誌信息:開始測試：項目id位數有誤-[test_audit.py:28]
+2019-05-08 18:02:25,861-INFO-test_audit-日誌信息:結束測試：項目id位數有誤-[test_audit.py:41]
+2019-05-08 18:02:25,861-INFO-test_audit-日誌信息:開始測試：項目id格式有誤-[test_audit.py:28]
+2019-05-08 18:02:25,943-INFO-test_audit-日誌信息:結束測試：項目id格式有誤-[test_audit.py:41]
+2019-05-08 18:02:25,943-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態為空-[test_audit.py:28]
+2019-05-08 18:02:26,030-INFO-test_audit-日誌信息:結束測試：項目id合理，項目狀態為空-[test_audit.py:41]
+2019-05-08 18:02:26,030-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態非整數-[test_audit.py:28]
+2019-05-08 18:02:26,107-INFO-test_audit-日誌信息:結束測試：項目id合理，項目狀態非整數-[test_audit.py:41]
+2019-05-08 18:02:26,108-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態負數-[test_audit.py:28]
+2019-05-08 18:02:26,189-INFO-test_audit-日誌信息:結束測試：項目id合理，項目狀態負數-[test_audit.py:41]
+2019-05-08 18:02:26,189-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態非1-11-[test_audit.py:28]
+2019-05-08 18:02:26,274-INFO-test_audit-日誌信息:結束測試：項目id合理，項目狀態非1-11-[test_audit.py:41]
+2019-05-08 18:02:26,274-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態非數字-[test_audit.py:28]
+2019-05-08 18:02:26,372-INFO-test_audit-日誌信息:結束測試：項目id合理，項目狀態非數字-[test_audit.py:41]
+2019-05-08 18:02:26,373-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態為1-[test_audit.py:28]
+2019-05-08 18:02:26,464-ERROR-test_audit-日誌信息:報錯了,'20207' != '20206'
+- 20207
+?     ^
++ 20206
+?     ^
+-[test_audit.py:39]
+2019-05-08 18:02:26,465-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態為1——>1-[test_audit.py:28]
+2019-05-08 18:02:26,554-ERROR-test_audit-日誌信息:報錯了,'20207' != '20206'
+- 20207
+?     ^
++ 20206
+?     ^
+-[test_audit.py:39]
+2019-05-08 18:02:26,555-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態1——>2-[test_audit.py:28]
+2019-05-08 18:02:26,668-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:02:26,668-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態2——>3-[test_audit.py:28]
+2019-05-08 18:02:26,766-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:02:26,766-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態3——>4-[test_audit.py:28]
+2019-05-08 18:02:26,883-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:02:26,884-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態4——>5-[test_audit.py:28]
+2019-05-08 18:02:26,988-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:02:26,989-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態5——>6-[test_audit.py:28]
+2019-05-08 18:02:27,082-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:02:27,083-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態6——>7-[test_audit.py:28]
+2019-05-08 18:02:27,168-ERROR-test_audit-日誌信息:報錯了,'20210' != '20206'
+- 20210
+?    -
++ 20206
+?     +
+-[test_audit.py:39]
+2019-05-08 18:02:27,168-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態7——>8-[test_audit.py:28]
+2019-05-08 18:02:27,253-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:02:27,254-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態8——>9-[test_audit.py:28]
+2019-05-08 18:02:27,331-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:02:27,331-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態9——>10-[test_audit.py:28]
+2019-05-08 18:02:27,412-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:02:27,412-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態10——>11-[test_audit.py:28]
+2019-05-08 18:02:27,486-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:02:27,487-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態1——>3-[test_audit.py:28]
+2019-05-08 18:02:27,563-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:02:27,563-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態3——>5-[test_audit.py:28]
+2019-05-08 18:02:27,646-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:02:27,647-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態5——>7-[test_audit.py:28]
+2019-05-08 18:02:27,731-ERROR-test_audit-日誌信息:報錯了,'20210' != '20206'
+- 20210
+?    -
++ 20206
+?     +
+-[test_audit.py:39]
+2019-05-08 18:02:27,732-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態7——>9-[test_audit.py:28]
+2019-05-08 18:02:27,815-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:02:27,816-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態9——>11-[test_audit.py:28]
+2019-05-08 18:02:27,897-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:02:27,898-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態1——>5-[test_audit.py:28]
+2019-05-08 18:02:28,021-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:02:28,022-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態5——>8-[test_audit.py:28]
+2019-05-08 18:02:28,096-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:02:28,096-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態8——>11-[test_audit.py:28]
+2019-05-08 18:02:28,178-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:02:28,179-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態5——>9-[test_audit.py:28]
+2019-05-08 18:02:28,257-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:02:28,257-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態5——>10-[test_audit.py:28]
+2019-05-08 18:02:28,330-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:02:28,330-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態5——>11-[test_audit.py:28]
+2019-05-08 18:02:28,405-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:02:28,405-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態5——>6-[test_audit.py:28]
+2019-05-08 18:02:28,483-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:02:28,484-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態6——>8-[test_audit.py:28]
+2019-05-08 18:02:28,558-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:02:28,559-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態6——>9-[test_audit.py:28]
+2019-05-08 18:02:28,634-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:02:28,635-INFO-test_audit-日誌信息:測試後置處理-[test_audit.py:45]
+2019-05-08 18:02:28,636-INFO-test_invest-日誌信息:準備測試前置-[test_invest.py:27]
+2019-05-08 18:02:28,671-INFO-test_invest-日誌信息:開始測試：管理員登錄-[test_invest.py:33]
+2019-05-08 18:02:28,754-INFO-test_invest-日誌信息:結束測試：管理員登錄-[test_invest.py:89]
+2019-05-08 18:02:28,754-INFO-test_invest-日誌信息:開始測試：管理員加標-[test_invest.py:33]
+2019-05-08 18:02:28,814-INFO-test_invest-日誌信息:開始測試：項目狀態1——>4-[test_invest.py:33]
+2019-05-08 18:02:28,886-ERROR-test_invest-日誌信息:報錯了,'10001' != '20212'
+- 10001
++ 20212
+-[test_invest.py:87]
+2019-05-08 18:02:28,887-INFO-test_invest-日誌信息:開始測試：投資人登錄-[test_invest.py:33]
+2019-05-08 18:02:28,962-ERROR-test_invest-日誌信息:報錯了,'10001' != '20111'
+- 10001
++ 20111
+-[test_invest.py:87]
+2019-05-08 18:02:28,962-INFO-test_invest-日誌信息:開始測試：投資金額合理-[test_invest.py:33]
+2019-05-08 18:02:28,979-INFO-test_invest-日誌信息:測試後置處理-[test_invest.py:93]
+2019-05-08 18:02:28,979-INFO-test_login-日誌信息:準備測試前置-[test_login.py:20]
+2019-05-08 18:02:28,980-INFO-test_login-日誌信息:開始測試：正常登錄-[test_login.py:25]
+2019-05-08 18:02:29,062-INFO-test_login-日誌信息:結束測試：正常登錄-[test_login.py:37]
+2019-05-08 18:02:29,062-INFO-test_login-日誌信息:開始測試：輸入錯誤的賬號-[test_login.py:25]
+2019-05-08 18:02:29,144-INFO-test_login-日誌信息:結束測試：輸入錯誤的賬號-[test_login.py:37]
+2019-05-08 18:02:29,144-INFO-test_login-日誌信息:開始測試：輸入錯誤的密碼-[test_login.py:25]
+2019-05-08 18:02:29,225-INFO-test_login-日誌信息:結束測試：輸入錯誤的密碼-[test_login.py:37]
+2019-05-08 18:02:29,226-INFO-test_login-日誌信息:開始測試：賬號為空-[test_login.py:25]
+2019-05-08 18:02:29,307-INFO-test_login-日誌信息:結束測試：賬號為空-[test_login.py:37]
+2019-05-08 18:02:29,307-INFO-test_login-日誌信息:開始測試：密碼為空-[test_login.py:25]
+2019-05-08 18:02:29,379-INFO-test_login-日誌信息:結束測試：密碼為空-[test_login.py:37]
+2019-05-08 18:02:29,379-INFO-test_login-日誌信息:測試後置處理-[test_login.py:41]
+2019-05-08 18:02:29,380-INFO-test_recharge-日誌信息:準備測試前置-[test_recharge.py:22]
+2019-05-08 18:02:29,413-INFO-test_recharge-日誌信息:開始測試：登錄成功-[test_recharge.py:28]
+2019-05-08 18:02:29,431-INFO-test_recharge-日誌信息:開始測試：充值-[test_recharge.py:28]
+2019-05-08 18:02:29,450-INFO-test_recharge-日誌信息:測試後置處理-[test_recharge.py:57]
+2019-05-08 18:02:29,451-INFO-test_register-日誌信息:準備測試前置-[test_register.py:20]
+2019-05-08 18:02:29,496-INFO-test_register-日誌信息:開始測試：正常註冊-[test_register.py:26]
+2019-05-08 18:02:29,579-ERROR-test_register-日誌信息:報錯了,'{"status":1,"code":"10001","data":null,"msg":"注册成功"}' != '{"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}'
+- {"status":1,"code":"10001","data":null,"msg":"注册成功"}
+?           ^           ---                       --
++ {"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}
+?           ^         +++                       ++++++
+-[test_register.py:43]
+2019-05-08 18:02:29,580-INFO-test_register-日誌信息:開始測試：輸入錯誤的賬號-[test_register.py:26]
+2019-05-08 18:02:29,658-ERROR-test_register-日誌信息:報錯了,'{"status":1,"code":"20111","data":null,"msg":"账号错误"}' != '{"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}'
+- {"status":1,"code":"20111","data":null,"msg":"账号错误"}
+?           ^            ^^                     ^ ^^
++ {"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}
+?           ^            ^^                     ^^ ^^^^^^
+-[test_register.py:43]
+2019-05-08 18:02:29,659-INFO-test_register-日誌信息:開始測試：輸入錯誤的密碼-[test_register.py:26]
+2019-05-08 18:02:29,732-ERROR-test_register-日誌信息:報錯了,'{"status":1,"code":"20111","data":null,"msg":"密码错误"}' != '{"status":0,"code":"20108","data":null,"msg":"密码长度必须为6~18"}'
+- {"status":1,"code":"20111","data":null,"msg":"密码错误"}
+?           ^            ^^                       ^^
++ {"status":0,"code":"20108","data":null,"msg":"密码长度必须为6~18"}
+?           ^            ^^                       ^^^^^^^^^
+-[test_register.py:43]
+2019-05-08 18:02:29,733-INFO-test_register-日誌信息:開始測試：賬號為空-[test_register.py:26]
+2019-05-08 18:02:29,807-ERROR-test_register-日誌信息:報錯了,'{"status":1,"code":"20103","data":null,"msg":"账号或密码不能为空"}' != '{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}'
+- {"status":1,"code":"20103","data":null,"msg":"账号或密码不能为空"}
+?           ^                                   ^ ---
++ {"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
+?           ^                                   ^^
+-[test_register.py:43]
+2019-05-08 18:02:29,807-INFO-test_register-日誌信息:開始測試：密碼為空-[test_register.py:26]
+2019-05-08 18:02:29,881-ERROR-test_register-日誌信息:報錯了,'{"status":1,"code":"20103","data":null,"msg":"账号或密码不能为空"}' != '{"status":0,"code":"20103","data":null,"msg":"密码不能为空"}'
+- {"status":1,"code":"20103","data":null,"msg":"账号或密码不能为空"}
+?           ^                                   ---
++ {"status":0,"code":"20103","data":null,"msg":"密码不能为空"}
+?           ^
+-[test_register.py:43]
+2019-05-08 18:02:29,882-INFO-test_register-日誌信息:開始測試：None-[test_register.py:26]
+2019-05-08 18:02:29,883-INFO-test_register-日誌信息:開始測試：None-[test_register.py:26]
+2019-05-08 18:02:29,883-INFO-test_register-日誌信息:測試後置處理-[test_register.py:49]
+2019-05-08 18:05:47,431-INFO-test_add-日誌信息:準備測試前置-[test_add.py:22]
+2019-05-08 18:05:47,472-INFO-test_add-日誌信息:開始測試：登錄成功-[test_add.py:28]
+2019-05-08 18:05:47,570-INFO-test_add-日誌信息:結束測試：登錄成功-[test_add.py:48]
+2019-05-08 18:05:47,570-INFO-test_add-日誌信息:開始測試：用戶id不存在-[test_add.py:28]
+2019-05-08 18:05:47,652-INFO-test_add-日誌信息:結束測試：用戶id不存在-[test_add.py:48]
+2019-05-08 18:05:47,652-INFO-test_add-日誌信息:開始測試：用戶id為空-[test_add.py:28]
+2019-05-08 18:05:47,729-INFO-test_add-日誌信息:結束測試：用戶id為空-[test_add.py:48]
+2019-05-08 18:05:47,730-INFO-test_add-日誌信息:開始測試：用戶id位數有誤-[test_add.py:28]
+2019-05-08 18:05:47,806-INFO-test_add-日誌信息:結束測試：用戶id位數有誤-[test_add.py:48]
+2019-05-08 18:05:47,806-INFO-test_add-日誌信息:開始測試：用戶id格式有誤-[test_add.py:28]
+2019-05-08 18:05:47,881-INFO-test_add-日誌信息:結束測試：用戶id格式有誤-[test_add.py:48]
+2019-05-08 18:05:47,881-INFO-test_add-日誌信息:開始測試：用戶id合理，標題為空-[test_add.py:28]
+2019-05-08 18:05:47,942-INFO-test_add-日誌信息:開始測試：標題合理，借款金額為0-[test_add.py:28]
+2019-05-08 18:05:47,994-INFO-test_add-日誌信息:開始測試：標題合理，借款金額為空-[test_add.py:28]
+2019-05-08 18:05:48,050-INFO-test_add-日誌信息:開始測試：標題合理，借款金額<1000-[test_add.py:28]
+2019-05-08 18:05:48,113-INFO-test_add-日誌信息:開始測試：標題合理，借款金額為正整數，但不能被100整除-[test_add.py:28]
+2019-05-08 18:05:48,168-INFO-test_add-日誌信息:開始測試：標題合理，借款金額為負整數，但能被100整除-[test_add.py:28]
+2019-05-08 18:05:48,220-INFO-test_add-日誌信息:開始測試：標題合理，借款金額為非整數-[test_add.py:28]
+2019-05-08 18:05:48,278-INFO-test_add-日誌信息:開始測試：標題合理，借款金額非數字-[test_add.py:28]
+2019-05-08 18:05:48,329-INFO-test_add-日誌信息:開始測試：借款金額合理，年利率為0-[test_add.py:28]
+2019-05-08 18:05:48,388-INFO-test_add-日誌信息:開始測試：借款金額合理，年利率為空-[test_add.py:28]
+2019-05-08 18:05:48,455-INFO-test_add-日誌信息:開始測試：借款金額合理，年利率>24-[test_add.py:28]
+2019-05-08 18:05:48,516-INFO-test_add-日誌信息:開始測試：借款金額合理，年利率為非整數-[test_add.py:28]
+2019-05-08 18:05:48,575-INFO-test_add-日誌信息:開始測試：借款金額合理，年利率為負數-[test_add.py:28]
+2019-05-08 18:05:48,636-INFO-test_add-日誌信息:開始測試：借款金額合理，年利率為非數字-[test_add.py:28]
+2019-05-08 18:05:48,690-INFO-test_add-日誌信息:開始測試：年利率合理，借款期限為0-[test_add.py:28]
+2019-05-08 18:05:48,745-INFO-test_add-日誌信息:開始測試：年利率合理，借款期限為空-[test_add.py:28]
+2019-05-08 18:05:48,805-INFO-test_add-日誌信息:開始測試：年利率合理，借款期限為非整數-[test_add.py:28]
+2019-05-08 18:05:48,868-INFO-test_add-日誌信息:開始測試：年利率合理，借款期限為負數-[test_add.py:28]
+2019-05-08 18:05:48,924-INFO-test_add-日誌信息:開始測試：年利率合理，借款期限非數字-[test_add.py:28]
+2019-05-08 18:05:48,977-INFO-test_add-日誌信息:開始測試：借款期限合理，借款期限類型為空-[test_add.py:28]
+2019-05-08 18:05:49,041-INFO-test_add-日誌信息:開始測試：借款期限合理，借款期限類型非整數-[test_add.py:28]
+2019-05-08 18:05:49,107-INFO-test_add-日誌信息:開始測試：借款期限合理，借款期限類型為負數-[test_add.py:28]
+2019-05-08 18:05:49,163-INFO-test_add-日誌信息:開始測試：借款期限合理，借款期限類型為負數-[test_add.py:28]
+2019-05-08 18:05:49,212-INFO-test_add-日誌信息:開始測試：借款期限合理，借款期限類型為非0,2,4-[test_add.py:28]
+2019-05-08 18:05:49,267-INFO-test_add-日誌信息:開始測試：借款期限合理，借款期限類型為非數字-[test_add.py:28]
+2019-05-08 18:05:49,321-INFO-test_add-日誌信息:開始測試：借款期限類型合理，還款方式為空-[test_add.py:28]
+2019-05-08 18:05:49,378-INFO-test_add-日誌信息:開始測試：借款期限類型合理，還款方式非整數-[test_add.py:28]
+2019-05-08 18:05:49,433-INFO-test_add-日誌信息:開始測試：借款期限類型合理，還款方式非整數-[test_add.py:28]
+2019-05-08 18:05:49,496-INFO-test_add-日誌信息:開始測試：借款期限類型合理，還款方式為負數-[test_add.py:28]
+2019-05-08 18:05:49,554-INFO-test_add-日誌信息:開始測試：借款期限類型合理，還款方式為非4,5,10,11-[test_add.py:28]
+2019-05-08 18:05:49,616-INFO-test_add-日誌信息:開始測試：借款期限類型合理，還款方式為非4,5,10,11-[test_add.py:28]
+2019-05-08 18:05:49,681-INFO-test_add-日誌信息:開始測試：借款期限類型合理，還款方式為非數字-[test_add.py:28]
+2019-05-08 18:05:49,742-INFO-test_add-日誌信息:開始測試：還款方式合理，校驗競標天數為空-[test_add.py:28]
+2019-05-08 18:05:49,802-INFO-test_add-日誌信息:開始測試：還款方式合理，校驗競標天數為非整數-[test_add.py:28]
+2019-05-08 18:05:49,866-INFO-test_add-日誌信息:開始測試：還款方式合理，校驗競標天數為負數-[test_add.py:28]
+2019-05-08 18:05:49,934-INFO-test_add-日誌信息:開始測試：還款方式合理，校驗競標天數為非1-10-[test_add.py:28]
+2019-05-08 18:05:50,000-INFO-test_add-日誌信息:開始測試：還款方式合理，校驗競標天數為非數字-[test_add.py:28]
+2019-05-08 18:05:50,066-INFO-test_add-日誌信息:開始測試：校驗競標天數合理，為1-10-[test_add.py:28]
+2019-05-08 18:05:50,124-INFO-test_add-日誌信息:測試後置處理-[test_add.py:52]
+2019-05-08 18:05:50,125-INFO-test_audit-日誌信息:準備測試前置-[test_audit.py:22]
+2019-05-08 18:05:50,166-INFO-test_audit-日誌信息:開始測試：登錄成功-[test_audit.py:28]
+2019-05-08 18:05:50,260-INFO-test_audit-日誌信息:結束測試：登錄成功-[test_audit.py:41]
+2019-05-08 18:05:50,261-INFO-test_audit-日誌信息:開始測試：項目id不存在-[test_audit.py:28]
+2019-05-08 18:05:50,351-INFO-test_audit-日誌信息:結束測試：項目id不存在-[test_audit.py:41]
+2019-05-08 18:05:50,351-INFO-test_audit-日誌信息:開始測試：項目id為空-[test_audit.py:28]
+2019-05-08 18:05:50,442-INFO-test_audit-日誌信息:結束測試：項目id為空-[test_audit.py:41]
+2019-05-08 18:05:50,443-INFO-test_audit-日誌信息:開始測試：項目id位數有誤-[test_audit.py:28]
+2019-05-08 18:05:50,519-INFO-test_audit-日誌信息:結束測試：項目id位數有誤-[test_audit.py:41]
+2019-05-08 18:05:50,520-INFO-test_audit-日誌信息:開始測試：項目id格式有誤-[test_audit.py:28]
+2019-05-08 18:05:50,617-INFO-test_audit-日誌信息:結束測試：項目id格式有誤-[test_audit.py:41]
+2019-05-08 18:05:50,617-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態為空-[test_audit.py:28]
+2019-05-08 18:05:50,703-INFO-test_audit-日誌信息:結束測試：項目id合理，項目狀態為空-[test_audit.py:41]
+2019-05-08 18:05:50,704-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態非整數-[test_audit.py:28]
+2019-05-08 18:05:50,779-INFO-test_audit-日誌信息:結束測試：項目id合理，項目狀態非整數-[test_audit.py:41]
+2019-05-08 18:05:50,779-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態負數-[test_audit.py:28]
+2019-05-08 18:05:50,854-INFO-test_audit-日誌信息:結束測試：項目id合理，項目狀態負數-[test_audit.py:41]
+2019-05-08 18:05:50,854-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態非1-11-[test_audit.py:28]
+2019-05-08 18:05:50,929-INFO-test_audit-日誌信息:結束測試：項目id合理，項目狀態非1-11-[test_audit.py:41]
+2019-05-08 18:05:50,929-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態非數字-[test_audit.py:28]
+2019-05-08 18:05:51,014-INFO-test_audit-日誌信息:結束測試：項目id合理，項目狀態非數字-[test_audit.py:41]
+2019-05-08 18:05:51,015-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態為1-[test_audit.py:28]
+2019-05-08 18:05:51,099-ERROR-test_audit-日誌信息:報錯了,'20207' != '20206'
+- 20207
+?     ^
++ 20206
+?     ^
+-[test_audit.py:39]
+2019-05-08 18:05:51,100-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態為1——>1-[test_audit.py:28]
+2019-05-08 18:05:51,183-ERROR-test_audit-日誌信息:報錯了,'20207' != '20206'
+- 20207
+?     ^
++ 20206
+?     ^
+-[test_audit.py:39]
+2019-05-08 18:05:51,184-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態1——>2-[test_audit.py:28]
+2019-05-08 18:05:51,277-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:05:51,278-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態2——>3-[test_audit.py:28]
+2019-05-08 18:05:51,383-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:05:51,385-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態3——>4-[test_audit.py:28]
+2019-05-08 18:05:51,500-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:05:51,501-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態4——>5-[test_audit.py:28]
+2019-05-08 18:05:51,603-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:05:51,604-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態5——>6-[test_audit.py:28]
+2019-05-08 18:05:51,696-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:05:51,697-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態6——>7-[test_audit.py:28]
+2019-05-08 18:05:51,780-ERROR-test_audit-日誌信息:報錯了,'20210' != '20206'
+- 20210
+?    -
++ 20206
+?     +
+-[test_audit.py:39]
+2019-05-08 18:05:51,781-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態7——>8-[test_audit.py:28]
+2019-05-08 18:05:51,870-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:05:51,870-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態8——>9-[test_audit.py:28]
+2019-05-08 18:05:51,945-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:05:51,945-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態9——>10-[test_audit.py:28]
+2019-05-08 18:05:52,024-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:05:52,024-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態10——>11-[test_audit.py:28]
+2019-05-08 18:05:52,098-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:05:52,098-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態1——>3-[test_audit.py:28]
+2019-05-08 18:05:52,172-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:05:52,173-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態3——>5-[test_audit.py:28]
+2019-05-08 18:05:52,251-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:05:52,252-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態5——>7-[test_audit.py:28]
+2019-05-08 18:05:52,327-ERROR-test_audit-日誌信息:報錯了,'20210' != '20206'
+- 20210
+?    -
++ 20206
+?     +
+-[test_audit.py:39]
+2019-05-08 18:05:52,328-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態7——>9-[test_audit.py:28]
+2019-05-08 18:05:52,405-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:05:52,406-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態9——>11-[test_audit.py:28]
+2019-05-08 18:05:52,481-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:05:52,481-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態1——>5-[test_audit.py:28]
+2019-05-08 18:05:52,554-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:05:52,555-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態5——>8-[test_audit.py:28]
+2019-05-08 18:05:52,631-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:05:52,631-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態8——>11-[test_audit.py:28]
+2019-05-08 18:05:52,707-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:05:52,707-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態5——>9-[test_audit.py:28]
+2019-05-08 18:05:52,783-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:05:52,783-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態5——>10-[test_audit.py:28]
+2019-05-08 18:05:52,857-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:05:52,857-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態5——>11-[test_audit.py:28]
+2019-05-08 18:05:52,930-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:05:52,931-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態5——>6-[test_audit.py:28]
+2019-05-08 18:05:53,004-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:05:53,005-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態6——>8-[test_audit.py:28]
+2019-05-08 18:05:53,081-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:05:53,082-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態6——>9-[test_audit.py:28]
+2019-05-08 18:05:53,160-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:05:53,161-INFO-test_audit-日誌信息:測試後置處理-[test_audit.py:45]
+2019-05-08 18:05:53,161-INFO-test_invest-日誌信息:準備測試前置-[test_invest.py:27]
+2019-05-08 18:05:53,202-INFO-test_invest-日誌信息:開始測試：管理員登錄-[test_invest.py:33]
+2019-05-08 18:05:53,294-INFO-test_invest-日誌信息:結束測試：管理員登錄-[test_invest.py:89]
+2019-05-08 18:05:53,294-INFO-test_invest-日誌信息:開始測試：管理員加標-[test_invest.py:33]
+2019-05-08 18:05:53,347-INFO-test_invest-日誌信息:開始測試：項目狀態1——>4-[test_invest.py:33]
+2019-05-08 18:05:53,418-ERROR-test_invest-日誌信息:報錯了,'10001' != '20212'
+- 10001
++ 20212
+-[test_invest.py:87]
+2019-05-08 18:05:53,419-INFO-test_invest-日誌信息:開始測試：投資人登錄-[test_invest.py:33]
+2019-05-08 18:05:53,495-ERROR-test_invest-日誌信息:報錯了,'10001' != '20111'
+- 10001
++ 20111
+-[test_invest.py:87]
+2019-05-08 18:05:53,495-INFO-test_invest-日誌信息:開始測試：投資金額合理-[test_invest.py:33]
+2019-05-08 18:05:53,516-INFO-test_invest-日誌信息:測試後置處理-[test_invest.py:93]
+2019-05-08 18:05:53,517-INFO-test_login-日誌信息:準備測試前置-[test_login.py:20]
+2019-05-08 18:05:53,517-INFO-test_login-日誌信息:開始測試：正常登錄-[test_login.py:25]
+2019-05-08 18:05:53,607-INFO-test_login-日誌信息:結束測試：正常登錄-[test_login.py:37]
+2019-05-08 18:05:53,607-INFO-test_login-日誌信息:開始測試：輸入錯誤的賬號-[test_login.py:25]
+2019-05-08 18:05:53,682-INFO-test_login-日誌信息:結束測試：輸入錯誤的賬號-[test_login.py:37]
+2019-05-08 18:05:53,683-INFO-test_login-日誌信息:開始測試：輸入錯誤的密碼-[test_login.py:25]
+2019-05-08 18:05:53,761-INFO-test_login-日誌信息:結束測試：輸入錯誤的密碼-[test_login.py:37]
+2019-05-08 18:05:53,761-INFO-test_login-日誌信息:開始測試：賬號為空-[test_login.py:25]
+2019-05-08 18:05:53,832-INFO-test_login-日誌信息:結束測試：賬號為空-[test_login.py:37]
+2019-05-08 18:05:53,832-INFO-test_login-日誌信息:開始測試：密碼為空-[test_login.py:25]
+2019-05-08 18:05:53,905-INFO-test_login-日誌信息:結束測試：密碼為空-[test_login.py:37]
+2019-05-08 18:05:53,906-INFO-test_login-日誌信息:測試後置處理-[test_login.py:41]
+2019-05-08 18:05:53,906-INFO-test_recharge-日誌信息:準備測試前置-[test_recharge.py:22]
+2019-05-08 18:05:53,944-INFO-test_recharge-日誌信息:開始測試：登錄成功-[test_recharge.py:28]
+2019-05-08 18:05:53,959-INFO-test_recharge-日誌信息:開始測試：充值-[test_recharge.py:28]
+2019-05-08 18:05:53,973-INFO-test_recharge-日誌信息:測試後置處理-[test_recharge.py:57]
+2019-05-08 18:05:53,974-INFO-test_register-日誌信息:準備測試前置-[test_register.py:20]
+2019-05-08 18:05:54,016-INFO-test_register-日誌信息:開始測試：正常註冊-[test_register.py:26]
+2019-05-08 18:05:54,111-ERROR-test_register-日誌信息:報錯了,'{"status":1,"code":"10001","data":null,"msg":"注册成功"}' != '{"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}'
+- {"status":1,"code":"10001","data":null,"msg":"注册成功"}
+?           ^           ---                       --
++ {"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}
+?           ^         +++                       ++++++
+-[test_register.py:43]
+2019-05-08 18:05:54,111-INFO-test_register-日誌信息:開始測試：輸入錯誤的賬號-[test_register.py:26]
+2019-05-08 18:05:54,186-ERROR-test_register-日誌信息:報錯了,'{"status":1,"code":"20111","data":null,"msg":"账号错误"}' != '{"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}'
+- {"status":1,"code":"20111","data":null,"msg":"账号错误"}
+?           ^            ^^                     ^ ^^
++ {"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}
+?           ^            ^^                     ^^ ^^^^^^
+-[test_register.py:43]
+2019-05-08 18:05:54,187-INFO-test_register-日誌信息:開始測試：輸入錯誤的密碼-[test_register.py:26]
+2019-05-08 18:05:54,262-ERROR-test_register-日誌信息:報錯了,'{"status":1,"code":"20111","data":null,"msg":"密码错误"}' != '{"status":0,"code":"20108","data":null,"msg":"密码长度必须为6~18"}'
+- {"status":1,"code":"20111","data":null,"msg":"密码错误"}
+?           ^            ^^                       ^^
++ {"status":0,"code":"20108","data":null,"msg":"密码长度必须为6~18"}
+?           ^            ^^                       ^^^^^^^^^
+-[test_register.py:43]
+2019-05-08 18:05:54,263-INFO-test_register-日誌信息:開始測試：賬號為空-[test_register.py:26]
+2019-05-08 18:05:54,334-ERROR-test_register-日誌信息:報錯了,'{"status":1,"code":"20103","data":null,"msg":"账号或密码不能为空"}' != '{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}'
+- {"status":1,"code":"20103","data":null,"msg":"账号或密码不能为空"}
+?           ^                                   ^ ---
++ {"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
+?           ^                                   ^^
+-[test_register.py:43]
+2019-05-08 18:05:54,334-INFO-test_register-日誌信息:開始測試：密碼為空-[test_register.py:26]
+2019-05-08 18:05:54,407-ERROR-test_register-日誌信息:報錯了,'{"status":1,"code":"20103","data":null,"msg":"账号或密码不能为空"}' != '{"status":0,"code":"20103","data":null,"msg":"密码不能为空"}'
+- {"status":1,"code":"20103","data":null,"msg":"账号或密码不能为空"}
+?           ^                                   ---
++ {"status":0,"code":"20103","data":null,"msg":"密码不能为空"}
+?           ^
+-[test_register.py:43]
+2019-05-08 18:05:54,408-INFO-test_register-日誌信息:開始測試：None-[test_register.py:26]
+2019-05-08 18:05:54,408-INFO-test_register-日誌信息:開始測試：None-[test_register.py:26]
+2019-05-08 18:05:54,409-INFO-test_register-日誌信息:測試後置處理-[test_register.py:49]
+2019-05-08 18:07:09,072-INFO-test_add-日誌信息:準備測試前置-[test_add.py:22]
+2019-05-08 18:07:09,118-INFO-test_add-日誌信息:開始測試：登錄成功-[test_add.py:28]
+2019-05-08 18:07:09,229-INFO-test_add-日誌信息:結束測試：登錄成功-[test_add.py:48]
+2019-05-08 18:07:09,229-INFO-test_add-日誌信息:開始測試：用戶id不存在-[test_add.py:28]
+2019-05-08 18:07:09,308-INFO-test_add-日誌信息:結束測試：用戶id不存在-[test_add.py:48]
+2019-05-08 18:07:09,308-INFO-test_add-日誌信息:開始測試：用戶id為空-[test_add.py:28]
+2019-05-08 18:07:09,396-INFO-test_add-日誌信息:結束測試：用戶id為空-[test_add.py:48]
+2019-05-08 18:07:09,396-INFO-test_add-日誌信息:開始測試：用戶id位數有誤-[test_add.py:28]
+2019-05-08 18:07:09,481-INFO-test_add-日誌信息:結束測試：用戶id位數有誤-[test_add.py:48]
+2019-05-08 18:07:09,481-INFO-test_add-日誌信息:開始測試：用戶id格式有誤-[test_add.py:28]
+2019-05-08 18:07:09,577-INFO-test_add-日誌信息:結束測試：用戶id格式有誤-[test_add.py:48]
+2019-05-08 18:07:09,577-INFO-test_add-日誌信息:開始測試：用戶id合理，標題為空-[test_add.py:28]
+2019-05-08 18:07:09,633-INFO-test_add-日誌信息:開始測試：標題合理，借款金額為0-[test_add.py:28]
+2019-05-08 18:07:09,693-INFO-test_add-日誌信息:開始測試：標題合理，借款金額為空-[test_add.py:28]
+2019-05-08 18:07:09,749-INFO-test_add-日誌信息:開始測試：標題合理，借款金額<1000-[test_add.py:28]
+2019-05-08 18:07:09,798-INFO-test_add-日誌信息:開始測試：標題合理，借款金額為正整數，但不能被100整除-[test_add.py:28]
+2019-05-08 18:07:09,845-INFO-test_add-日誌信息:開始測試：標題合理，借款金額為負整數，但能被100整除-[test_add.py:28]
+2019-05-08 18:07:09,903-INFO-test_add-日誌信息:開始測試：標題合理，借款金額為非整數-[test_add.py:28]
+2019-05-08 18:07:09,964-INFO-test_add-日誌信息:開始測試：標題合理，借款金額非數字-[test_add.py:28]
+2019-05-08 18:07:10,022-INFO-test_add-日誌信息:開始測試：借款金額合理，年利率為0-[test_add.py:28]
+2019-05-08 18:07:10,080-INFO-test_add-日誌信息:開始測試：借款金額合理，年利率為空-[test_add.py:28]
+2019-05-08 18:07:10,141-INFO-test_add-日誌信息:開始測試：借款金額合理，年利率>24-[test_add.py:28]
+2019-05-08 18:07:10,207-INFO-test_add-日誌信息:開始測試：借款金額合理，年利率為非整數-[test_add.py:28]
+2019-05-08 18:07:10,266-INFO-test_add-日誌信息:開始測試：借款金額合理，年利率為負數-[test_add.py:28]
+2019-05-08 18:07:10,325-INFO-test_add-日誌信息:開始測試：借款金額合理，年利率為非數字-[test_add.py:28]
+2019-05-08 18:07:10,389-INFO-test_add-日誌信息:開始測試：年利率合理，借款期限為0-[test_add.py:28]
+2019-05-08 18:07:10,449-INFO-test_add-日誌信息:開始測試：年利率合理，借款期限為空-[test_add.py:28]
+2019-05-08 18:07:10,506-INFO-test_add-日誌信息:開始測試：年利率合理，借款期限為非整數-[test_add.py:28]
+2019-05-08 18:07:10,569-INFO-test_add-日誌信息:開始測試：年利率合理，借款期限為負數-[test_add.py:28]
+2019-05-08 18:07:10,619-INFO-test_add-日誌信息:開始測試：年利率合理，借款期限非數字-[test_add.py:28]
+2019-05-08 18:07:10,674-INFO-test_add-日誌信息:開始測試：借款期限合理，借款期限類型為空-[test_add.py:28]
+2019-05-08 18:07:10,738-INFO-test_add-日誌信息:開始測試：借款期限合理，借款期限類型非整數-[test_add.py:28]
+2019-05-08 18:07:10,801-INFO-test_add-日誌信息:開始測試：借款期限合理，借款期限類型為負數-[test_add.py:28]
+2019-05-08 18:07:10,858-INFO-test_add-日誌信息:開始測試：借款期限合理，借款期限類型為負數-[test_add.py:28]
+2019-05-08 18:07:10,911-INFO-test_add-日誌信息:開始測試：借款期限合理，借款期限類型為非0,2,4-[test_add.py:28]
+2019-05-08 18:07:10,962-INFO-test_add-日誌信息:開始測試：借款期限合理，借款期限類型為非數字-[test_add.py:28]
+2019-05-08 18:07:11,023-INFO-test_add-日誌信息:開始測試：借款期限類型合理，還款方式為空-[test_add.py:28]
+2019-05-08 18:07:11,081-INFO-test_add-日誌信息:開始測試：借款期限類型合理，還款方式非整數-[test_add.py:28]
+2019-05-08 18:07:11,140-INFO-test_add-日誌信息:開始測試：借款期限類型合理，還款方式非整數-[test_add.py:28]
+2019-05-08 18:07:11,192-INFO-test_add-日誌信息:開始測試：借款期限類型合理，還款方式為負數-[test_add.py:28]
+2019-05-08 18:07:11,250-INFO-test_add-日誌信息:開始測試：借款期限類型合理，還款方式為非4,5,10,11-[test_add.py:28]
+2019-05-08 18:07:11,296-INFO-test_add-日誌信息:開始測試：借款期限類型合理，還款方式為非4,5,10,11-[test_add.py:28]
+2019-05-08 18:07:11,351-INFO-test_add-日誌信息:開始測試：借款期限類型合理，還款方式為非數字-[test_add.py:28]
+2019-05-08 18:07:11,401-INFO-test_add-日誌信息:開始測試：還款方式合理，校驗競標天數為空-[test_add.py:28]
+2019-05-08 18:07:11,458-INFO-test_add-日誌信息:開始測試：還款方式合理，校驗競標天數為非整數-[test_add.py:28]
+2019-05-08 18:07:11,519-INFO-test_add-日誌信息:開始測試：還款方式合理，校驗競標天數為負數-[test_add.py:28]
+2019-05-08 18:07:11,586-INFO-test_add-日誌信息:開始測試：還款方式合理，校驗競標天數為非1-10-[test_add.py:28]
+2019-05-08 18:07:11,638-INFO-test_add-日誌信息:開始測試：還款方式合理，校驗競標天數為非數字-[test_add.py:28]
+2019-05-08 18:07:11,684-INFO-test_add-日誌信息:開始測試：校驗競標天數合理，為1-10-[test_add.py:28]
+2019-05-08 18:07:11,743-INFO-test_add-日誌信息:測試後置處理-[test_add.py:52]
+2019-05-08 18:07:11,744-INFO-test_audit-日誌信息:準備測試前置-[test_audit.py:22]
+2019-05-08 18:07:11,777-INFO-test_audit-日誌信息:開始測試：登錄成功-[test_audit.py:28]
+2019-05-08 18:07:11,860-INFO-test_audit-日誌信息:結束測試：登錄成功-[test_audit.py:41]
+2019-05-08 18:07:11,860-INFO-test_audit-日誌信息:開始測試：項目id不存在-[test_audit.py:28]
+2019-05-08 18:07:11,932-INFO-test_audit-日誌信息:結束測試：項目id不存在-[test_audit.py:41]
+2019-05-08 18:07:11,933-INFO-test_audit-日誌信息:開始測試：項目id為空-[test_audit.py:28]
+2019-05-08 18:07:12,019-INFO-test_audit-日誌信息:結束測試：項目id為空-[test_audit.py:41]
+2019-05-08 18:07:12,020-INFO-test_audit-日誌信息:開始測試：項目id位數有誤-[test_audit.py:28]
+2019-05-08 18:07:12,094-INFO-test_audit-日誌信息:結束測試：項目id位數有誤-[test_audit.py:41]
+2019-05-08 18:07:12,094-INFO-test_audit-日誌信息:開始測試：項目id格式有誤-[test_audit.py:28]
+2019-05-08 18:07:12,165-INFO-test_audit-日誌信息:結束測試：項目id格式有誤-[test_audit.py:41]
+2019-05-08 18:07:12,166-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態為空-[test_audit.py:28]
+2019-05-08 18:07:12,239-INFO-test_audit-日誌信息:結束測試：項目id合理，項目狀態為空-[test_audit.py:41]
+2019-05-08 18:07:12,239-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態非整數-[test_audit.py:28]
+2019-05-08 18:07:12,312-INFO-test_audit-日誌信息:結束測試：項目id合理，項目狀態非整數-[test_audit.py:41]
+2019-05-08 18:07:12,313-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態負數-[test_audit.py:28]
+2019-05-08 18:07:12,390-INFO-test_audit-日誌信息:結束測試：項目id合理，項目狀態負數-[test_audit.py:41]
+2019-05-08 18:07:12,391-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態非1-11-[test_audit.py:28]
+2019-05-08 18:07:12,474-INFO-test_audit-日誌信息:結束測試：項目id合理，項目狀態非1-11-[test_audit.py:41]
+2019-05-08 18:07:12,474-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態非數字-[test_audit.py:28]
+2019-05-08 18:07:12,555-INFO-test_audit-日誌信息:結束測試：項目id合理，項目狀態非數字-[test_audit.py:41]
+2019-05-08 18:07:12,555-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態為1-[test_audit.py:28]
+2019-05-08 18:07:12,640-ERROR-test_audit-日誌信息:報錯了,'20207' != '20206'
+- 20207
+?     ^
++ 20206
+?     ^
+-[test_audit.py:39]
+2019-05-08 18:07:12,641-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態為1——>1-[test_audit.py:28]
+2019-05-08 18:07:12,722-ERROR-test_audit-日誌信息:報錯了,'20207' != '20206'
+- 20207
+?     ^
++ 20206
+?     ^
+-[test_audit.py:39]
+2019-05-08 18:07:12,722-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態1——>2-[test_audit.py:28]
+2019-05-08 18:07:12,804-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:07:12,805-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態2——>3-[test_audit.py:28]
+2019-05-08 18:07:12,883-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:07:12,883-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態3——>4-[test_audit.py:28]
+2019-05-08 18:07:12,955-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:07:12,956-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態4——>5-[test_audit.py:28]
+2019-05-08 18:07:13,030-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:07:13,030-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態5——>6-[test_audit.py:28]
+2019-05-08 18:07:13,103-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:07:13,104-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態6——>7-[test_audit.py:28]
+2019-05-08 18:07:13,178-ERROR-test_audit-日誌信息:報錯了,'20210' != '20206'
+- 20210
+?    -
++ 20206
+?     +
+-[test_audit.py:39]
+2019-05-08 18:07:13,178-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態7——>8-[test_audit.py:28]
+2019-05-08 18:07:13,255-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:07:13,255-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態8——>9-[test_audit.py:28]
+2019-05-08 18:07:13,329-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:07:13,330-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態9——>10-[test_audit.py:28]
+2019-05-08 18:07:13,406-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:07:13,407-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態10——>11-[test_audit.py:28]
+2019-05-08 18:07:13,479-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:07:13,479-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態1——>3-[test_audit.py:28]
+2019-05-08 18:07:13,552-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:07:13,552-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態3——>5-[test_audit.py:28]
+2019-05-08 18:07:13,629-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:07:13,630-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態5——>7-[test_audit.py:28]
+2019-05-08 18:07:13,702-ERROR-test_audit-日誌信息:報錯了,'20210' != '20206'
+- 20210
+?    -
++ 20206
+?     +
+-[test_audit.py:39]
+2019-05-08 18:07:13,702-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態7——>9-[test_audit.py:28]
+2019-05-08 18:07:13,776-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:07:13,776-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態9——>11-[test_audit.py:28]
+2019-05-08 18:07:13,854-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:07:13,855-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態1——>5-[test_audit.py:28]
+2019-05-08 18:07:13,934-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:07:13,935-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態5——>8-[test_audit.py:28]
+2019-05-08 18:07:14,025-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:07:14,026-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態8——>11-[test_audit.py:28]
+2019-05-08 18:07:14,101-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:07:14,101-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態5——>9-[test_audit.py:28]
+2019-05-08 18:07:14,184-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:07:14,185-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態5——>10-[test_audit.py:28]
+2019-05-08 18:07:14,263-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:07:14,264-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態5——>11-[test_audit.py:28]
+2019-05-08 18:07:14,337-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:07:14,338-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態5——>6-[test_audit.py:28]
+2019-05-08 18:07:14,413-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:07:14,413-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態6——>8-[test_audit.py:28]
+2019-05-08 18:07:14,487-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:07:14,487-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態6——>9-[test_audit.py:28]
+2019-05-08 18:07:14,561-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:07:14,561-INFO-test_audit-日誌信息:測試後置處理-[test_audit.py:45]
+2019-05-08 18:07:14,562-INFO-test_invest-日誌信息:準備測試前置-[test_invest.py:27]
+2019-05-08 18:07:14,594-INFO-test_invest-日誌信息:開始測試：管理員登錄-[test_invest.py:33]
+2019-05-08 18:07:14,689-INFO-test_invest-日誌信息:結束測試：管理員登錄-[test_invest.py:89]
+2019-05-08 18:07:14,690-INFO-test_invest-日誌信息:開始測試：管理員加標-[test_invest.py:33]
+2019-05-08 18:07:14,736-INFO-test_invest-日誌信息:開始測試：項目狀態1——>4-[test_invest.py:33]
+2019-05-08 18:07:14,824-ERROR-test_invest-日誌信息:報錯了,'10001' != '20212'
+- 10001
++ 20212
+-[test_invest.py:87]
+2019-05-08 18:07:14,825-INFO-test_invest-日誌信息:開始測試：投資人登錄-[test_invest.py:33]
+2019-05-08 18:07:14,907-ERROR-test_invest-日誌信息:報錯了,'10001' != '20111'
+- 10001
++ 20111
+-[test_invest.py:87]
+2019-05-08 18:07:14,907-INFO-test_invest-日誌信息:開始測試：投資金額合理-[test_invest.py:33]
+2019-05-08 18:07:14,922-INFO-test_invest-日誌信息:測試後置處理-[test_invest.py:93]
+2019-05-08 18:07:14,923-INFO-test_login-日誌信息:準備測試前置-[test_login.py:20]
+2019-05-08 18:07:14,923-INFO-test_login-日誌信息:開始測試：正常登錄-[test_login.py:25]
+2019-05-08 18:07:15,013-INFO-test_login-日誌信息:結束測試：正常登錄-[test_login.py:37]
+2019-05-08 18:07:15,013-INFO-test_login-日誌信息:開始測試：輸入錯誤的賬號-[test_login.py:25]
+2019-05-08 18:07:15,086-INFO-test_login-日誌信息:結束測試：輸入錯誤的賬號-[test_login.py:37]
+2019-05-08 18:07:15,087-INFO-test_login-日誌信息:開始測試：輸入錯誤的密碼-[test_login.py:25]
+2019-05-08 18:07:15,161-INFO-test_login-日誌信息:結束測試：輸入錯誤的密碼-[test_login.py:37]
+2019-05-08 18:07:15,161-INFO-test_login-日誌信息:開始測試：賬號為空-[test_login.py:25]
+2019-05-08 18:07:15,233-INFO-test_login-日誌信息:結束測試：賬號為空-[test_login.py:37]
+2019-05-08 18:07:15,233-INFO-test_login-日誌信息:開始測試：密碼為空-[test_login.py:25]
+2019-05-08 18:07:15,322-INFO-test_login-日誌信息:結束測試：密碼為空-[test_login.py:37]
+2019-05-08 18:07:15,322-INFO-test_login-日誌信息:測試後置處理-[test_login.py:41]
+2019-05-08 18:07:15,323-INFO-test_recharge-日誌信息:準備測試前置-[test_recharge.py:22]
+2019-05-08 18:07:15,360-INFO-test_recharge-日誌信息:開始測試：登錄成功-[test_recharge.py:28]
+2019-05-08 18:07:15,379-INFO-test_recharge-日誌信息:開始測試：充值-[test_recharge.py:28]
+2019-05-08 18:07:15,397-INFO-test_recharge-日誌信息:測試後置處理-[test_recharge.py:57]
+2019-05-08 18:07:15,398-INFO-test_register-日誌信息:準備測試前置-[test_register.py:20]
+2019-05-08 18:07:15,434-INFO-test_register-日誌信息:開始測試：正常註冊-[test_register.py:26]
+2019-05-08 18:07:15,530-ERROR-test_register-日誌信息:報錯了,'{"status":1,"code":"10001","data":null,"msg":"注册成功"}' != '{"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}'
+- {"status":1,"code":"10001","data":null,"msg":"注册成功"}
+?           ^           ---                       --
++ {"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}
+?           ^         +++                       ++++++
+-[test_register.py:43]
+2019-05-08 18:07:15,531-INFO-test_register-日誌信息:開始測試：輸入錯誤的賬號-[test_register.py:26]
+2019-05-08 18:07:15,613-ERROR-test_register-日誌信息:報錯了,'{"status":1,"code":"20111","data":null,"msg":"账号错误"}' != '{"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}'
+- {"status":1,"code":"20111","data":null,"msg":"账号错误"}
+?           ^            ^^                     ^ ^^
++ {"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}
+?           ^            ^^                     ^^ ^^^^^^
+-[test_register.py:43]
+2019-05-08 18:07:15,614-INFO-test_register-日誌信息:開始測試：輸入錯誤的密碼-[test_register.py:26]
+2019-05-08 18:07:15,708-ERROR-test_register-日誌信息:報錯了,'{"status":1,"code":"20111","data":null,"msg":"密码错误"}' != '{"status":0,"code":"20108","data":null,"msg":"密码长度必须为6~18"}'
+- {"status":1,"code":"20111","data":null,"msg":"密码错误"}
+?           ^            ^^                       ^^
++ {"status":0,"code":"20108","data":null,"msg":"密码长度必须为6~18"}
+?           ^            ^^                       ^^^^^^^^^
+-[test_register.py:43]
+2019-05-08 18:07:15,709-INFO-test_register-日誌信息:開始測試：賬號為空-[test_register.py:26]
+2019-05-08 18:07:15,792-ERROR-test_register-日誌信息:報錯了,'{"status":1,"code":"20103","data":null,"msg":"账号或密码不能为空"}' != '{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}'
+- {"status":1,"code":"20103","data":null,"msg":"账号或密码不能为空"}
+?           ^                                   ^ ---
++ {"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
+?           ^                                   ^^
+-[test_register.py:43]
+2019-05-08 18:07:15,793-INFO-test_register-日誌信息:開始測試：密碼為空-[test_register.py:26]
+2019-05-08 18:07:15,868-ERROR-test_register-日誌信息:報錯了,'{"status":1,"code":"20103","data":null,"msg":"账号或密码不能为空"}' != '{"status":0,"code":"20103","data":null,"msg":"密码不能为空"}'
+- {"status":1,"code":"20103","data":null,"msg":"账号或密码不能为空"}
+?           ^                                   ---
++ {"status":0,"code":"20103","data":null,"msg":"密码不能为空"}
+?           ^
+-[test_register.py:43]
+2019-05-08 18:07:15,868-INFO-test_register-日誌信息:開始測試：None-[test_register.py:26]
+2019-05-08 18:07:15,869-INFO-test_register-日誌信息:開始測試：None-[test_register.py:26]
+2019-05-08 18:07:15,869-INFO-test_register-日誌信息:測試後置處理-[test_register.py:49]
+2019-05-08 18:24:59,669-INFO-test_add-日誌信息:準備測試前置-[test_add.py:22]
+2019-05-08 18:25:01,493-INFO-test_add-日誌信息:開始測試：登錄成功-[test_add.py:28]
+2019-05-08 18:25:01,587-INFO-test_add-日誌信息:結束測試：登錄成功-[test_add.py:48]
+2019-05-08 18:25:01,588-INFO-test_add-日誌信息:開始測試：用戶id不存在-[test_add.py:28]
+2019-05-08 18:25:01,680-INFO-test_add-日誌信息:結束測試：用戶id不存在-[test_add.py:48]
+2019-05-08 18:25:01,681-INFO-test_add-日誌信息:開始測試：用戶id為空-[test_add.py:28]
+2019-05-08 18:25:01,753-INFO-test_add-日誌信息:結束測試：用戶id為空-[test_add.py:48]
+2019-05-08 18:25:01,753-INFO-test_add-日誌信息:開始測試：用戶id位數有誤-[test_add.py:28]
+2019-05-08 18:25:01,844-INFO-test_add-日誌信息:結束測試：用戶id位數有誤-[test_add.py:48]
+2019-05-08 18:25:01,845-INFO-test_add-日誌信息:開始測試：用戶id格式有誤-[test_add.py:28]
+2019-05-08 18:25:01,916-INFO-test_add-日誌信息:結束測試：用戶id格式有誤-[test_add.py:48]
+2019-05-08 18:25:01,917-INFO-test_add-日誌信息:開始測試：用戶id合理，標題為空-[test_add.py:28]
+2019-05-08 18:25:01,965-INFO-test_add-日誌信息:開始測試：標題合理，借款金額為0-[test_add.py:28]
+2019-05-08 18:25:02,017-INFO-test_add-日誌信息:開始測試：標題合理，借款金額為空-[test_add.py:28]
+2019-05-08 18:25:02,064-INFO-test_add-日誌信息:開始測試：標題合理，借款金額<1000-[test_add.py:28]
+2019-05-08 18:25:02,110-INFO-test_add-日誌信息:開始測試：標題合理，借款金額為正整數，但不能被100整除-[test_add.py:28]
+2019-05-08 18:25:02,160-INFO-test_add-日誌信息:開始測試：標題合理，借款金額為負整數，但能被100整除-[test_add.py:28]
+2019-05-08 18:25:02,212-INFO-test_add-日誌信息:開始測試：標題合理，借款金額為非整數-[test_add.py:28]
+2019-05-08 18:25:02,259-INFO-test_add-日誌信息:開始測試：標題合理，借款金額非數字-[test_add.py:28]
+2019-05-08 18:25:02,312-INFO-test_add-日誌信息:開始測試：借款金額合理，年利率為0-[test_add.py:28]
+2019-05-08 18:25:02,361-INFO-test_add-日誌信息:開始測試：借款金額合理，年利率為空-[test_add.py:28]
+2019-05-08 18:25:02,416-INFO-test_add-日誌信息:開始測試：借款金額合理，年利率>24-[test_add.py:28]
+2019-05-08 18:25:02,482-INFO-test_add-日誌信息:開始測試：借款金額合理，年利率為非整數-[test_add.py:28]
+2019-05-08 18:25:02,539-INFO-test_add-日誌信息:開始測試：借款金額合理，年利率為負數-[test_add.py:28]
+2019-05-08 18:25:02,595-INFO-test_add-日誌信息:開始測試：借款金額合理，年利率為非數字-[test_add.py:28]
+2019-05-08 18:25:02,649-INFO-test_add-日誌信息:開始測試：年利率合理，借款期限為0-[test_add.py:28]
+2019-05-08 18:25:02,712-INFO-test_add-日誌信息:開始測試：年利率合理，借款期限為空-[test_add.py:28]
+2019-05-08 18:25:02,771-INFO-test_add-日誌信息:開始測試：年利率合理，借款期限為非整數-[test_add.py:28]
+2019-05-08 18:25:02,819-INFO-test_add-日誌信息:開始測試：年利率合理，借款期限為負數-[test_add.py:28]
+2019-05-08 18:25:02,870-INFO-test_add-日誌信息:開始測試：年利率合理，借款期限非數字-[test_add.py:28]
+2019-05-08 18:25:02,929-INFO-test_add-日誌信息:開始測試：借款期限合理，借款期限類型為空-[test_add.py:28]
+2019-05-08 18:25:02,975-INFO-test_add-日誌信息:開始測試：借款期限合理，借款期限類型非整數-[test_add.py:28]
+2019-05-08 18:25:03,034-INFO-test_add-日誌信息:開始測試：借款期限合理，借款期限類型為負數-[test_add.py:28]
+2019-05-08 18:25:03,081-INFO-test_add-日誌信息:開始測試：借款期限合理，借款期限類型為負數-[test_add.py:28]
+2019-05-08 18:25:03,131-INFO-test_add-日誌信息:開始測試：借款期限合理，借款期限類型為非0,2,4-[test_add.py:28]
+2019-05-08 18:25:03,176-INFO-test_add-日誌信息:開始測試：借款期限合理，借款期限類型為非數字-[test_add.py:28]
+2019-05-08 18:25:03,222-INFO-test_add-日誌信息:開始測試：借款期限類型合理，還款方式為空-[test_add.py:28]
+2019-05-08 18:25:03,279-INFO-test_add-日誌信息:開始測試：借款期限類型合理，還款方式非整數-[test_add.py:28]
+2019-05-08 18:25:03,341-INFO-test_add-日誌信息:開始測試：借款期限類型合理，還款方式非整數-[test_add.py:28]
+2019-05-08 18:25:03,396-INFO-test_add-日誌信息:開始測試：借款期限類型合理，還款方式為負數-[test_add.py:28]
+2019-05-08 18:25:03,448-INFO-test_add-日誌信息:開始測試：借款期限類型合理，還款方式為非4,5,10,11-[test_add.py:28]
+2019-05-08 18:25:03,509-INFO-test_add-日誌信息:開始測試：借款期限類型合理，還款方式為非4,5,10,11-[test_add.py:28]
+2019-05-08 18:25:03,572-INFO-test_add-日誌信息:開始測試：借款期限類型合理，還款方式為非數字-[test_add.py:28]
+2019-05-08 18:25:03,625-INFO-test_add-日誌信息:開始測試：還款方式合理，校驗競標天數為空-[test_add.py:28]
+2019-05-08 18:25:03,682-INFO-test_add-日誌信息:開始測試：還款方式合理，校驗競標天數為非整數-[test_add.py:28]
+2019-05-08 18:25:03,738-INFO-test_add-日誌信息:開始測試：還款方式合理，校驗競標天數為負數-[test_add.py:28]
+2019-05-08 18:25:03,793-INFO-test_add-日誌信息:開始測試：還款方式合理，校驗競標天數為非1-10-[test_add.py:28]
+2019-05-08 18:25:03,857-INFO-test_add-日誌信息:開始測試：還款方式合理，校驗競標天數為非數字-[test_add.py:28]
+2019-05-08 18:25:03,908-INFO-test_add-日誌信息:開始測試：校驗競標天數合理，為1-10-[test_add.py:28]
+2019-05-08 18:25:03,971-INFO-test_add-日誌信息:測試後置處理-[test_add.py:52]
+2019-05-08 18:25:03,971-INFO-test_audit-日誌信息:準備測試前置-[test_audit.py:22]
+2019-05-08 18:25:04,015-INFO-test_audit-日誌信息:開始測試：登錄成功-[test_audit.py:28]
+2019-05-08 18:25:04,101-INFO-test_audit-日誌信息:結束測試：登錄成功-[test_audit.py:41]
+2019-05-08 18:25:04,101-INFO-test_audit-日誌信息:開始測試：項目id不存在-[test_audit.py:28]
+2019-05-08 18:25:04,174-INFO-test_audit-日誌信息:結束測試：項目id不存在-[test_audit.py:41]
+2019-05-08 18:25:04,175-INFO-test_audit-日誌信息:開始測試：項目id為空-[test_audit.py:28]
+2019-05-08 18:25:04,250-INFO-test_audit-日誌信息:結束測試：項目id為空-[test_audit.py:41]
+2019-05-08 18:25:04,251-INFO-test_audit-日誌信息:開始測試：項目id位數有誤-[test_audit.py:28]
+2019-05-08 18:25:04,324-INFO-test_audit-日誌信息:結束測試：項目id位數有誤-[test_audit.py:41]
+2019-05-08 18:25:04,325-INFO-test_audit-日誌信息:開始測試：項目id格式有誤-[test_audit.py:28]
+2019-05-08 18:25:04,413-INFO-test_audit-日誌信息:結束測試：項目id格式有誤-[test_audit.py:41]
+2019-05-08 18:25:04,413-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態為空-[test_audit.py:28]
+2019-05-08 18:25:04,504-INFO-test_audit-日誌信息:結束測試：項目id合理，項目狀態為空-[test_audit.py:41]
+2019-05-08 18:25:04,504-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態非整數-[test_audit.py:28]
+2019-05-08 18:25:04,587-INFO-test_audit-日誌信息:結束測試：項目id合理，項目狀態非整數-[test_audit.py:41]
+2019-05-08 18:25:04,587-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態負數-[test_audit.py:28]
+2019-05-08 18:25:04,712-INFO-test_audit-日誌信息:結束測試：項目id合理，項目狀態負數-[test_audit.py:41]
+2019-05-08 18:25:04,713-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態非1-11-[test_audit.py:28]
+2019-05-08 18:25:04,825-INFO-test_audit-日誌信息:結束測試：項目id合理，項目狀態非1-11-[test_audit.py:41]
+2019-05-08 18:25:04,825-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態非數字-[test_audit.py:28]
+2019-05-08 18:25:04,905-INFO-test_audit-日誌信息:結束測試：項目id合理，項目狀態非數字-[test_audit.py:41]
+2019-05-08 18:25:04,905-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態為1-[test_audit.py:28]
+2019-05-08 18:25:04,985-ERROR-test_audit-日誌信息:報錯了,'20207' != '20206'
+- 20207
+?     ^
++ 20206
+?     ^
+-[test_audit.py:39]
+2019-05-08 18:25:04,986-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態為1——>1-[test_audit.py:28]
+2019-05-08 18:25:05,068-ERROR-test_audit-日誌信息:報錯了,'20207' != '20206'
+- 20207
+?     ^
++ 20206
+?     ^
+-[test_audit.py:39]
+2019-05-08 18:25:05,069-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態1——>2-[test_audit.py:28]
+2019-05-08 18:25:05,152-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:25:05,153-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態2——>3-[test_audit.py:28]
+2019-05-08 18:25:05,229-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:25:05,230-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態3——>4-[test_audit.py:28]
+2019-05-08 18:25:05,305-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:25:05,306-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態4——>5-[test_audit.py:28]
+2019-05-08 18:25:05,418-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:25:05,419-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態5——>6-[test_audit.py:28]
+2019-05-08 18:25:05,493-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:25:05,493-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態6——>7-[test_audit.py:28]
+2019-05-08 18:25:05,569-ERROR-test_audit-日誌信息:報錯了,'20210' != '20206'
+- 20210
+?    -
++ 20206
+?     +
+-[test_audit.py:39]
+2019-05-08 18:25:05,570-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態7——>8-[test_audit.py:28]
+2019-05-08 18:25:05,645-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:25:05,646-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態8——>9-[test_audit.py:28]
+2019-05-08 18:25:05,722-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:25:05,722-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態9——>10-[test_audit.py:28]
+2019-05-08 18:25:05,800-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:25:05,801-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態10——>11-[test_audit.py:28]
+2019-05-08 18:25:05,886-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:25:05,887-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態1——>3-[test_audit.py:28]
+2019-05-08 18:25:05,971-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:25:05,972-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態3——>5-[test_audit.py:28]
+2019-05-08 18:25:06,052-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:25:06,053-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態5——>7-[test_audit.py:28]
+2019-05-08 18:25:06,159-ERROR-test_audit-日誌信息:報錯了,'20210' != '20206'
+- 20210
+?    -
++ 20206
+?     +
+-[test_audit.py:39]
+2019-05-08 18:25:06,159-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態7——>9-[test_audit.py:28]
+2019-05-08 18:25:06,235-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:25:06,235-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態9——>11-[test_audit.py:28]
+2019-05-08 18:25:06,310-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:25:06,311-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態1——>5-[test_audit.py:28]
+2019-05-08 18:25:06,391-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:25:06,392-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態5——>8-[test_audit.py:28]
+2019-05-08 18:25:06,472-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:25:06,473-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態8——>11-[test_audit.py:28]
+2019-05-08 18:25:06,552-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:25:06,552-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態5——>9-[test_audit.py:28]
+2019-05-08 18:25:06,632-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:25:06,632-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態5——>10-[test_audit.py:28]
+2019-05-08 18:25:06,707-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:25:06,707-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態5——>11-[test_audit.py:28]
+2019-05-08 18:25:06,785-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:25:06,785-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態5——>6-[test_audit.py:28]
+2019-05-08 18:25:06,860-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:25:06,860-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態6——>8-[test_audit.py:28]
+2019-05-08 18:25:06,937-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:25:06,937-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態6——>9-[test_audit.py:28]
+2019-05-08 18:25:07,015-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:25:07,015-INFO-test_audit-日誌信息:測試後置處理-[test_audit.py:45]
+2019-05-08 18:25:07,016-INFO-test_invest-日誌信息:準備測試前置-[test_invest.py:27]
+2019-05-08 18:25:07,057-INFO-test_invest-日誌信息:開始測試：管理員登錄-[test_invest.py:33]
+2019-05-08 18:25:07,143-INFO-test_invest-日誌信息:結束測試：管理員登錄-[test_invest.py:89]
+2019-05-08 18:25:07,144-INFO-test_invest-日誌信息:開始測試：管理員加標-[test_invest.py:33]
+2019-05-08 18:25:07,195-INFO-test_invest-日誌信息:開始測試：項目狀態1——>4-[test_invest.py:33]
+2019-05-08 18:25:07,272-ERROR-test_invest-日誌信息:報錯了,'10001' != '20212'
+- 10001
++ 20212
+-[test_invest.py:87]
+2019-05-08 18:25:07,273-INFO-test_invest-日誌信息:開始測試：投資人登錄-[test_invest.py:33]
+2019-05-08 18:25:07,358-ERROR-test_invest-日誌信息:報錯了,'10001' != '20111'
+- 10001
++ 20111
+-[test_invest.py:87]
+2019-05-08 18:25:07,359-INFO-test_invest-日誌信息:開始測試：投資金額合理-[test_invest.py:33]
+2019-05-08 18:25:07,379-INFO-test_invest-日誌信息:測試後置處理-[test_invest.py:93]
+2019-05-08 18:25:07,379-INFO-test_login-日誌信息:準備測試前置-[test_login.py:20]
+2019-05-08 18:25:07,380-INFO-test_login-日誌信息:開始測試：正常登錄-[test_login.py:25]
+2019-05-08 18:25:07,470-INFO-test_login-日誌信息:結束測試：正常登錄-[test_login.py:37]
+2019-05-08 18:25:07,471-INFO-test_login-日誌信息:開始測試：輸入錯誤的賬號-[test_login.py:25]
+2019-05-08 18:25:07,548-INFO-test_login-日誌信息:結束測試：輸入錯誤的賬號-[test_login.py:37]
+2019-05-08 18:25:07,549-INFO-test_login-日誌信息:開始測試：輸入錯誤的密碼-[test_login.py:25]
+2019-05-08 18:25:07,630-INFO-test_login-日誌信息:結束測試：輸入錯誤的密碼-[test_login.py:37]
+2019-05-08 18:25:07,630-INFO-test_login-日誌信息:開始測試：賬號為空-[test_login.py:25]
+2019-05-08 18:25:07,705-INFO-test_login-日誌信息:結束測試：賬號為空-[test_login.py:37]
+2019-05-08 18:25:07,706-INFO-test_login-日誌信息:開始測試：密碼為空-[test_login.py:25]
+2019-05-08 18:25:07,785-INFO-test_login-日誌信息:結束測試：密碼為空-[test_login.py:37]
+2019-05-08 18:25:07,785-INFO-test_login-日誌信息:測試後置處理-[test_login.py:41]
+2019-05-08 18:25:07,786-INFO-test_recharge-日誌信息:準備測試前置-[test_recharge.py:22]
+2019-05-08 18:25:07,829-INFO-test_recharge-日誌信息:開始測試：登錄成功-[test_recharge.py:28]
+2019-05-08 18:25:07,849-INFO-test_recharge-日誌信息:開始測試：充值-[test_recharge.py:28]
+2019-05-08 18:25:07,870-INFO-test_recharge-日誌信息:測試後置處理-[test_recharge.py:57]
+2019-05-08 18:25:07,870-INFO-test_register-日誌信息:準備測試前置-[test_register.py:20]
+2019-05-08 18:25:07,903-INFO-test_register-日誌信息:開始測試：正常註冊-[test_register.py:26]
+2019-05-08 18:25:07,989-ERROR-test_register-日誌信息:報錯了,'{"status":1,"code":"10001","data":null,"msg":"注册成功"}' != '{"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}'
+- {"status":1,"code":"10001","data":null,"msg":"注册成功"}
+?           ^           ---                       --
++ {"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}
+?           ^         +++                       ++++++
+-[test_register.py:43]
+2019-05-08 18:25:07,990-INFO-test_register-日誌信息:開始測試：輸入錯誤的賬號-[test_register.py:26]
+2019-05-08 18:25:08,066-ERROR-test_register-日誌信息:報錯了,'{"status":1,"code":"20111","data":null,"msg":"账号错误"}' != '{"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}'
+- {"status":1,"code":"20111","data":null,"msg":"账号错误"}
+?           ^            ^^                     ^ ^^
++ {"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}
+?           ^            ^^                     ^^ ^^^^^^
+-[test_register.py:43]
+2019-05-08 18:25:08,067-INFO-test_register-日誌信息:開始測試：輸入錯誤的密碼-[test_register.py:26]
+2019-05-08 18:25:08,147-ERROR-test_register-日誌信息:報錯了,'{"status":1,"code":"20111","data":null,"msg":"密码错误"}' != '{"status":0,"code":"20108","data":null,"msg":"密码长度必须为6~18"}'
+- {"status":1,"code":"20111","data":null,"msg":"密码错误"}
+?           ^            ^^                       ^^
++ {"status":0,"code":"20108","data":null,"msg":"密码长度必须为6~18"}
+?           ^            ^^                       ^^^^^^^^^
+-[test_register.py:43]
+2019-05-08 18:25:08,148-INFO-test_register-日誌信息:開始測試：賬號為空-[test_register.py:26]
+2019-05-08 18:25:08,227-ERROR-test_register-日誌信息:報錯了,'{"status":1,"code":"20103","data":null,"msg":"账号或密码不能为空"}' != '{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}'
+- {"status":1,"code":"20103","data":null,"msg":"账号或密码不能为空"}
+?           ^                                   ^ ---
++ {"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
+?           ^                                   ^^
+-[test_register.py:43]
+2019-05-08 18:25:08,227-INFO-test_register-日誌信息:開始測試：密碼為空-[test_register.py:26]
+2019-05-08 18:25:08,304-ERROR-test_register-日誌信息:報錯了,'{"status":1,"code":"20103","data":null,"msg":"账号或密码不能为空"}' != '{"status":0,"code":"20103","data":null,"msg":"密码不能为空"}'
+- {"status":1,"code":"20103","data":null,"msg":"账号或密码不能为空"}
+?           ^                                   ---
++ {"status":0,"code":"20103","data":null,"msg":"密码不能为空"}
+?           ^
+-[test_register.py:43]
+2019-05-08 18:25:08,304-INFO-test_register-日誌信息:開始測試：None-[test_register.py:26]
+2019-05-08 18:25:08,305-INFO-test_register-日誌信息:開始測試：None-[test_register.py:26]
+2019-05-08 18:25:08,305-INFO-test_register-日誌信息:測試後置處理-[test_register.py:49]
+2019-05-08 18:27:23,005-INFO-test_add-日誌信息:準備測試前置-[test_add.py:22]
+2019-05-08 18:27:23,055-INFO-test_add-日誌信息:開始測試：登錄成功-[test_add.py:28]
+2019-05-08 18:27:23,154-INFO-test_add-日誌信息:結束測試：登錄成功-[test_add.py:48]
+2019-05-08 18:27:23,155-INFO-test_add-日誌信息:開始測試：用戶id不存在-[test_add.py:28]
+2019-05-08 18:27:23,233-INFO-test_add-日誌信息:結束測試：用戶id不存在-[test_add.py:48]
+2019-05-08 18:27:23,234-INFO-test_add-日誌信息:開始測試：用戶id為空-[test_add.py:28]
+2019-05-08 18:27:23,322-INFO-test_add-日誌信息:結束測試：用戶id為空-[test_add.py:48]
+2019-05-08 18:27:23,323-INFO-test_add-日誌信息:開始測試：用戶id位數有誤-[test_add.py:28]
+2019-05-08 18:27:23,402-INFO-test_add-日誌信息:結束測試：用戶id位數有誤-[test_add.py:48]
+2019-05-08 18:27:23,402-INFO-test_add-日誌信息:開始測試：用戶id格式有誤-[test_add.py:28]
+2019-05-08 18:27:23,474-INFO-test_add-日誌信息:結束測試：用戶id格式有誤-[test_add.py:48]
+2019-05-08 18:27:23,474-INFO-test_add-日誌信息:開始測試：用戶id合理，標題為空-[test_add.py:28]
+2019-05-08 18:27:23,539-INFO-test_add-日誌信息:開始測試：標題合理，借款金額為0-[test_add.py:28]
+2019-05-08 18:27:23,602-INFO-test_add-日誌信息:開始測試：標題合理，借款金額為空-[test_add.py:28]
+2019-05-08 18:27:23,653-INFO-test_add-日誌信息:開始測試：標題合理，借款金額<1000-[test_add.py:28]
+2019-05-08 18:27:23,716-INFO-test_add-日誌信息:開始測試：標題合理，借款金額為正整數，但不能被100整除-[test_add.py:28]
+2019-05-08 18:27:23,779-INFO-test_add-日誌信息:開始測試：標題合理，借款金額為負整數，但能被100整除-[test_add.py:28]
+2019-05-08 18:27:23,834-INFO-test_add-日誌信息:開始測試：標題合理，借款金額為非整數-[test_add.py:28]
+2019-05-08 18:27:23,895-INFO-test_add-日誌信息:開始測試：標題合理，借款金額非數字-[test_add.py:28]
+2019-05-08 18:27:23,942-INFO-test_add-日誌信息:開始測試：借款金額合理，年利率為0-[test_add.py:28]
+2019-05-08 18:27:23,995-INFO-test_add-日誌信息:開始測試：借款金額合理，年利率為空-[test_add.py:28]
+2019-05-08 18:27:24,056-INFO-test_add-日誌信息:開始測試：借款金額合理，年利率>24-[test_add.py:28]
+2019-05-08 18:27:24,106-INFO-test_add-日誌信息:開始測試：借款金額合理，年利率為非整數-[test_add.py:28]
+2019-05-08 18:27:24,166-INFO-test_add-日誌信息:開始測試：借款金額合理，年利率為負數-[test_add.py:28]
+2019-05-08 18:27:24,217-INFO-test_add-日誌信息:開始測試：借款金額合理，年利率為非數字-[test_add.py:28]
+2019-05-08 18:27:24,280-INFO-test_add-日誌信息:開始測試：年利率合理，借款期限為0-[test_add.py:28]
+2019-05-08 18:27:24,330-INFO-test_add-日誌信息:開始測試：年利率合理，借款期限為空-[test_add.py:28]
+2019-05-08 18:27:24,382-INFO-test_add-日誌信息:開始測試：年利率合理，借款期限為非整數-[test_add.py:28]
+2019-05-08 18:27:24,428-INFO-test_add-日誌信息:開始測試：年利率合理，借款期限為負數-[test_add.py:28]
+2019-05-08 18:27:24,490-INFO-test_add-日誌信息:開始測試：年利率合理，借款期限非數字-[test_add.py:28]
+2019-05-08 18:27:24,540-INFO-test_add-日誌信息:開始測試：借款期限合理，借款期限類型為空-[test_add.py:28]
+2019-05-08 18:27:24,596-INFO-test_add-日誌信息:開始測試：借款期限合理，借款期限類型非整數-[test_add.py:28]
+2019-05-08 18:27:24,646-INFO-test_add-日誌信息:開始測試：借款期限合理，借款期限類型為負數-[test_add.py:28]
+2019-05-08 18:27:24,721-INFO-test_add-日誌信息:開始測試：借款期限合理，借款期限類型為負數-[test_add.py:28]
+2019-05-08 18:27:24,778-INFO-test_add-日誌信息:開始測試：借款期限合理，借款期限類型為非0,2,4-[test_add.py:28]
+2019-05-08 18:27:24,838-INFO-test_add-日誌信息:開始測試：借款期限合理，借款期限類型為非數字-[test_add.py:28]
+2019-05-08 18:27:24,892-INFO-test_add-日誌信息:開始測試：借款期限類型合理，還款方式為空-[test_add.py:28]
+2019-05-08 18:27:24,952-INFO-test_add-日誌信息:開始測試：借款期限類型合理，還款方式非整數-[test_add.py:28]
+2019-05-08 18:27:25,010-INFO-test_add-日誌信息:開始測試：借款期限類型合理，還款方式非整數-[test_add.py:28]
+2019-05-08 18:27:25,058-INFO-test_add-日誌信息:開始測試：借款期限類型合理，還款方式為負數-[test_add.py:28]
+2019-05-08 18:27:25,111-INFO-test_add-日誌信息:開始測試：借款期限類型合理，還款方式為非4,5,10,11-[test_add.py:28]
+2019-05-08 18:27:25,168-INFO-test_add-日誌信息:開始測試：借款期限類型合理，還款方式為非4,5,10,11-[test_add.py:28]
+2019-05-08 18:27:25,214-INFO-test_add-日誌信息:開始測試：借款期限類型合理，還款方式為非數字-[test_add.py:28]
+2019-05-08 18:27:25,267-INFO-test_add-日誌信息:開始測試：還款方式合理，校驗競標天數為空-[test_add.py:28]
+2019-05-08 18:27:25,326-INFO-test_add-日誌信息:開始測試：還款方式合理，校驗競標天數為非整數-[test_add.py:28]
+2019-05-08 18:27:25,376-INFO-test_add-日誌信息:開始測試：還款方式合理，校驗競標天數為負數-[test_add.py:28]
+2019-05-08 18:27:25,423-INFO-test_add-日誌信息:開始測試：還款方式合理，校驗競標天數為非1-10-[test_add.py:28]
+2019-05-08 18:27:25,483-INFO-test_add-日誌信息:開始測試：還款方式合理，校驗競標天數為非數字-[test_add.py:28]
+2019-05-08 18:27:25,547-INFO-test_add-日誌信息:開始測試：校驗競標天數合理，為1-10-[test_add.py:28]
+2019-05-08 18:27:25,609-INFO-test_add-日誌信息:測試後置處理-[test_add.py:52]
+2019-05-08 18:27:25,610-INFO-test_audit-日誌信息:準備測試前置-[test_audit.py:22]
+2019-05-08 18:27:25,646-INFO-test_audit-日誌信息:開始測試：登錄成功-[test_audit.py:28]
+2019-05-08 18:27:25,727-INFO-test_audit-日誌信息:結束測試：登錄成功-[test_audit.py:41]
+2019-05-08 18:27:25,728-INFO-test_audit-日誌信息:開始測試：項目id不存在-[test_audit.py:28]
+2019-05-08 18:27:25,800-INFO-test_audit-日誌信息:結束測試：項目id不存在-[test_audit.py:41]
+2019-05-08 18:27:25,801-INFO-test_audit-日誌信息:開始測試：項目id為空-[test_audit.py:28]
+2019-05-08 18:27:25,878-INFO-test_audit-日誌信息:結束測試：項目id為空-[test_audit.py:41]
+2019-05-08 18:27:25,878-INFO-test_audit-日誌信息:開始測試：項目id位數有誤-[test_audit.py:28]
+2019-05-08 18:27:25,951-INFO-test_audit-日誌信息:結束測試：項目id位數有誤-[test_audit.py:41]
+2019-05-08 18:27:25,952-INFO-test_audit-日誌信息:開始測試：項目id格式有誤-[test_audit.py:28]
+2019-05-08 18:27:26,039-INFO-test_audit-日誌信息:結束測試：項目id格式有誤-[test_audit.py:41]
+2019-05-08 18:27:26,039-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態為空-[test_audit.py:28]
+2019-05-08 18:27:26,121-INFO-test_audit-日誌信息:結束測試：項目id合理，項目狀態為空-[test_audit.py:41]
+2019-05-08 18:27:26,122-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態非整數-[test_audit.py:28]
+2019-05-08 18:27:26,209-INFO-test_audit-日誌信息:結束測試：項目id合理，項目狀態非整數-[test_audit.py:41]
+2019-05-08 18:27:26,210-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態負數-[test_audit.py:28]
+2019-05-08 18:27:26,284-INFO-test_audit-日誌信息:結束測試：項目id合理，項目狀態負數-[test_audit.py:41]
+2019-05-08 18:27:26,285-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態非1-11-[test_audit.py:28]
+2019-05-08 18:27:26,366-INFO-test_audit-日誌信息:結束測試：項目id合理，項目狀態非1-11-[test_audit.py:41]
+2019-05-08 18:27:26,366-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態非數字-[test_audit.py:28]
+2019-05-08 18:27:26,439-INFO-test_audit-日誌信息:結束測試：項目id合理，項目狀態非數字-[test_audit.py:41]
+2019-05-08 18:27:26,440-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態為1-[test_audit.py:28]
+2019-05-08 18:27:26,515-ERROR-test_audit-日誌信息:報錯了,'20207' != '20206'
+- 20207
+?     ^
++ 20206
+?     ^
+-[test_audit.py:39]
+2019-05-08 18:27:26,515-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態為1——>1-[test_audit.py:28]
+2019-05-08 18:27:26,590-ERROR-test_audit-日誌信息:報錯了,'20207' != '20206'
+- 20207
+?     ^
++ 20206
+?     ^
+-[test_audit.py:39]
+2019-05-08 18:27:26,590-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態1——>2-[test_audit.py:28]
+2019-05-08 18:27:26,666-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:27:26,666-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態2——>3-[test_audit.py:28]
+2019-05-08 18:27:26,739-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:27:26,740-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態3——>4-[test_audit.py:28]
+2019-05-08 18:27:26,819-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:27:26,820-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態4——>5-[test_audit.py:28]
+2019-05-08 18:27:26,895-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:27:26,896-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態5——>6-[test_audit.py:28]
+2019-05-08 18:27:26,972-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:27:26,973-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態6——>7-[test_audit.py:28]
+2019-05-08 18:27:27,046-ERROR-test_audit-日誌信息:報錯了,'20210' != '20206'
+- 20210
+?    -
++ 20206
+?     +
+-[test_audit.py:39]
+2019-05-08 18:27:27,047-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態7——>8-[test_audit.py:28]
+2019-05-08 18:27:27,122-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:27:27,122-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態8——>9-[test_audit.py:28]
+2019-05-08 18:27:27,196-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:27:27,197-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態9——>10-[test_audit.py:28]
+2019-05-08 18:27:27,274-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:27:27,275-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態10——>11-[test_audit.py:28]
+2019-05-08 18:27:27,354-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:27:27,354-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態1——>3-[test_audit.py:28]
+2019-05-08 18:27:27,431-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:27:27,432-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態3——>5-[test_audit.py:28]
+2019-05-08 18:27:27,519-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:27:27,519-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態5——>7-[test_audit.py:28]
+2019-05-08 18:27:27,602-ERROR-test_audit-日誌信息:報錯了,'20210' != '20206'
+- 20210
+?    -
++ 20206
+?     +
+-[test_audit.py:39]
+2019-05-08 18:27:27,603-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態7——>9-[test_audit.py:28]
+2019-05-08 18:27:27,683-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:27:27,684-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態9——>11-[test_audit.py:28]
+2019-05-08 18:27:27,756-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:27:27,756-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態1——>5-[test_audit.py:28]
+2019-05-08 18:27:27,828-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:27:27,829-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態5——>8-[test_audit.py:28]
+2019-05-08 18:27:27,905-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:27:27,905-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態8——>11-[test_audit.py:28]
+2019-05-08 18:27:27,984-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:27:27,985-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態5——>9-[test_audit.py:28]
+2019-05-08 18:27:28,059-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:27:28,060-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態5——>10-[test_audit.py:28]
+2019-05-08 18:27:28,136-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:27:28,137-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態5——>11-[test_audit.py:28]
+2019-05-08 18:27:28,210-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:27:28,212-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態5——>6-[test_audit.py:28]
+2019-05-08 18:27:28,292-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:27:28,293-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態6——>8-[test_audit.py:28]
+2019-05-08 18:27:28,365-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:27:28,366-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態6——>9-[test_audit.py:28]
+2019-05-08 18:27:28,464-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:27:28,465-INFO-test_audit-日誌信息:測試後置處理-[test_audit.py:45]
+2019-05-08 18:27:28,466-INFO-test_invest-日誌信息:準備測試前置-[test_invest.py:27]
+2019-05-08 18:27:28,500-INFO-test_invest-日誌信息:開始測試：管理員登錄-[test_invest.py:33]
+2019-05-08 18:27:28,582-INFO-test_invest-日誌信息:結束測試：管理員登錄-[test_invest.py:89]
+2019-05-08 18:27:28,583-INFO-test_invest-日誌信息:開始測試：管理員加標-[test_invest.py:33]
+2019-05-08 18:27:28,636-INFO-test_invest-日誌信息:開始測試：項目狀態1——>4-[test_invest.py:33]
+2019-05-08 18:27:28,709-ERROR-test_invest-日誌信息:報錯了,'10001' != '20212'
+- 10001
++ 20212
+-[test_invest.py:87]
+2019-05-08 18:27:28,709-INFO-test_invest-日誌信息:開始測試：投資人登錄-[test_invest.py:33]
+2019-05-08 18:27:28,789-ERROR-test_invest-日誌信息:報錯了,'10001' != '20111'
+- 10001
++ 20111
+-[test_invest.py:87]
+2019-05-08 18:27:28,789-INFO-test_invest-日誌信息:開始測試：投資金額合理-[test_invest.py:33]
+2019-05-08 18:27:28,805-INFO-test_invest-日誌信息:測試後置處理-[test_invest.py:93]
+2019-05-08 18:27:28,806-INFO-test_login-日誌信息:準備測試前置-[test_login.py:20]
+2019-05-08 18:27:28,807-INFO-test_login-日誌信息:開始測試：正常登錄-[test_login.py:25]
+2019-05-08 18:27:28,894-INFO-test_login-日誌信息:結束測試：正常登錄-[test_login.py:37]
+2019-05-08 18:27:28,895-INFO-test_login-日誌信息:開始測試：輸入錯誤的賬號-[test_login.py:25]
+2019-05-08 18:27:28,984-INFO-test_login-日誌信息:結束測試：輸入錯誤的賬號-[test_login.py:37]
+2019-05-08 18:27:28,984-INFO-test_login-日誌信息:開始測試：輸入錯誤的密碼-[test_login.py:25]
+2019-05-08 18:27:29,070-INFO-test_login-日誌信息:結束測試：輸入錯誤的密碼-[test_login.py:37]
+2019-05-08 18:27:29,070-INFO-test_login-日誌信息:開始測試：賬號為空-[test_login.py:25]
+2019-05-08 18:27:29,147-INFO-test_login-日誌信息:結束測試：賬號為空-[test_login.py:37]
+2019-05-08 18:27:29,147-INFO-test_login-日誌信息:開始測試：密碼為空-[test_login.py:25]
+2019-05-08 18:27:29,220-INFO-test_login-日誌信息:結束測試：密碼為空-[test_login.py:37]
+2019-05-08 18:27:29,220-INFO-test_login-日誌信息:測試後置處理-[test_login.py:41]
+2019-05-08 18:27:29,220-INFO-test_recharge-日誌信息:準備測試前置-[test_recharge.py:22]
+2019-05-08 18:27:29,262-INFO-test_recharge-日誌信息:開始測試：登錄成功-[test_recharge.py:28]
+2019-05-08 18:27:29,283-INFO-test_recharge-日誌信息:開始測試：充值-[test_recharge.py:28]
+2019-05-08 18:27:29,302-INFO-test_recharge-日誌信息:測試後置處理-[test_recharge.py:57]
+2019-05-08 18:27:29,303-INFO-test_register-日誌信息:準備測試前置-[test_register.py:20]
+2019-05-08 18:27:29,338-INFO-test_register-日誌信息:開始測試：正常註冊-[test_register.py:26]
+2019-05-08 18:27:29,426-ERROR-test_register-日誌信息:報錯了,'{"status":1,"code":"10001","data":null,"msg":"注册成功"}' != '{"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}'
+- {"status":1,"code":"10001","data":null,"msg":"注册成功"}
+?           ^           ---                       --
++ {"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}
+?           ^         +++                       ++++++
+-[test_register.py:43]
+2019-05-08 18:27:29,426-INFO-test_register-日誌信息:開始測試：輸入錯誤的賬號-[test_register.py:26]
+2019-05-08 18:27:29,503-ERROR-test_register-日誌信息:報錯了,'{"status":1,"code":"20111","data":null,"msg":"账号错误"}' != '{"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}'
+- {"status":1,"code":"20111","data":null,"msg":"账号错误"}
+?           ^            ^^                     ^ ^^
++ {"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}
+?           ^            ^^                     ^^ ^^^^^^
+-[test_register.py:43]
+2019-05-08 18:27:29,504-INFO-test_register-日誌信息:開始測試：輸入錯誤的密碼-[test_register.py:26]
+2019-05-08 18:27:29,583-ERROR-test_register-日誌信息:報錯了,'{"status":1,"code":"20111","data":null,"msg":"密码错误"}' != '{"status":0,"code":"20108","data":null,"msg":"密码长度必须为6~18"}'
+- {"status":1,"code":"20111","data":null,"msg":"密码错误"}
+?           ^            ^^                       ^^
++ {"status":0,"code":"20108","data":null,"msg":"密码长度必须为6~18"}
+?           ^            ^^                       ^^^^^^^^^
+-[test_register.py:43]
+2019-05-08 18:27:29,583-INFO-test_register-日誌信息:開始測試：賬號為空-[test_register.py:26]
+2019-05-08 18:27:29,657-ERROR-test_register-日誌信息:報錯了,'{"status":1,"code":"20103","data":null,"msg":"账号或密码不能为空"}' != '{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}'
+- {"status":1,"code":"20103","data":null,"msg":"账号或密码不能为空"}
+?           ^                                   ^ ---
++ {"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
+?           ^                                   ^^
+-[test_register.py:43]
+2019-05-08 18:27:29,657-INFO-test_register-日誌信息:開始測試：密碼為空-[test_register.py:26]
+2019-05-08 18:27:29,734-ERROR-test_register-日誌信息:報錯了,'{"status":1,"code":"20103","data":null,"msg":"账号或密码不能为空"}' != '{"status":0,"code":"20103","data":null,"msg":"密码不能为空"}'
+- {"status":1,"code":"20103","data":null,"msg":"账号或密码不能为空"}
+?           ^                                   ---
++ {"status":0,"code":"20103","data":null,"msg":"密码不能为空"}
+?           ^
+-[test_register.py:43]
+2019-05-08 18:27:29,734-INFO-test_register-日誌信息:開始測試：None-[test_register.py:26]
+2019-05-08 18:27:29,735-INFO-test_register-日誌信息:開始測試：None-[test_register.py:26]
+2019-05-08 18:27:29,735-INFO-test_register-日誌信息:測試後置處理-[test_register.py:49]
+2019-05-08 18:27:41,009-INFO-test_add-日誌信息:準備測試前置-[test_add.py:22]
+2019-05-08 18:27:41,054-INFO-test_add-日誌信息:開始測試：登錄成功-[test_add.py:28]
+2019-05-08 18:27:41,218-INFO-test_add-日誌信息:結束測試：登錄成功-[test_add.py:48]
+2019-05-08 18:27:41,219-INFO-test_add-日誌信息:開始測試：用戶id不存在-[test_add.py:28]
+2019-05-08 18:27:41,310-INFO-test_add-日誌信息:結束測試：用戶id不存在-[test_add.py:48]
+2019-05-08 18:27:41,311-INFO-test_add-日誌信息:開始測試：用戶id為空-[test_add.py:28]
+2019-05-08 18:27:41,390-INFO-test_add-日誌信息:結束測試：用戶id為空-[test_add.py:48]
+2019-05-08 18:27:41,390-INFO-test_add-日誌信息:開始測試：用戶id位數有誤-[test_add.py:28]
+2019-05-08 18:27:41,478-INFO-test_add-日誌信息:結束測試：用戶id位數有誤-[test_add.py:48]
+2019-05-08 18:27:41,479-INFO-test_add-日誌信息:開始測試：用戶id格式有誤-[test_add.py:28]
+2019-05-08 18:27:41,583-INFO-test_add-日誌信息:結束測試：用戶id格式有誤-[test_add.py:48]
+2019-05-08 18:27:41,583-INFO-test_add-日誌信息:開始測試：用戶id合理，標題為空-[test_add.py:28]
+2019-05-08 18:27:41,643-INFO-test_add-日誌信息:開始測試：標題合理，借款金額為0-[test_add.py:28]
+2019-05-08 18:27:41,705-INFO-test_add-日誌信息:開始測試：標題合理，借款金額為空-[test_add.py:28]
+2019-05-08 18:27:41,770-INFO-test_add-日誌信息:開始測試：標題合理，借款金額<1000-[test_add.py:28]
+2019-05-08 18:27:41,829-INFO-test_add-日誌信息:開始測試：標題合理，借款金額為正整數，但不能被100整除-[test_add.py:28]
+2019-05-08 18:27:41,887-INFO-test_add-日誌信息:開始測試：標題合理，借款金額為負整數，但能被100整除-[test_add.py:28]
+2019-05-08 18:27:41,936-INFO-test_add-日誌信息:開始測試：標題合理，借款金額為非整數-[test_add.py:28]
+2019-05-08 18:27:41,994-INFO-test_add-日誌信息:開始測試：標題合理，借款金額非數字-[test_add.py:28]
+2019-05-08 18:27:42,050-INFO-test_add-日誌信息:開始測試：借款金額合理，年利率為0-[test_add.py:28]
+2019-05-08 18:27:42,105-INFO-test_add-日誌信息:開始測試：借款金額合理，年利率為空-[test_add.py:28]
+2019-05-08 18:27:42,154-INFO-test_add-日誌信息:開始測試：借款金額合理，年利率>24-[test_add.py:28]
+2019-05-08 18:27:42,201-INFO-test_add-日誌信息:開始測試：借款金額合理，年利率為非整數-[test_add.py:28]
+2019-05-08 18:27:42,259-INFO-test_add-日誌信息:開始測試：借款金額合理，年利率為負數-[test_add.py:28]
+2019-05-08 18:27:42,306-INFO-test_add-日誌信息:開始測試：借款金額合理，年利率為非數字-[test_add.py:28]
+2019-05-08 18:27:42,360-INFO-test_add-日誌信息:開始測試：年利率合理，借款期限為0-[test_add.py:28]
+2019-05-08 18:27:42,415-INFO-test_add-日誌信息:開始測試：年利率合理，借款期限為空-[test_add.py:28]
+2019-05-08 18:27:42,463-INFO-test_add-日誌信息:開始測試：年利率合理，借款期限為非整數-[test_add.py:28]
+2019-05-08 18:27:42,525-INFO-test_add-日誌信息:開始測試：年利率合理，借款期限為負數-[test_add.py:28]
+2019-05-08 18:27:42,577-INFO-test_add-日誌信息:開始測試：年利率合理，借款期限非數字-[test_add.py:28]
+2019-05-08 18:27:42,640-INFO-test_add-日誌信息:開始測試：借款期限合理，借款期限類型為空-[test_add.py:28]
+2019-05-08 18:27:42,705-INFO-test_add-日誌信息:開始測試：借款期限合理，借款期限類型非整數-[test_add.py:28]
+2019-05-08 18:27:42,764-INFO-test_add-日誌信息:開始測試：借款期限合理，借款期限類型為負數-[test_add.py:28]
+2019-05-08 18:27:42,827-INFO-test_add-日誌信息:開始測試：借款期限合理，借款期限類型為負數-[test_add.py:28]
+2019-05-08 18:27:42,882-INFO-test_add-日誌信息:開始測試：借款期限合理，借款期限類型為非0,2,4-[test_add.py:28]
+2019-05-08 18:27:42,941-INFO-test_add-日誌信息:開始測試：借款期限合理，借款期限類型為非數字-[test_add.py:28]
+2019-05-08 18:27:42,995-INFO-test_add-日誌信息:開始測試：借款期限類型合理，還款方式為空-[test_add.py:28]
+2019-05-08 18:27:43,054-INFO-test_add-日誌信息:開始測試：借款期限類型合理，還款方式非整數-[test_add.py:28]
+2019-05-08 18:27:43,114-INFO-test_add-日誌信息:開始測試：借款期限類型合理，還款方式非整數-[test_add.py:28]
+2019-05-08 18:27:43,167-INFO-test_add-日誌信息:開始測試：借款期限類型合理，還款方式為負數-[test_add.py:28]
+2019-05-08 18:27:43,223-INFO-test_add-日誌信息:開始測試：借款期限類型合理，還款方式為非4,5,10,11-[test_add.py:28]
+2019-05-08 18:27:43,276-INFO-test_add-日誌信息:開始測試：借款期限類型合理，還款方式為非4,5,10,11-[test_add.py:28]
+2019-05-08 18:27:43,342-INFO-test_add-日誌信息:開始測試：借款期限類型合理，還款方式為非數字-[test_add.py:28]
+2019-05-08 18:27:43,394-INFO-test_add-日誌信息:開始測試：還款方式合理，校驗競標天數為空-[test_add.py:28]
+2019-05-08 18:27:43,450-INFO-test_add-日誌信息:開始測試：還款方式合理，校驗競標天數為非整數-[test_add.py:28]
+2019-05-08 18:27:43,514-INFO-test_add-日誌信息:開始測試：還款方式合理，校驗競標天數為負數-[test_add.py:28]
+2019-05-08 18:27:43,567-INFO-test_add-日誌信息:開始測試：還款方式合理，校驗競標天數為非1-10-[test_add.py:28]
+2019-05-08 18:27:43,627-INFO-test_add-日誌信息:開始測試：還款方式合理，校驗競標天數為非數字-[test_add.py:28]
+2019-05-08 18:27:43,678-INFO-test_add-日誌信息:開始測試：校驗競標天數合理，為1-10-[test_add.py:28]
+2019-05-08 18:27:43,735-INFO-test_add-日誌信息:測試後置處理-[test_add.py:52]
+2019-05-08 18:27:43,736-INFO-test_audit-日誌信息:準備測試前置-[test_audit.py:22]
+2019-05-08 18:27:43,774-INFO-test_audit-日誌信息:開始測試：登錄成功-[test_audit.py:28]
+2019-05-08 18:27:43,859-INFO-test_audit-日誌信息:結束測試：登錄成功-[test_audit.py:41]
+2019-05-08 18:27:43,860-INFO-test_audit-日誌信息:開始測試：項目id不存在-[test_audit.py:28]
+2019-05-08 18:27:43,934-INFO-test_audit-日誌信息:結束測試：項目id不存在-[test_audit.py:41]
+2019-05-08 18:27:43,934-INFO-test_audit-日誌信息:開始測試：項目id為空-[test_audit.py:28]
+2019-05-08 18:27:44,006-INFO-test_audit-日誌信息:結束測試：項目id為空-[test_audit.py:41]
+2019-05-08 18:27:44,007-INFO-test_audit-日誌信息:開始測試：項目id位數有誤-[test_audit.py:28]
+2019-05-08 18:27:44,083-INFO-test_audit-日誌信息:結束測試：項目id位數有誤-[test_audit.py:41]
+2019-05-08 18:27:44,083-INFO-test_audit-日誌信息:開始測試：項目id格式有誤-[test_audit.py:28]
+2019-05-08 18:27:44,159-INFO-test_audit-日誌信息:結束測試：項目id格式有誤-[test_audit.py:41]
+2019-05-08 18:27:44,161-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態為空-[test_audit.py:28]
+2019-05-08 18:27:44,238-INFO-test_audit-日誌信息:結束測試：項目id合理，項目狀態為空-[test_audit.py:41]
+2019-05-08 18:27:44,238-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態非整數-[test_audit.py:28]
+2019-05-08 18:27:44,312-INFO-test_audit-日誌信息:結束測試：項目id合理，項目狀態非整數-[test_audit.py:41]
+2019-05-08 18:27:44,312-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態負數-[test_audit.py:28]
+2019-05-08 18:27:44,383-INFO-test_audit-日誌信息:結束測試：項目id合理，項目狀態負數-[test_audit.py:41]
+2019-05-08 18:27:44,384-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態非1-11-[test_audit.py:28]
+2019-05-08 18:27:44,462-INFO-test_audit-日誌信息:結束測試：項目id合理，項目狀態非1-11-[test_audit.py:41]
+2019-05-08 18:27:44,462-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態非數字-[test_audit.py:28]
+2019-05-08 18:27:44,540-INFO-test_audit-日誌信息:結束測試：項目id合理，項目狀態非數字-[test_audit.py:41]
+2019-05-08 18:27:44,540-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態為1-[test_audit.py:28]
+2019-05-08 18:27:44,617-ERROR-test_audit-日誌信息:報錯了,'20207' != '20206'
+- 20207
+?     ^
++ 20206
+?     ^
+-[test_audit.py:39]
+2019-05-08 18:27:44,618-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態為1——>1-[test_audit.py:28]
+2019-05-08 18:27:44,693-ERROR-test_audit-日誌信息:報錯了,'20207' != '20206'
+- 20207
+?     ^
++ 20206
+?     ^
+-[test_audit.py:39]
+2019-05-08 18:27:44,693-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態1——>2-[test_audit.py:28]
+2019-05-08 18:27:44,785-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:27:44,785-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態2——>3-[test_audit.py:28]
+2019-05-08 18:27:44,876-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:27:44,877-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態3——>4-[test_audit.py:28]
+2019-05-08 18:27:44,960-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:27:44,961-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態4——>5-[test_audit.py:28]
+2019-05-08 18:27:45,043-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:27:45,044-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態5——>6-[test_audit.py:28]
+2019-05-08 18:27:45,116-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:27:45,116-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態6——>7-[test_audit.py:28]
+2019-05-08 18:27:45,190-ERROR-test_audit-日誌信息:報錯了,'20210' != '20206'
+- 20210
+?    -
++ 20206
+?     +
+-[test_audit.py:39]
+2019-05-08 18:27:45,191-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態7——>8-[test_audit.py:28]
+2019-05-08 18:27:45,273-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:27:45,274-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態8——>9-[test_audit.py:28]
+2019-05-08 18:27:45,349-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:27:45,350-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態9——>10-[test_audit.py:28]
+2019-05-08 18:27:45,423-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:27:45,423-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態10——>11-[test_audit.py:28]
+2019-05-08 18:27:45,496-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:27:45,496-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態1——>3-[test_audit.py:28]
+2019-05-08 18:27:45,579-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:27:45,580-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態3——>5-[test_audit.py:28]
+2019-05-08 18:27:45,653-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:27:45,654-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態5——>7-[test_audit.py:28]
+2019-05-08 18:27:45,730-ERROR-test_audit-日誌信息:報錯了,'20210' != '20206'
+- 20210
+?    -
++ 20206
+?     +
+-[test_audit.py:39]
+2019-05-08 18:27:45,731-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態7——>9-[test_audit.py:28]
+2019-05-08 18:27:45,805-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:27:45,806-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態9——>11-[test_audit.py:28]
+2019-05-08 18:27:45,883-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:27:45,883-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態1——>5-[test_audit.py:28]
+2019-05-08 18:27:45,960-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:27:45,961-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態5——>8-[test_audit.py:28]
+2019-05-08 18:27:46,050-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:27:46,051-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態8——>11-[test_audit.py:28]
+2019-05-08 18:27:46,133-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:27:46,134-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態5——>9-[test_audit.py:28]
+2019-05-08 18:27:46,217-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:27:46,218-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態5——>10-[test_audit.py:28]
+2019-05-08 18:27:46,299-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:27:46,299-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態5——>11-[test_audit.py:28]
+2019-05-08 18:27:46,387-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:27:46,387-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態5——>6-[test_audit.py:28]
+2019-05-08 18:27:46,465-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:27:46,466-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態6——>8-[test_audit.py:28]
+2019-05-08 18:27:46,540-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:27:46,540-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態6——>9-[test_audit.py:28]
+2019-05-08 18:27:46,615-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:27:46,615-INFO-test_audit-日誌信息:測試後置處理-[test_audit.py:45]
+2019-05-08 18:27:46,616-INFO-test_invest-日誌信息:準備測試前置-[test_invest.py:27]
+2019-05-08 18:27:46,660-INFO-test_invest-日誌信息:開始測試：管理員登錄-[test_invest.py:33]
+2019-05-08 18:27:46,748-INFO-test_invest-日誌信息:結束測試：管理員登錄-[test_invest.py:89]
+2019-05-08 18:27:46,748-INFO-test_invest-日誌信息:開始測試：管理員加標-[test_invest.py:33]
+2019-05-08 18:27:46,803-INFO-test_invest-日誌信息:開始測試：項目狀態1——>4-[test_invest.py:33]
+2019-05-08 18:27:47,126-ERROR-test_invest-日誌信息:報錯了,'10001' != '20212'
+- 10001
++ 20212
+-[test_invest.py:87]
+2019-05-08 18:27:47,127-INFO-test_invest-日誌信息:開始測試：投資人登錄-[test_invest.py:33]
+2019-05-08 18:27:47,225-ERROR-test_invest-日誌信息:報錯了,'10001' != '20111'
+- 10001
++ 20111
+-[test_invest.py:87]
+2019-05-08 18:27:47,226-INFO-test_invest-日誌信息:開始測試：投資金額合理-[test_invest.py:33]
+2019-05-08 18:27:47,246-INFO-test_invest-日誌信息:測試後置處理-[test_invest.py:93]
+2019-05-08 18:27:47,247-INFO-test_login-日誌信息:準備測試前置-[test_login.py:20]
+2019-05-08 18:27:47,248-INFO-test_login-日誌信息:開始測試：正常登錄-[test_login.py:25]
+2019-05-08 18:27:47,334-INFO-test_login-日誌信息:結束測試：正常登錄-[test_login.py:37]
+2019-05-08 18:27:47,335-INFO-test_login-日誌信息:開始測試：輸入錯誤的賬號-[test_login.py:25]
+2019-05-08 18:27:47,410-INFO-test_login-日誌信息:結束測試：輸入錯誤的賬號-[test_login.py:37]
+2019-05-08 18:27:47,410-INFO-test_login-日誌信息:開始測試：輸入錯誤的密碼-[test_login.py:25]
+2019-05-08 18:27:47,493-INFO-test_login-日誌信息:結束測試：輸入錯誤的密碼-[test_login.py:37]
+2019-05-08 18:27:47,494-INFO-test_login-日誌信息:開始測試：賬號為空-[test_login.py:25]
+2019-05-08 18:27:47,569-INFO-test_login-日誌信息:結束測試：賬號為空-[test_login.py:37]
+2019-05-08 18:27:47,569-INFO-test_login-日誌信息:開始測試：密碼為空-[test_login.py:25]
+2019-05-08 18:27:47,651-INFO-test_login-日誌信息:結束測試：密碼為空-[test_login.py:37]
+2019-05-08 18:27:47,651-INFO-test_login-日誌信息:測試後置處理-[test_login.py:41]
+2019-05-08 18:27:47,651-INFO-test_recharge-日誌信息:準備測試前置-[test_recharge.py:22]
+2019-05-08 18:27:47,687-INFO-test_recharge-日誌信息:開始測試：登錄成功-[test_recharge.py:28]
+2019-05-08 18:27:47,704-INFO-test_recharge-日誌信息:開始測試：充值-[test_recharge.py:28]
+2019-05-08 18:27:47,721-INFO-test_recharge-日誌信息:測試後置處理-[test_recharge.py:57]
+2019-05-08 18:27:47,721-INFO-test_register-日誌信息:準備測試前置-[test_register.py:20]
+2019-05-08 18:27:47,756-INFO-test_register-日誌信息:開始測試：正常註冊-[test_register.py:26]
+2019-05-08 18:27:47,865-ERROR-test_register-日誌信息:報錯了,'{"status":1,"code":"10001","data":null,"msg":"注册成功"}' != '{"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}'
+- {"status":1,"code":"10001","data":null,"msg":"注册成功"}
+?           ^           ---                       --
++ {"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}
+?           ^         +++                       ++++++
+-[test_register.py:43]
+2019-05-08 18:27:47,865-INFO-test_register-日誌信息:開始測試：輸入錯誤的賬號-[test_register.py:26]
+2019-05-08 18:27:47,945-ERROR-test_register-日誌信息:報錯了,'{"status":1,"code":"20111","data":null,"msg":"账号错误"}' != '{"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}'
+- {"status":1,"code":"20111","data":null,"msg":"账号错误"}
+?           ^            ^^                     ^ ^^
++ {"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}
+?           ^            ^^                     ^^ ^^^^^^
+-[test_register.py:43]
+2019-05-08 18:27:47,946-INFO-test_register-日誌信息:開始測試：輸入錯誤的密碼-[test_register.py:26]
+2019-05-08 18:27:48,037-ERROR-test_register-日誌信息:報錯了,'{"status":1,"code":"20111","data":null,"msg":"密码错误"}' != '{"status":0,"code":"20108","data":null,"msg":"密码长度必须为6~18"}'
+- {"status":1,"code":"20111","data":null,"msg":"密码错误"}
+?           ^            ^^                       ^^
++ {"status":0,"code":"20108","data":null,"msg":"密码长度必须为6~18"}
+?           ^            ^^                       ^^^^^^^^^
+-[test_register.py:43]
+2019-05-08 18:27:48,038-INFO-test_register-日誌信息:開始測試：賬號為空-[test_register.py:26]
+2019-05-08 18:27:48,115-ERROR-test_register-日誌信息:報錯了,'{"status":1,"code":"20103","data":null,"msg":"账号或密码不能为空"}' != '{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}'
+- {"status":1,"code":"20103","data":null,"msg":"账号或密码不能为空"}
+?           ^                                   ^ ---
++ {"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
+?           ^                                   ^^
+-[test_register.py:43]
+2019-05-08 18:27:48,115-INFO-test_register-日誌信息:開始測試：密碼為空-[test_register.py:26]
+2019-05-08 18:27:48,200-ERROR-test_register-日誌信息:報錯了,'{"status":1,"code":"20103","data":null,"msg":"账号或密码不能为空"}' != '{"status":0,"code":"20103","data":null,"msg":"密码不能为空"}'
+- {"status":1,"code":"20103","data":null,"msg":"账号或密码不能为空"}
+?           ^                                   ---
++ {"status":0,"code":"20103","data":null,"msg":"密码不能为空"}
+?           ^
+-[test_register.py:43]
+2019-05-08 18:27:48,201-INFO-test_register-日誌信息:開始測試：None-[test_register.py:26]
+2019-05-08 18:27:48,201-INFO-test_register-日誌信息:開始測試：None-[test_register.py:26]
+2019-05-08 18:27:48,202-INFO-test_register-日誌信息:測試後置處理-[test_register.py:49]
+2019-05-08 18:29:01,241-INFO-test_add-日誌信息:準備測試前置-[test_add.py:22]
+2019-05-08 18:29:01,284-INFO-test_add-日誌信息:開始測試：登錄成功-[test_add.py:28]
+2019-05-08 18:29:01,394-INFO-test_add-日誌信息:結束測試：登錄成功-[test_add.py:48]
+2019-05-08 18:29:01,394-INFO-test_add-日誌信息:開始測試：用戶id不存在-[test_add.py:28]
+2019-05-08 18:29:01,480-INFO-test_add-日誌信息:結束測試：用戶id不存在-[test_add.py:48]
+2019-05-08 18:29:01,481-INFO-test_add-日誌信息:開始測試：用戶id為空-[test_add.py:28]
+2019-05-08 18:29:01,560-INFO-test_add-日誌信息:結束測試：用戶id為空-[test_add.py:48]
+2019-05-08 18:29:01,561-INFO-test_add-日誌信息:開始測試：用戶id位數有誤-[test_add.py:28]
+2019-05-08 18:29:01,639-INFO-test_add-日誌信息:結束測試：用戶id位數有誤-[test_add.py:48]
+2019-05-08 18:29:01,639-INFO-test_add-日誌信息:開始測試：用戶id格式有誤-[test_add.py:28]
+2019-05-08 18:29:01,715-INFO-test_add-日誌信息:結束測試：用戶id格式有誤-[test_add.py:48]
+2019-05-08 18:29:01,716-INFO-test_add-日誌信息:開始測試：用戶id合理，標題為空-[test_add.py:28]
+2019-05-08 18:29:01,773-INFO-test_add-日誌信息:開始測試：標題合理，借款金額為0-[test_add.py:28]
+2019-05-08 18:29:01,828-INFO-test_add-日誌信息:開始測試：標題合理，借款金額為空-[test_add.py:28]
+2019-05-08 18:29:01,883-INFO-test_add-日誌信息:開始測試：標題合理，借款金額<1000-[test_add.py:28]
+2019-05-08 18:29:01,949-INFO-test_add-日誌信息:開始測試：標題合理，借款金額為正整數，但不能被100整除-[test_add.py:28]
+2019-05-08 18:29:02,015-INFO-test_add-日誌信息:開始測試：標題合理，借款金額為負整數，但能被100整除-[test_add.py:28]
+2019-05-08 18:29:02,078-INFO-test_add-日誌信息:開始測試：標題合理，借款金額為非整數-[test_add.py:28]
+2019-05-08 18:29:02,139-INFO-test_add-日誌信息:開始測試：標題合理，借款金額非數字-[test_add.py:28]
+2019-05-08 18:29:02,199-INFO-test_add-日誌信息:開始測試：借款金額合理，年利率為0-[test_add.py:28]
+2019-05-08 18:29:02,249-INFO-test_add-日誌信息:開始測試：借款金額合理，年利率為空-[test_add.py:28]
+2019-05-08 18:29:02,305-INFO-test_add-日誌信息:開始測試：借款金額合理，年利率>24-[test_add.py:28]
+2019-05-08 18:29:02,364-INFO-test_add-日誌信息:開始測試：借款金額合理，年利率為非整數-[test_add.py:28]
+2019-05-08 18:29:02,422-INFO-test_add-日誌信息:開始測試：借款金額合理，年利率為負數-[test_add.py:28]
+2019-05-08 18:29:02,484-INFO-test_add-日誌信息:開始測試：借款金額合理，年利率為非數字-[test_add.py:28]
+2019-05-08 18:29:02,536-INFO-test_add-日誌信息:開始測試：年利率合理，借款期限為0-[test_add.py:28]
+2019-05-08 18:29:02,591-INFO-test_add-日誌信息:開始測試：年利率合理，借款期限為空-[test_add.py:28]
+2019-05-08 18:29:02,643-INFO-test_add-日誌信息:開始測試：年利率合理，借款期限為非整數-[test_add.py:28]
+2019-05-08 18:29:02,701-INFO-test_add-日誌信息:開始測試：年利率合理，借款期限為負數-[test_add.py:28]
+2019-05-08 18:29:02,762-INFO-test_add-日誌信息:開始測試：年利率合理，借款期限非數字-[test_add.py:28]
+2019-05-08 18:29:02,822-INFO-test_add-日誌信息:開始測試：借款期限合理，借款期限類型為空-[test_add.py:28]
+2019-05-08 18:29:02,882-INFO-test_add-日誌信息:開始測試：借款期限合理，借款期限類型非整數-[test_add.py:28]
+2019-05-08 18:29:02,942-INFO-test_add-日誌信息:開始測試：借款期限合理，借款期限類型為負數-[test_add.py:28]
+2019-05-08 18:29:03,007-INFO-test_add-日誌信息:開始測試：借款期限合理，借款期限類型為負數-[test_add.py:28]
+2019-05-08 18:29:03,059-INFO-test_add-日誌信息:開始測試：借款期限合理，借款期限類型為非0,2,4-[test_add.py:28]
+2019-05-08 18:29:03,124-INFO-test_add-日誌信息:開始測試：借款期限合理，借款期限類型為非數字-[test_add.py:28]
+2019-05-08 18:29:03,178-INFO-test_add-日誌信息:開始測試：借款期限類型合理，還款方式為空-[test_add.py:28]
+2019-05-08 18:29:03,236-INFO-test_add-日誌信息:開始測試：借款期限類型合理，還款方式非整數-[test_add.py:28]
+2019-05-08 18:29:03,290-INFO-test_add-日誌信息:開始測試：借款期限類型合理，還款方式非整數-[test_add.py:28]
+2019-05-08 18:29:03,345-INFO-test_add-日誌信息:開始測試：借款期限類型合理，還款方式為負數-[test_add.py:28]
+2019-05-08 18:29:03,405-INFO-test_add-日誌信息:開始測試：借款期限類型合理，還款方式為非4,5,10,11-[test_add.py:28]
+2019-05-08 18:29:03,449-INFO-test_add-日誌信息:開始測試：借款期限類型合理，還款方式為非4,5,10,11-[test_add.py:28]
+2019-05-08 18:29:03,508-INFO-test_add-日誌信息:開始測試：借款期限類型合理，還款方式為非數字-[test_add.py:28]
+2019-05-08 18:29:03,559-INFO-test_add-日誌信息:開始測試：還款方式合理，校驗競標天數為空-[test_add.py:28]
+2019-05-08 18:29:03,618-INFO-test_add-日誌信息:開始測試：還款方式合理，校驗競標天數為非整數-[test_add.py:28]
+2019-05-08 18:29:03,671-INFO-test_add-日誌信息:開始測試：還款方式合理，校驗競標天數為負數-[test_add.py:28]
+2019-05-08 18:29:03,734-INFO-test_add-日誌信息:開始測試：還款方式合理，校驗競標天數為非1-10-[test_add.py:28]
+2019-05-08 18:29:03,783-INFO-test_add-日誌信息:開始測試：還款方式合理，校驗競標天數為非數字-[test_add.py:28]
+2019-05-08 18:29:03,837-INFO-test_add-日誌信息:開始測試：校驗競標天數合理，為1-10-[test_add.py:28]
+2019-05-08 18:29:03,904-INFO-test_add-日誌信息:測試後置處理-[test_add.py:52]
+2019-05-08 18:29:03,905-INFO-test_audit-日誌信息:準備測試前置-[test_audit.py:22]
+2019-05-08 18:29:03,945-INFO-test_audit-日誌信息:開始測試：登錄成功-[test_audit.py:28]
+2019-05-08 18:29:04,029-INFO-test_audit-日誌信息:結束測試：登錄成功-[test_audit.py:41]
+2019-05-08 18:29:04,030-INFO-test_audit-日誌信息:開始測試：項目id不存在-[test_audit.py:28]
+2019-05-08 18:29:04,103-INFO-test_audit-日誌信息:結束測試：項目id不存在-[test_audit.py:41]
+2019-05-08 18:29:04,104-INFO-test_audit-日誌信息:開始測試：項目id為空-[test_audit.py:28]
+2019-05-08 18:29:04,176-INFO-test_audit-日誌信息:結束測試：項目id為空-[test_audit.py:41]
+2019-05-08 18:29:04,177-INFO-test_audit-日誌信息:開始測試：項目id位數有誤-[test_audit.py:28]
+2019-05-08 18:29:04,254-INFO-test_audit-日誌信息:結束測試：項目id位數有誤-[test_audit.py:41]
+2019-05-08 18:29:04,254-INFO-test_audit-日誌信息:開始測試：項目id格式有誤-[test_audit.py:28]
+2019-05-08 18:29:04,328-INFO-test_audit-日誌信息:結束測試：項目id格式有誤-[test_audit.py:41]
+2019-05-08 18:29:04,328-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態為空-[test_audit.py:28]
+2019-05-08 18:29:04,400-INFO-test_audit-日誌信息:結束測試：項目id合理，項目狀態為空-[test_audit.py:41]
+2019-05-08 18:29:04,400-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態非整數-[test_audit.py:28]
+2019-05-08 18:29:04,477-INFO-test_audit-日誌信息:結束測試：項目id合理，項目狀態非整數-[test_audit.py:41]
+2019-05-08 18:29:04,478-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態負數-[test_audit.py:28]
+2019-05-08 18:29:04,553-INFO-test_audit-日誌信息:結束測試：項目id合理，項目狀態負數-[test_audit.py:41]
+2019-05-08 18:29:04,553-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態非1-11-[test_audit.py:28]
+2019-05-08 18:29:04,628-INFO-test_audit-日誌信息:結束測試：項目id合理，項目狀態非1-11-[test_audit.py:41]
+2019-05-08 18:29:04,629-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態非數字-[test_audit.py:28]
+2019-05-08 18:29:04,711-INFO-test_audit-日誌信息:結束測試：項目id合理，項目狀態非數字-[test_audit.py:41]
+2019-05-08 18:29:04,712-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態為1-[test_audit.py:28]
+2019-05-08 18:29:04,799-ERROR-test_audit-日誌信息:報錯了,'20207' != '20206'
+- 20207
+?     ^
++ 20206
+?     ^
+-[test_audit.py:39]
+2019-05-08 18:29:04,800-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態為1——>1-[test_audit.py:28]
+2019-05-08 18:29:04,885-ERROR-test_audit-日誌信息:報錯了,'20207' != '20206'
+- 20207
+?     ^
++ 20206
+?     ^
+-[test_audit.py:39]
+2019-05-08 18:29:04,885-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態1——>2-[test_audit.py:28]
+2019-05-08 18:29:04,957-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:29:04,958-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態2——>3-[test_audit.py:28]
+2019-05-08 18:29:05,039-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:29:05,040-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態3——>4-[test_audit.py:28]
+2019-05-08 18:29:05,124-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:29:05,125-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態4——>5-[test_audit.py:28]
+2019-05-08 18:29:05,199-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:29:05,200-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態5——>6-[test_audit.py:28]
+2019-05-08 18:29:05,286-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:29:05,287-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態6——>7-[test_audit.py:28]
+2019-05-08 18:29:05,368-ERROR-test_audit-日誌信息:報錯了,'20210' != '20206'
+- 20210
+?    -
++ 20206
+?     +
+-[test_audit.py:39]
+2019-05-08 18:29:05,370-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態7——>8-[test_audit.py:28]
+2019-05-08 18:29:05,454-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:29:05,455-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態8——>9-[test_audit.py:28]
+2019-05-08 18:29:05,534-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:29:05,534-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態9——>10-[test_audit.py:28]
+2019-05-08 18:29:05,614-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:29:05,614-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態10——>11-[test_audit.py:28]
+2019-05-08 18:29:05,697-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:29:05,697-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態1——>3-[test_audit.py:28]
+2019-05-08 18:29:05,781-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:29:05,782-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態3——>5-[test_audit.py:28]
+2019-05-08 18:29:05,868-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:29:05,869-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態5——>7-[test_audit.py:28]
+2019-05-08 18:29:05,952-ERROR-test_audit-日誌信息:報錯了,'20210' != '20206'
+- 20210
+?    -
++ 20206
+?     +
+-[test_audit.py:39]
+2019-05-08 18:29:05,953-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態7——>9-[test_audit.py:28]
+2019-05-08 18:29:06,040-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:29:06,041-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態9——>11-[test_audit.py:28]
+2019-05-08 18:29:06,144-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:29:06,145-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態1——>5-[test_audit.py:28]
+2019-05-08 18:29:06,265-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:29:06,265-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態5——>8-[test_audit.py:28]
+2019-05-08 18:29:06,363-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:29:06,363-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態8——>11-[test_audit.py:28]
+2019-05-08 18:29:06,467-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:29:06,467-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態5——>9-[test_audit.py:28]
+2019-05-08 18:29:06,565-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:29:06,567-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態5——>10-[test_audit.py:28]
+2019-05-08 18:29:06,667-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:29:06,667-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態5——>11-[test_audit.py:28]
+2019-05-08 18:29:06,752-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:29:06,752-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態5——>6-[test_audit.py:28]
+2019-05-08 18:29:06,839-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:29:06,840-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態6——>8-[test_audit.py:28]
+2019-05-08 18:29:06,922-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:29:06,922-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態6——>9-[test_audit.py:28]
+2019-05-08 18:29:07,001-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:29:07,001-INFO-test_audit-日誌信息:測試後置處理-[test_audit.py:45]
+2019-05-08 18:29:07,002-INFO-test_invest-日誌信息:準備測試前置-[test_invest.py:27]
+2019-05-08 18:29:07,036-INFO-test_invest-日誌信息:開始測試：管理員登錄-[test_invest.py:33]
+2019-05-08 18:29:07,134-INFO-test_invest-日誌信息:結束測試：管理員登錄-[test_invest.py:89]
+2019-05-08 18:29:07,135-INFO-test_invest-日誌信息:開始測試：管理員加標-[test_invest.py:33]
+2019-05-08 18:29:07,182-INFO-test_invest-日誌信息:開始測試：項目狀態1——>4-[test_invest.py:33]
+2019-05-08 18:29:07,271-ERROR-test_invest-日誌信息:報錯了,'10001' != '20212'
+- 10001
++ 20212
+-[test_invest.py:87]
+2019-05-08 18:29:07,272-INFO-test_invest-日誌信息:開始測試：投資人登錄-[test_invest.py:33]
+2019-05-08 18:29:07,355-ERROR-test_invest-日誌信息:報錯了,'10001' != '20111'
+- 10001
++ 20111
+-[test_invest.py:87]
+2019-05-08 18:29:07,356-INFO-test_invest-日誌信息:開始測試：投資金額合理-[test_invest.py:33]
+2019-05-08 18:29:07,372-INFO-test_invest-日誌信息:測試後置處理-[test_invest.py:93]
+2019-05-08 18:29:07,372-INFO-test_login-日誌信息:準備測試前置-[test_login.py:20]
+2019-05-08 18:29:07,373-INFO-test_login-日誌信息:開始測試：正常登錄-[test_login.py:25]
+2019-05-08 18:29:07,458-INFO-test_login-日誌信息:結束測試：正常登錄-[test_login.py:37]
+2019-05-08 18:29:07,459-INFO-test_login-日誌信息:開始測試：輸入錯誤的賬號-[test_login.py:25]
+2019-05-08 18:29:07,543-INFO-test_login-日誌信息:結束測試：輸入錯誤的賬號-[test_login.py:37]
+2019-05-08 18:29:07,543-INFO-test_login-日誌信息:開始測試：輸入錯誤的密碼-[test_login.py:25]
+2019-05-08 18:29:07,623-INFO-test_login-日誌信息:結束測試：輸入錯誤的密碼-[test_login.py:37]
+2019-05-08 18:29:07,623-INFO-test_login-日誌信息:開始測試：賬號為空-[test_login.py:25]
+2019-05-08 18:29:07,721-INFO-test_login-日誌信息:結束測試：賬號為空-[test_login.py:37]
+2019-05-08 18:29:07,721-INFO-test_login-日誌信息:開始測試：密碼為空-[test_login.py:25]
+2019-05-08 18:29:07,808-INFO-test_login-日誌信息:結束測試：密碼為空-[test_login.py:37]
+2019-05-08 18:29:07,808-INFO-test_login-日誌信息:測試後置處理-[test_login.py:41]
+2019-05-08 18:29:07,808-INFO-test_recharge-日誌信息:準備測試前置-[test_recharge.py:22]
+2019-05-08 18:29:07,847-INFO-test_recharge-日誌信息:開始測試：登錄成功-[test_recharge.py:28]
+2019-05-08 18:29:07,863-INFO-test_recharge-日誌信息:開始測試：充值-[test_recharge.py:28]
+2019-05-08 18:29:07,879-INFO-test_recharge-日誌信息:測試後置處理-[test_recharge.py:57]
+2019-05-08 18:29:07,880-INFO-test_register-日誌信息:準備測試前置-[test_register.py:20]
+2019-05-08 18:29:07,918-INFO-test_register-日誌信息:開始測試：正常註冊-[test_register.py:26]
+2019-05-08 18:29:08,010-ERROR-test_register-日誌信息:報錯了,'{"status":1,"code":"10001","data":null,"msg":"注册成功"}' != '{"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}'
+- {"status":1,"code":"10001","data":null,"msg":"注册成功"}
+?           ^           ---                       --
++ {"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}
+?           ^         +++                       ++++++
+-[test_register.py:43]
+2019-05-08 18:29:08,011-INFO-test_register-日誌信息:開始測試：輸入錯誤的賬號-[test_register.py:26]
+2019-05-08 18:29:08,094-ERROR-test_register-日誌信息:報錯了,'{"status":1,"code":"20111","data":null,"msg":"账号错误"}' != '{"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}'
+- {"status":1,"code":"20111","data":null,"msg":"账号错误"}
+?           ^            ^^                     ^ ^^
++ {"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}
+?           ^            ^^                     ^^ ^^^^^^
+-[test_register.py:43]
+2019-05-08 18:29:08,095-INFO-test_register-日誌信息:開始測試：輸入錯誤的密碼-[test_register.py:26]
+2019-05-08 18:29:08,177-ERROR-test_register-日誌信息:報錯了,'{"status":1,"code":"20111","data":null,"msg":"密码错误"}' != '{"status":0,"code":"20108","data":null,"msg":"密码长度必须为6~18"}'
+- {"status":1,"code":"20111","data":null,"msg":"密码错误"}
+?           ^            ^^                       ^^
++ {"status":0,"code":"20108","data":null,"msg":"密码长度必须为6~18"}
+?           ^            ^^                       ^^^^^^^^^
+-[test_register.py:43]
+2019-05-08 18:29:08,178-INFO-test_register-日誌信息:開始測試：賬號為空-[test_register.py:26]
+2019-05-08 18:29:08,267-ERROR-test_register-日誌信息:報錯了,'{"status":1,"code":"20103","data":null,"msg":"账号或密码不能为空"}' != '{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}'
+- {"status":1,"code":"20103","data":null,"msg":"账号或密码不能为空"}
+?           ^                                   ^ ---
++ {"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
+?           ^                                   ^^
+-[test_register.py:43]
+2019-05-08 18:29:08,268-INFO-test_register-日誌信息:開始測試：密碼為空-[test_register.py:26]
+2019-05-08 18:29:08,349-ERROR-test_register-日誌信息:報錯了,'{"status":1,"code":"20103","data":null,"msg":"账号或密码不能为空"}' != '{"status":0,"code":"20103","data":null,"msg":"密码不能为空"}'
+- {"status":1,"code":"20103","data":null,"msg":"账号或密码不能为空"}
+?           ^                                   ---
++ {"status":0,"code":"20103","data":null,"msg":"密码不能为空"}
+?           ^
+-[test_register.py:43]
+2019-05-08 18:29:08,349-INFO-test_register-日誌信息:開始測試：None-[test_register.py:26]
+2019-05-08 18:29:08,350-INFO-test_register-日誌信息:開始測試：None-[test_register.py:26]
+2019-05-08 18:29:08,350-INFO-test_register-日誌信息:測試後置處理-[test_register.py:49]
+2019-05-08 18:31:02,101-INFO-test_add-日誌信息:準備測試前置-[test_add.py:22]
+2019-05-08 18:31:02,148-INFO-test_add-日誌信息:開始測試：登錄成功-[test_add.py:28]
+2019-05-08 18:31:02,273-INFO-test_add-日誌信息:結束測試：登錄成功-[test_add.py:48]
+2019-05-08 18:31:02,273-INFO-test_add-日誌信息:開始測試：用戶id不存在-[test_add.py:28]
+2019-05-08 18:31:02,357-INFO-test_add-日誌信息:結束測試：用戶id不存在-[test_add.py:48]
+2019-05-08 18:31:02,357-INFO-test_add-日誌信息:開始測試：用戶id為空-[test_add.py:28]
+2019-05-08 18:31:02,439-INFO-test_add-日誌信息:結束測試：用戶id為空-[test_add.py:48]
+2019-05-08 18:31:02,439-INFO-test_add-日誌信息:開始測試：用戶id位數有誤-[test_add.py:28]
+2019-05-08 18:31:02,513-INFO-test_add-日誌信息:結束測試：用戶id位數有誤-[test_add.py:48]
+2019-05-08 18:31:02,514-INFO-test_add-日誌信息:開始測試：用戶id格式有誤-[test_add.py:28]
+2019-05-08 18:31:02,594-INFO-test_add-日誌信息:結束測試：用戶id格式有誤-[test_add.py:48]
+2019-05-08 18:31:02,594-INFO-test_add-日誌信息:開始測試：用戶id合理，標題為空-[test_add.py:28]
+2019-05-08 18:31:02,657-INFO-test_add-日誌信息:開始測試：標題合理，借款金額為0-[test_add.py:28]
+2019-05-08 18:31:02,722-INFO-test_add-日誌信息:開始測試：標題合理，借款金額為空-[test_add.py:28]
+2019-05-08 18:31:02,773-INFO-test_add-日誌信息:開始測試：標題合理，借款金額<1000-[test_add.py:28]
+2019-05-08 18:31:02,829-INFO-test_add-日誌信息:開始測試：標題合理，借款金額為正整數，但不能被100整除-[test_add.py:28]
+2019-05-08 18:31:02,878-INFO-test_add-日誌信息:開始測試：標題合理，借款金額為負整數，但能被100整除-[test_add.py:28]
+2019-05-08 18:31:02,940-INFO-test_add-日誌信息:開始測試：標題合理，借款金額為非整數-[test_add.py:28]
+2019-05-08 18:31:02,986-INFO-test_add-日誌信息:開始測試：標題合理，借款金額非數字-[test_add.py:28]
+2019-05-08 18:31:03,036-INFO-test_add-日誌信息:開始測試：借款金額合理，年利率為0-[test_add.py:28]
+2019-05-08 18:31:03,097-INFO-test_add-日誌信息:開始測試：借款金額合理，年利率為空-[test_add.py:28]
+2019-05-08 18:31:03,158-INFO-test_add-日誌信息:開始測試：借款金額合理，年利率>24-[test_add.py:28]
+2019-05-08 18:31:03,219-INFO-test_add-日誌信息:開始測試：借款金額合理，年利率為非整數-[test_add.py:28]
+2019-05-08 18:31:03,268-INFO-test_add-日誌信息:開始測試：借款金額合理，年利率為負數-[test_add.py:28]
+2019-05-08 18:31:03,324-INFO-test_add-日誌信息:開始測試：借款金額合理，年利率為非數字-[test_add.py:28]
+2019-05-08 18:31:03,379-INFO-test_add-日誌信息:開始測試：年利率合理，借款期限為0-[test_add.py:28]
+2019-05-08 18:31:03,435-INFO-test_add-日誌信息:開始測試：年利率合理，借款期限為空-[test_add.py:28]
+2019-05-08 18:31:03,488-INFO-test_add-日誌信息:開始測試：年利率合理，借款期限為非整數-[test_add.py:28]
+2019-05-08 18:31:03,541-INFO-test_add-日誌信息:開始測試：年利率合理，借款期限為負數-[test_add.py:28]
+2019-05-08 18:31:03,606-INFO-test_add-日誌信息:開始測試：年利率合理，借款期限非數字-[test_add.py:28]
+2019-05-08 18:31:03,672-INFO-test_add-日誌信息:開始測試：借款期限合理，借款期限類型為空-[test_add.py:28]
+2019-05-08 18:31:03,729-INFO-test_add-日誌信息:開始測試：借款期限合理，借款期限類型非整數-[test_add.py:28]
+2019-05-08 18:31:03,777-INFO-test_add-日誌信息:開始測試：借款期限合理，借款期限類型為負數-[test_add.py:28]
+2019-05-08 18:31:03,840-INFO-test_add-日誌信息:開始測試：借款期限合理，借款期限類型為負數-[test_add.py:28]
+2019-05-08 18:31:03,887-INFO-test_add-日誌信息:開始測試：借款期限合理，借款期限類型為非0,2,4-[test_add.py:28]
+2019-05-08 18:31:03,933-INFO-test_add-日誌信息:開始測試：借款期限合理，借款期限類型為非數字-[test_add.py:28]
+2019-05-08 18:31:03,985-INFO-test_add-日誌信息:開始測試：借款期限類型合理，還款方式為空-[test_add.py:28]
+2019-05-08 18:31:04,044-INFO-test_add-日誌信息:開始測試：借款期限類型合理，還款方式非整數-[test_add.py:28]
+2019-05-08 18:31:04,094-INFO-test_add-日誌信息:開始測試：借款期限類型合理，還款方式非整數-[test_add.py:28]
+2019-05-08 18:31:04,148-INFO-test_add-日誌信息:開始測試：借款期限類型合理，還款方式為負數-[test_add.py:28]
+2019-05-08 18:31:04,207-INFO-test_add-日誌信息:開始測試：借款期限類型合理，還款方式為非4,5,10,11-[test_add.py:28]
+2019-05-08 18:31:04,265-INFO-test_add-日誌信息:開始測試：借款期限類型合理，還款方式為非4,5,10,11-[test_add.py:28]
+2019-05-08 18:31:04,312-INFO-test_add-日誌信息:開始測試：借款期限類型合理，還款方式為非數字-[test_add.py:28]
+2019-05-08 18:31:04,360-INFO-test_add-日誌信息:開始測試：還款方式合理，校驗競標天數為空-[test_add.py:28]
+2019-05-08 18:31:04,411-INFO-test_add-日誌信息:開始測試：還款方式合理，校驗競標天數為非整數-[test_add.py:28]
+2019-05-08 18:31:04,461-INFO-test_add-日誌信息:開始測試：還款方式合理，校驗競標天數為負數-[test_add.py:28]
+2019-05-08 18:31:04,513-INFO-test_add-日誌信息:開始測試：還款方式合理，校驗競標天數為非1-10-[test_add.py:28]
+2019-05-08 18:31:04,565-INFO-test_add-日誌信息:開始測試：還款方式合理，校驗競標天數為非數字-[test_add.py:28]
+2019-05-08 18:31:04,625-INFO-test_add-日誌信息:開始測試：校驗競標天數合理，為1-10-[test_add.py:28]
+2019-05-08 18:31:04,684-INFO-test_add-日誌信息:測試後置處理-[test_add.py:52]
+2019-05-08 18:31:04,685-INFO-test_audit-日誌信息:準備測試前置-[test_audit.py:22]
+2019-05-08 18:31:04,722-INFO-test_audit-日誌信息:開始測試：登錄成功-[test_audit.py:28]
+2019-05-08 18:31:04,803-INFO-test_audit-日誌信息:結束測試：登錄成功-[test_audit.py:41]
+2019-05-08 18:31:04,803-INFO-test_audit-日誌信息:開始測試：項目id不存在-[test_audit.py:28]
+2019-05-08 18:31:04,879-INFO-test_audit-日誌信息:結束測試：項目id不存在-[test_audit.py:41]
+2019-05-08 18:31:04,880-INFO-test_audit-日誌信息:開始測試：項目id為空-[test_audit.py:28]
+2019-05-08 18:31:04,952-INFO-test_audit-日誌信息:結束測試：項目id為空-[test_audit.py:41]
+2019-05-08 18:31:04,952-INFO-test_audit-日誌信息:開始測試：項目id位數有誤-[test_audit.py:28]
+2019-05-08 18:31:05,023-INFO-test_audit-日誌信息:結束測試：項目id位數有誤-[test_audit.py:41]
+2019-05-08 18:31:05,023-INFO-test_audit-日誌信息:開始測試：項目id格式有誤-[test_audit.py:28]
+2019-05-08 18:31:05,096-INFO-test_audit-日誌信息:結束測試：項目id格式有誤-[test_audit.py:41]
+2019-05-08 18:31:05,096-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態為空-[test_audit.py:28]
+2019-05-08 18:31:05,177-INFO-test_audit-日誌信息:結束測試：項目id合理，項目狀態為空-[test_audit.py:41]
+2019-05-08 18:31:05,177-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態非整數-[test_audit.py:28]
+2019-05-08 18:31:05,263-INFO-test_audit-日誌信息:結束測試：項目id合理，項目狀態非整數-[test_audit.py:41]
+2019-05-08 18:31:05,263-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態負數-[test_audit.py:28]
+2019-05-08 18:31:05,342-INFO-test_audit-日誌信息:結束測試：項目id合理，項目狀態負數-[test_audit.py:41]
+2019-05-08 18:31:05,342-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態非1-11-[test_audit.py:28]
+2019-05-08 18:31:05,411-INFO-test_audit-日誌信息:結束測試：項目id合理，項目狀態非1-11-[test_audit.py:41]
+2019-05-08 18:31:05,412-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態非數字-[test_audit.py:28]
+2019-05-08 18:31:05,482-INFO-test_audit-日誌信息:結束測試：項目id合理，項目狀態非數字-[test_audit.py:41]
+2019-05-08 18:31:05,482-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態為1-[test_audit.py:28]
+2019-05-08 18:31:05,555-ERROR-test_audit-日誌信息:報錯了,'20207' != '20206'
+- 20207
+?     ^
++ 20206
+?     ^
+-[test_audit.py:39]
+2019-05-08 18:31:05,555-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態為1——>1-[test_audit.py:28]
+2019-05-08 18:31:05,630-ERROR-test_audit-日誌信息:報錯了,'20207' != '20206'
+- 20207
+?     ^
++ 20206
+?     ^
+-[test_audit.py:39]
+2019-05-08 18:31:05,631-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態1——>2-[test_audit.py:28]
+2019-05-08 18:31:05,705-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:31:05,705-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態2——>3-[test_audit.py:28]
+2019-05-08 18:31:05,786-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:31:05,786-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態3——>4-[test_audit.py:28]
+2019-05-08 18:31:05,864-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:31:05,865-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態4——>5-[test_audit.py:28]
+2019-05-08 18:31:05,940-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:31:05,941-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態5——>6-[test_audit.py:28]
+2019-05-08 18:31:06,017-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:31:06,018-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態6——>7-[test_audit.py:28]
+2019-05-08 18:31:06,100-ERROR-test_audit-日誌信息:報錯了,'20210' != '20206'
+- 20210
+?    -
++ 20206
+?     +
+-[test_audit.py:39]
+2019-05-08 18:31:06,100-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態7——>8-[test_audit.py:28]
+2019-05-08 18:31:06,176-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:31:06,177-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態8——>9-[test_audit.py:28]
+2019-05-08 18:31:06,252-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:31:06,252-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態9——>10-[test_audit.py:28]
+2019-05-08 18:31:06,326-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:31:06,328-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態10——>11-[test_audit.py:28]
+2019-05-08 18:31:06,402-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:31:06,402-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態1——>3-[test_audit.py:28]
+2019-05-08 18:31:06,478-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:31:06,479-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態3——>5-[test_audit.py:28]
+2019-05-08 18:31:06,567-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:31:06,567-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態5——>7-[test_audit.py:28]
+2019-05-08 18:31:06,652-ERROR-test_audit-日誌信息:報錯了,'20210' != '20206'
+- 20210
+?    -
++ 20206
+?     +
+-[test_audit.py:39]
+2019-05-08 18:31:06,653-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態7——>9-[test_audit.py:28]
+2019-05-08 18:31:06,738-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:31:06,738-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態9——>11-[test_audit.py:28]
+2019-05-08 18:31:06,816-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:31:06,817-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態1——>5-[test_audit.py:28]
+2019-05-08 18:31:06,898-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:31:06,899-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態5——>8-[test_audit.py:28]
+2019-05-08 18:31:06,971-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:31:06,971-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態8——>11-[test_audit.py:28]
+2019-05-08 18:31:07,045-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:31:07,046-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態5——>9-[test_audit.py:28]
+2019-05-08 18:31:07,118-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:31:07,119-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態5——>10-[test_audit.py:28]
+2019-05-08 18:31:07,192-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:31:07,192-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態5——>11-[test_audit.py:28]
+2019-05-08 18:31:07,270-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:31:07,271-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態5——>6-[test_audit.py:28]
+2019-05-08 18:31:07,343-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:31:07,344-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態6——>8-[test_audit.py:28]
+2019-05-08 18:31:07,420-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:31:07,421-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態6——>9-[test_audit.py:28]
+2019-05-08 18:31:07,493-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:31:07,494-INFO-test_audit-日誌信息:測試後置處理-[test_audit.py:45]
+2019-05-08 18:31:07,495-INFO-test_invest-日誌信息:準備測試前置-[test_invest.py:27]
+2019-05-08 18:31:07,534-INFO-test_invest-日誌信息:開始測試：管理員登錄-[test_invest.py:33]
+2019-05-08 18:31:07,618-INFO-test_invest-日誌信息:結束測試：管理員登錄-[test_invest.py:89]
+2019-05-08 18:31:07,618-INFO-test_invest-日誌信息:開始測試：管理員加標-[test_invest.py:33]
+2019-05-08 18:31:07,671-INFO-test_invest-日誌信息:開始測試：項目狀態1——>4-[test_invest.py:33]
+2019-05-08 18:31:07,748-ERROR-test_invest-日誌信息:報錯了,'10001' != '20212'
+- 10001
++ 20212
+-[test_invest.py:87]
+2019-05-08 18:31:07,749-INFO-test_invest-日誌信息:開始測試：投資人登錄-[test_invest.py:33]
+2019-05-08 18:31:07,827-ERROR-test_invest-日誌信息:報錯了,'10001' != '20111'
+- 10001
++ 20111
+-[test_invest.py:87]
+2019-05-08 18:31:07,828-INFO-test_invest-日誌信息:開始測試：投資金額合理-[test_invest.py:33]
+2019-05-08 18:31:07,846-INFO-test_invest-日誌信息:測試後置處理-[test_invest.py:93]
+2019-05-08 18:31:07,847-INFO-test_login-日誌信息:準備測試前置-[test_login.py:20]
+2019-05-08 18:31:07,848-INFO-test_login-日誌信息:開始測試：正常登錄-[test_login.py:25]
+2019-05-08 18:31:07,941-INFO-test_login-日誌信息:結束測試：正常登錄-[test_login.py:37]
+2019-05-08 18:31:07,942-INFO-test_login-日誌信息:開始測試：輸入錯誤的賬號-[test_login.py:25]
+2019-05-08 18:31:08,023-INFO-test_login-日誌信息:結束測試：輸入錯誤的賬號-[test_login.py:37]
+2019-05-08 18:31:08,024-INFO-test_login-日誌信息:開始測試：輸入錯誤的密碼-[test_login.py:25]
+2019-05-08 18:31:08,110-INFO-test_login-日誌信息:結束測試：輸入錯誤的密碼-[test_login.py:37]
+2019-05-08 18:31:08,111-INFO-test_login-日誌信息:開始測試：賬號為空-[test_login.py:25]
+2019-05-08 18:31:08,186-INFO-test_login-日誌信息:結束測試：賬號為空-[test_login.py:37]
+2019-05-08 18:31:08,186-INFO-test_login-日誌信息:開始測試：密碼為空-[test_login.py:25]
+2019-05-08 18:31:08,264-INFO-test_login-日誌信息:結束測試：密碼為空-[test_login.py:37]
+2019-05-08 18:31:08,264-INFO-test_login-日誌信息:測試後置處理-[test_login.py:41]
+2019-05-08 18:31:08,264-INFO-test_recharge-日誌信息:準備測試前置-[test_recharge.py:22]
+2019-05-08 18:31:08,302-INFO-test_recharge-日誌信息:開始測試：登錄成功-[test_recharge.py:28]
+2019-05-08 18:31:08,320-INFO-test_recharge-日誌信息:開始測試：充值-[test_recharge.py:28]
+2019-05-08 18:31:08,338-INFO-test_recharge-日誌信息:測試後置處理-[test_recharge.py:57]
+2019-05-08 18:31:08,339-INFO-test_register-日誌信息:準備測試前置-[test_register.py:20]
+2019-05-08 18:31:08,381-INFO-test_register-日誌信息:開始測試：正常註冊-[test_register.py:26]
+2019-05-08 18:31:08,481-ERROR-test_register-日誌信息:報錯了,'{"status":1,"code":"10001","data":null,"msg":"注册成功"}' != '{"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}'
+- {"status":1,"code":"10001","data":null,"msg":"注册成功"}
+?           ^           ---                       --
++ {"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}
+?           ^         +++                       ++++++
+-[test_register.py:43]
+2019-05-08 18:31:08,481-INFO-test_register-日誌信息:開始測試：輸入錯誤的賬號-[test_register.py:26]
+2019-05-08 18:31:08,564-ERROR-test_register-日誌信息:報錯了,'{"status":1,"code":"20111","data":null,"msg":"账号错误"}' != '{"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}'
+- {"status":1,"code":"20111","data":null,"msg":"账号错误"}
+?           ^            ^^                     ^ ^^
++ {"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}
+?           ^            ^^                     ^^ ^^^^^^
+-[test_register.py:43]
+2019-05-08 18:31:08,564-INFO-test_register-日誌信息:開始測試：輸入錯誤的密碼-[test_register.py:26]
+2019-05-08 18:31:08,647-ERROR-test_register-日誌信息:報錯了,'{"status":1,"code":"20111","data":null,"msg":"密码错误"}' != '{"status":0,"code":"20108","data":null,"msg":"密码长度必须为6~18"}'
+- {"status":1,"code":"20111","data":null,"msg":"密码错误"}
+?           ^            ^^                       ^^
++ {"status":0,"code":"20108","data":null,"msg":"密码长度必须为6~18"}
+?           ^            ^^                       ^^^^^^^^^
+-[test_register.py:43]
+2019-05-08 18:31:08,648-INFO-test_register-日誌信息:開始測試：賬號為空-[test_register.py:26]
+2019-05-08 18:31:08,731-ERROR-test_register-日誌信息:報錯了,'{"status":1,"code":"20103","data":null,"msg":"账号或密码不能为空"}' != '{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}'
+- {"status":1,"code":"20103","data":null,"msg":"账号或密码不能为空"}
+?           ^                                   ^ ---
++ {"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
+?           ^                                   ^^
+-[test_register.py:43]
+2019-05-08 18:31:08,731-INFO-test_register-日誌信息:開始測試：密碼為空-[test_register.py:26]
+2019-05-08 18:31:08,804-ERROR-test_register-日誌信息:報錯了,'{"status":1,"code":"20103","data":null,"msg":"账号或密码不能为空"}' != '{"status":0,"code":"20103","data":null,"msg":"密码不能为空"}'
+- {"status":1,"code":"20103","data":null,"msg":"账号或密码不能为空"}
+?           ^                                   ---
++ {"status":0,"code":"20103","data":null,"msg":"密码不能为空"}
+?           ^
+-[test_register.py:43]
+2019-05-08 18:31:08,804-INFO-test_register-日誌信息:開始測試：None-[test_register.py:26]
+2019-05-08 18:31:08,805-INFO-test_register-日誌信息:開始測試：None-[test_register.py:26]
+2019-05-08 18:31:08,805-INFO-test_register-日誌信息:測試後置處理-[test_register.py:49]
+2019-05-08 18:40:37,718-INFO-test_add-日誌信息:準備測試前置-[test_add.py:22]
+2019-05-08 18:40:41,943-INFO-test_add-日誌信息:開始測試：登錄成功-[test_add.py:28]
+2019-05-08 18:40:42,412-INFO-test_add-日誌信息:結束測試：登錄成功-[test_add.py:48]
+2019-05-08 18:40:42,413-INFO-test_add-日誌信息:開始測試：用戶id不存在-[test_add.py:28]
+2019-05-08 18:40:42,883-INFO-test_add-日誌信息:結束測試：用戶id不存在-[test_add.py:48]
+2019-05-08 18:40:42,883-INFO-test_add-日誌信息:開始測試：用戶id為空-[test_add.py:28]
+2019-05-08 18:40:43,076-INFO-test_add-日誌信息:結束測試：用戶id為空-[test_add.py:48]
+2019-05-08 18:40:43,076-INFO-test_add-日誌信息:開始測試：用戶id位數有誤-[test_add.py:28]
+2019-05-08 18:40:43,223-INFO-test_add-日誌信息:結束測試：用戶id位數有誤-[test_add.py:48]
+2019-05-08 18:40:43,223-INFO-test_add-日誌信息:開始測試：用戶id格式有誤-[test_add.py:28]
+2019-05-08 18:40:43,320-INFO-test_add-日誌信息:結束測試：用戶id格式有誤-[test_add.py:48]
+2019-05-08 18:40:43,321-INFO-test_add-日誌信息:開始測試：用戶id合理，標題為空-[test_add.py:28]
+2019-05-08 18:40:43,553-INFO-test_add-日誌信息:開始測試：標題合理，借款金額為0-[test_add.py:28]
+2019-05-08 18:40:43,604-INFO-test_add-日誌信息:開始測試：標題合理，借款金額為空-[test_add.py:28]
+2019-05-08 18:40:43,656-INFO-test_add-日誌信息:開始測試：標題合理，借款金額<1000-[test_add.py:28]
+2019-05-08 18:40:43,706-INFO-test_add-日誌信息:開始測試：標題合理，借款金額為正整數，但不能被100整除-[test_add.py:28]
+2019-05-08 18:40:43,759-INFO-test_add-日誌信息:開始測試：標題合理，借款金額為負整數，但能被100整除-[test_add.py:28]
+2019-05-08 18:40:43,818-INFO-test_add-日誌信息:開始測試：標題合理，借款金額為非整數-[test_add.py:28]
+2019-05-08 18:40:43,875-INFO-test_add-日誌信息:開始測試：標題合理，借款金額非數字-[test_add.py:28]
+2019-05-08 18:40:43,929-INFO-test_add-日誌信息:開始測試：借款金額合理，年利率為0-[test_add.py:28]
+2019-05-08 18:40:43,982-INFO-test_add-日誌信息:開始測試：借款金額合理，年利率為空-[test_add.py:28]
+2019-05-08 18:40:44,033-INFO-test_add-日誌信息:開始測試：借款金額合理，年利率>24-[test_add.py:28]
+2019-05-08 18:40:44,097-INFO-test_add-日誌信息:開始測試：借款金額合理，年利率為非整數-[test_add.py:28]
+2019-05-08 18:40:44,151-INFO-test_add-日誌信息:開始測試：借款金額合理，年利率為負數-[test_add.py:28]
+2019-05-08 18:40:44,206-INFO-test_add-日誌信息:開始測試：借款金額合理，年利率為非數字-[test_add.py:28]
+2019-05-08 18:40:44,262-INFO-test_add-日誌信息:開始測試：年利率合理，借款期限為0-[test_add.py:28]
+2019-05-08 18:40:44,326-INFO-test_add-日誌信息:開始測試：年利率合理，借款期限為空-[test_add.py:28]
+2019-05-08 18:40:44,389-INFO-test_add-日誌信息:開始測試：年利率合理，借款期限為非整數-[test_add.py:28]
+2019-05-08 18:40:44,459-INFO-test_add-日誌信息:開始測試：年利率合理，借款期限為負數-[test_add.py:28]
+2019-05-08 18:40:44,525-INFO-test_add-日誌信息:開始測試：年利率合理，借款期限非數字-[test_add.py:28]
+2019-05-08 18:40:44,577-INFO-test_add-日誌信息:開始測試：借款期限合理，借款期限類型為空-[test_add.py:28]
+2019-05-08 18:40:44,630-INFO-test_add-日誌信息:開始測試：借款期限合理，借款期限類型非整數-[test_add.py:28]
+2019-05-08 18:40:44,687-INFO-test_add-日誌信息:開始測試：借款期限合理，借款期限類型為負數-[test_add.py:28]
+2019-05-08 18:40:44,736-INFO-test_add-日誌信息:開始測試：借款期限合理，借款期限類型為負數-[test_add.py:28]
+2019-05-08 18:40:44,800-INFO-test_add-日誌信息:開始測試：借款期限合理，借款期限類型為非0,2,4-[test_add.py:28]
+2019-05-08 18:40:44,867-INFO-test_add-日誌信息:開始測試：借款期限合理，借款期限類型為非數字-[test_add.py:28]
+2019-05-08 18:40:44,928-INFO-test_add-日誌信息:開始測試：借款期限類型合理，還款方式為空-[test_add.py:28]
+2019-05-08 18:40:44,986-INFO-test_add-日誌信息:開始測試：借款期限類型合理，還款方式非整數-[test_add.py:28]
+2019-05-08 18:40:45,038-INFO-test_add-日誌信息:開始測試：借款期限類型合理，還款方式非整數-[test_add.py:28]
+2019-05-08 18:40:45,102-INFO-test_add-日誌信息:開始測試：借款期限類型合理，還款方式為負數-[test_add.py:28]
+2019-05-08 18:40:45,159-INFO-test_add-日誌信息:開始測試：借款期限類型合理，還款方式為非4,5,10,11-[test_add.py:28]
+2019-05-08 18:40:45,222-INFO-test_add-日誌信息:開始測試：借款期限類型合理，還款方式為非4,5,10,11-[test_add.py:28]
+2019-05-08 18:40:45,287-INFO-test_add-日誌信息:開始測試：借款期限類型合理，還款方式為非數字-[test_add.py:28]
+2019-05-08 18:40:45,338-INFO-test_add-日誌信息:開始測試：還款方式合理，校驗競標天數為空-[test_add.py:28]
+2019-05-08 18:40:45,384-INFO-test_add-日誌信息:開始測試：還款方式合理，校驗競標天數為非整數-[test_add.py:28]
+2019-05-08 18:40:45,446-INFO-test_add-日誌信息:開始測試：還款方式合理，校驗競標天數為負數-[test_add.py:28]
+2019-05-08 18:40:45,505-INFO-test_add-日誌信息:開始測試：還款方式合理，校驗競標天數為非1-10-[test_add.py:28]
+2019-05-08 18:40:45,559-INFO-test_add-日誌信息:開始測試：還款方式合理，校驗競標天數為非數字-[test_add.py:28]
+2019-05-08 18:40:45,611-INFO-test_add-日誌信息:開始測試：校驗競標天數合理，為1-10-[test_add.py:28]
+2019-05-08 18:40:45,667-INFO-test_add-日誌信息:測試後置處理-[test_add.py:52]
+2019-05-08 18:40:45,668-INFO-test_audit-日誌信息:準備測試前置-[test_audit.py:22]
+2019-05-08 18:40:45,708-INFO-test_audit-日誌信息:開始測試：登錄成功-[test_audit.py:28]
+2019-05-08 18:40:45,865-INFO-test_audit-日誌信息:結束測試：登錄成功-[test_audit.py:41]
+2019-05-08 18:40:45,865-INFO-test_audit-日誌信息:開始測試：項目id不存在-[test_audit.py:28]
+2019-05-08 18:40:46,035-INFO-test_audit-日誌信息:結束測試：項目id不存在-[test_audit.py:41]
+2019-05-08 18:40:46,035-INFO-test_audit-日誌信息:開始測試：項目id為空-[test_audit.py:28]
+2019-05-08 18:40:46,195-INFO-test_audit-日誌信息:結束測試：項目id為空-[test_audit.py:41]
+2019-05-08 18:40:46,196-INFO-test_audit-日誌信息:開始測試：項目id位數有誤-[test_audit.py:28]
+2019-05-08 18:40:46,300-INFO-test_audit-日誌信息:結束測試：項目id位數有誤-[test_audit.py:41]
+2019-05-08 18:40:46,300-INFO-test_audit-日誌信息:開始測試：項目id格式有誤-[test_audit.py:28]
+2019-05-08 18:40:46,379-INFO-test_audit-日誌信息:結束測試：項目id格式有誤-[test_audit.py:41]
+2019-05-08 18:40:46,380-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態為空-[test_audit.py:28]
+2019-05-08 18:40:46,535-INFO-test_audit-日誌信息:結束測試：項目id合理，項目狀態為空-[test_audit.py:41]
+2019-05-08 18:40:46,535-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態非整數-[test_audit.py:28]
+2019-05-08 18:40:46,631-INFO-test_audit-日誌信息:結束測試：項目id合理，項目狀態非整數-[test_audit.py:41]
+2019-05-08 18:40:46,632-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態負數-[test_audit.py:28]
+2019-05-08 18:40:46,721-INFO-test_audit-日誌信息:結束測試：項目id合理，項目狀態負數-[test_audit.py:41]
+2019-05-08 18:40:46,721-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態非1-11-[test_audit.py:28]
+2019-05-08 18:40:46,857-INFO-test_audit-日誌信息:結束測試：項目id合理，項目狀態非1-11-[test_audit.py:41]
+2019-05-08 18:40:46,858-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態非數字-[test_audit.py:28]
+2019-05-08 18:40:46,933-INFO-test_audit-日誌信息:結束測試：項目id合理，項目狀態非數字-[test_audit.py:41]
+2019-05-08 18:40:46,933-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態為1-[test_audit.py:28]
+2019-05-08 18:40:47,009-ERROR-test_audit-日誌信息:報錯了,'20207' != '20206'
+- 20207
+?     ^
++ 20206
+?     ^
+-[test_audit.py:39]
+2019-05-08 18:40:47,150-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態為1——>1-[test_audit.py:28]
+2019-05-08 18:40:47,236-ERROR-test_audit-日誌信息:報錯了,'20207' != '20206'
+- 20207
+?     ^
++ 20206
+?     ^
+-[test_audit.py:39]
+2019-05-08 18:40:47,237-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態1——>2-[test_audit.py:28]
+2019-05-08 18:40:47,323-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:40:47,323-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態2——>3-[test_audit.py:28]
+2019-05-08 18:40:47,416-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:40:47,416-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態3——>4-[test_audit.py:28]
+2019-05-08 18:40:47,506-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:40:47,507-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態4——>5-[test_audit.py:28]
+2019-05-08 18:40:47,615-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:40:47,616-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態5——>6-[test_audit.py:28]
+2019-05-08 18:40:47,760-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:40:47,761-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態6——>7-[test_audit.py:28]
+2019-05-08 18:40:47,884-ERROR-test_audit-日誌信息:報錯了,'20210' != '20206'
+- 20210
+?    -
++ 20206
+?     +
+-[test_audit.py:39]
+2019-05-08 18:40:47,884-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態7——>8-[test_audit.py:28]
+2019-05-08 18:40:47,986-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:40:47,987-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態8——>9-[test_audit.py:28]
+2019-05-08 18:40:48,070-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:40:48,070-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態9——>10-[test_audit.py:28]
+2019-05-08 18:40:48,170-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:40:48,170-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態10——>11-[test_audit.py:28]
+2019-05-08 18:40:48,270-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:40:48,270-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態1——>3-[test_audit.py:28]
+2019-05-08 18:40:48,356-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:40:48,357-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態3——>5-[test_audit.py:28]
+2019-05-08 18:40:48,451-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:40:48,451-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態5——>7-[test_audit.py:28]
+2019-05-08 18:40:49,039-ERROR-test_audit-日誌信息:報錯了,'20210' != '20206'
+- 20210
+?    -
++ 20206
+?     +
+-[test_audit.py:39]
+2019-05-08 18:40:49,039-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態7——>9-[test_audit.py:28]
+2019-05-08 18:40:49,117-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:40:49,117-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態9——>11-[test_audit.py:28]
+2019-05-08 18:40:49,228-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:40:49,229-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態1——>5-[test_audit.py:28]
+2019-05-08 18:40:49,371-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:40:49,372-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態5——>8-[test_audit.py:28]
+2019-05-08 18:40:49,492-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:40:49,493-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態8——>11-[test_audit.py:28]
+2019-05-08 18:40:49,568-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:40:49,569-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態5——>9-[test_audit.py:28]
+2019-05-08 18:40:49,663-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:40:49,664-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態5——>10-[test_audit.py:28]
+2019-05-08 18:40:49,747-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:40:49,748-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態5——>11-[test_audit.py:28]
+2019-05-08 18:40:49,839-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:40:49,840-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態5——>6-[test_audit.py:28]
+2019-05-08 18:40:49,929-ERROR-test_audit-日誌信息:報錯了,'10001' != '20206'
+- 10001
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:40:49,930-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態6——>8-[test_audit.py:28]
+2019-05-08 18:40:50,031-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:40:50,032-INFO-test_audit-日誌信息:開始測試：項目id合理，項目狀態6——>9-[test_audit.py:28]
+2019-05-08 18:40:50,125-ERROR-test_audit-日誌信息:報錯了,'20211' != '20206'
+- 20211
++ 20206
+-[test_audit.py:39]
+2019-05-08 18:40:50,126-INFO-test_audit-日誌信息:測試後置處理-[test_audit.py:45]
+2019-05-08 18:40:50,127-INFO-test_invest-日誌信息:準備測試前置-[test_invest.py:27]
+2019-05-08 18:40:50,169-INFO-test_invest-日誌信息:開始測試：管理員登錄-[test_invest.py:33]
+2019-05-08 18:40:50,296-INFO-test_invest-日誌信息:結束測試：管理員登錄-[test_invest.py:89]
+2019-05-08 18:40:50,296-INFO-test_invest-日誌信息:開始測試：管理員加標-[test_invest.py:33]
+2019-05-08 18:40:50,511-INFO-test_invest-日誌信息:開始測試：項目狀態1——>4-[test_invest.py:33]
+2019-05-08 18:40:50,598-ERROR-test_invest-日誌信息:報錯了,'10001' != '20212'
+- 10001
++ 20212
+-[test_invest.py:87]
+2019-05-08 18:40:50,598-INFO-test_invest-日誌信息:開始測試：投資人登錄-[test_invest.py:33]
+2019-05-08 18:40:50,684-ERROR-test_invest-日誌信息:報錯了,'10001' != '20111'
+- 10001
++ 20111
+-[test_invest.py:87]
+2019-05-08 18:40:50,685-INFO-test_invest-日誌信息:開始測試：投資金額合理-[test_invest.py:33]
+2019-05-08 18:40:50,705-INFO-test_invest-日誌信息:測試後置處理-[test_invest.py:93]
+2019-05-08 18:40:50,706-INFO-test_login-日誌信息:準備測試前置-[test_login.py:20]
+2019-05-08 18:40:50,706-INFO-test_login-日誌信息:開始測試：正常登錄-[test_login.py:25]
+2019-05-08 18:40:50,831-INFO-test_login-日誌信息:結束測試：正常登錄-[test_login.py:37]
+2019-05-08 18:40:50,831-INFO-test_login-日誌信息:開始測試：輸入錯誤的賬號-[test_login.py:25]
+2019-05-08 18:40:50,914-INFO-test_login-日誌信息:結束測試：輸入錯誤的賬號-[test_login.py:37]
+2019-05-08 18:40:50,915-INFO-test_login-日誌信息:開始測試：輸入錯誤的密碼-[test_login.py:25]
+2019-05-08 18:40:51,023-INFO-test_login-日誌信息:結束測試：輸入錯誤的密碼-[test_login.py:37]
+2019-05-08 18:40:51,023-INFO-test_login-日誌信息:開始測試：賬號為空-[test_login.py:25]
+2019-05-08 18:40:51,161-INFO-test_login-日誌信息:結束測試：賬號為空-[test_login.py:37]
+2019-05-08 18:40:51,161-INFO-test_login-日誌信息:開始測試：密碼為空-[test_login.py:25]
+2019-05-08 18:40:51,259-INFO-test_login-日誌信息:結束測試：密碼為空-[test_login.py:37]
+2019-05-08 18:40:51,259-INFO-test_login-日誌信息:測試後置處理-[test_login.py:41]
+2019-05-08 18:40:51,259-INFO-test_recharge-日誌信息:準備測試前置-[test_recharge.py:22]
+2019-05-08 18:40:51,300-INFO-test_recharge-日誌信息:開始測試：登錄成功-[test_recharge.py:28]
+2019-05-08 18:40:51,541-INFO-test_recharge-日誌信息:開始測試：充值-[test_recharge.py:28]
+2019-05-08 18:40:51,559-INFO-test_recharge-日誌信息:測試後置處理-[test_recharge.py:57]
+2019-05-08 18:40:51,560-INFO-test_register-日誌信息:準備測試前置-[test_register.py:20]
+2019-05-08 18:40:51,592-INFO-test_register-日誌信息:開始測試：正常註冊-[test_register.py:26]
+2019-05-08 18:40:51,689-ERROR-test_register-日誌信息:報錯了,'{"status":1,"code":"10001","data":null,"msg":"注册成功"}' != '{"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}'
+- {"status":1,"code":"10001","data":null,"msg":"注册成功"}
+?           ^           ---                       --
++ {"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}
+?           ^         +++                       ++++++
+-[test_register.py:43]
+2019-05-08 18:40:51,749-INFO-test_register-日誌信息:開始測試：輸入錯誤的賬號-[test_register.py:26]
+2019-05-08 18:40:51,858-ERROR-test_register-日誌信息:報錯了,'{"status":1,"code":"20111","data":null,"msg":"账号错误"}' != '{"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}'
+- {"status":1,"code":"20111","data":null,"msg":"账号错误"}
+?           ^            ^^                     ^ ^^
++ {"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}
+?           ^            ^^                     ^^ ^^^^^^
+-[test_register.py:43]
+2019-05-08 18:40:51,859-INFO-test_register-日誌信息:開始測試：輸入錯誤的密碼-[test_register.py:26]
+2019-05-08 18:40:51,955-ERROR-test_register-日誌信息:報錯了,'{"status":1,"code":"20111","data":null,"msg":"密码错误"}' != '{"status":0,"code":"20108","data":null,"msg":"密码长度必须为6~18"}'
+- {"status":1,"code":"20111","data":null,"msg":"密码错误"}
+?           ^            ^^                       ^^
++ {"status":0,"code":"20108","data":null,"msg":"密码长度必须为6~18"}
+?           ^            ^^                       ^^^^^^^^^
+-[test_register.py:43]
+2019-05-08 18:40:51,955-INFO-test_register-日誌信息:開始測試：賬號為空-[test_register.py:26]
+2019-05-08 18:40:52,050-ERROR-test_register-日誌信息:報錯了,'{"status":1,"code":"20103","data":null,"msg":"账号或密码不能为空"}' != '{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}'
+- {"status":1,"code":"20103","data":null,"msg":"账号或密码不能为空"}
+?           ^                                   ^ ---
++ {"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
+?           ^                                   ^^
+-[test_register.py:43]
+2019-05-08 18:40:52,050-INFO-test_register-日誌信息:開始測試：密碼為空-[test_register.py:26]
+2019-05-08 18:40:52,125-ERROR-test_register-日誌信息:報錯了,'{"status":1,"code":"20103","data":null,"msg":"账号或密码不能为空"}' != '{"status":0,"code":"20103","data":null,"msg":"密码不能为空"}'
+- {"status":1,"code":"20103","data":null,"msg":"账号或密码不能为空"}
+?           ^                                   ---
++ {"status":0,"code":"20103","data":null,"msg":"密码不能为空"}
+?           ^
+-[test_register.py:43]
+2019-05-08 18:40:52,126-INFO-test_register-日誌信息:開始測試：None-[test_register.py:26]
+2019-05-08 18:40:52,143-INFO-test_register-日誌信息:開始測試：None-[test_register.py:26]
+2019-05-08 18:40:52,144-INFO-test_register-日誌信息:測試後置處理-[test_register.py:49]
