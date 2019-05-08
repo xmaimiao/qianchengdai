@@ -15,7 +15,7 @@ class Test_Login(unittest.TestCase):
     do_excel = Do_Excel(contants.case_dir, 'login')
     cases = do_excel.read_excel()
 
-    @classmethod                    #不定義為類方法 就會每次執行一次用例都調用此方法實例化對象，session就不同了，注意是setUpClass
+    @classmethod                                                               #不定義為類方法 就會每次執行一次用例都調用此方法實例化對象，session就不同了，注意是setUpClass
     def setUpClass(cls):
         logger.info('準備測試前置')
         cls.r = RequestHttp()
@@ -40,3 +40,6 @@ class Test_Login(unittest.TestCase):
     def tearDownClass(cls):
         logger.info('測試後置處理')
         cls.r.close()
+#
+if __name__ == '__main__':
+    unittest.main()
